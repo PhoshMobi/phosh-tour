@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/sm/puri/PhoshTour">
+    <file>ui/phosh-tour-window.ui</file>
+    <file>ui/pt-page.ui</file>
+    <file>gtk/help-overlay.ui</file>
+  </gresource>
+  <gresource prefix="/sm/puri/PhoshTour/pages/">
+    <file alias="welcome.svg">../data/pages/welcome.svg</file>
+    <file alias="kill-switches.svg">../data/pages/kill-switches.svg</file>
+    <file alias="go-home.svg">../data/pages/go-home.svg</file>
+    <file alias="quick-settings.svg">../data/pages/quick-settings.svg</file>
+    <file alias="slide-to-unlock.svg">../data/pages/slide-to-unlock.svg</file>
+    <file alias="close-apps.svg">../data/pages/close-apps.svg</file>
+    <file alias="launch-apps.svg">../data/pages/launch-apps.svg</file>
+    <file alias="see-notifications.svg">../data/pages/see-notifications.svg</file>
+    <file alias="all-set.svg">../data/pages/all-set.svg</file>
+  </gresource>
+</gresources>

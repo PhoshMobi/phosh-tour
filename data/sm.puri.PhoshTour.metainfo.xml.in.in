@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>sm.puri.PhoshTour.desktop</id>
+  <name>@BRAND@ Tour</name>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <description>
+    <p>
+      This apps introduces you to your device via a small graphical tour.
+    </p>
+  </description>
+  <summary>@BRAND@ graphical tour</summary>
+
+  <content_rating type="oars-1.1"/>
+
+  <custom>
+    <value key="Purism::form_factor">workstation</value>
+    <value key="Purism::form_factor">mobile</value>
+  </custom>
+
+  <url type="homepage">https://gitlab.gnome.org//guidog/phosh-tour</url>
+  <url type="bugtracker">https://gitlab.gnome.org//guidog/phosh-tour/issues</url>
+
+  <releases>
+    <release version="0.20.0.alpha0" date="2022-08-09">
+      <description>Not released yet</description>
+    </release>
+  </releases>
+</component>

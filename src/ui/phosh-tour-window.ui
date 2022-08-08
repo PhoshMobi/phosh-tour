@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="PhoshTourWindow" parent="AdwApplicationWindow">
+    <property name="default-width">600</property>
+    <property name="default-height">300</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="AdwHeaderBar">
+            <property name="title-widget">
+              <object class="AdwCarouselIndicatorDots">
+                <property name="carousel">main_carousel</property>
+              </object>
+            </property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkOverlay">
+            <child>
+              <object class="AdwCarousel" id="main_carousel">
+                <property name="margin-top">12</property>
+                <property name="margin-bottom">12</property>
+
+                <child>
+                  <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/welcome.svg</property>
+                    <property name="summary" translatable="yes">Welcome</property>
+                    <property name="explanation" translatable="yes">Get to know the features of your @BRAND@ and @VENDOR@.</property>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/kill-switches.svg</property>
+                    <property name="summary" translatable="yes">Really Disconnect</property>
+                    <property name="explanation" translatable="yes">At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the kill switches on the side of your @BRAND@</property>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/go-home.svg</property>
+                    <property name="summary" translatable="yes">Going Home</property>
+                    <property name="explanation" translatable="yes">Swiping up on the home bar at the bottom of your screen will bring you to the Overview where you can see your running applications.</property>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/quick-settings.svg</property>
+                    <property name="summary" translatable="yes">Quick Settings</property>
+                    <property name="explanation" translatable="yes">To quickly change things like screen brightness, adjust volume, or toggle settings, swipe down from the top of your device at any time.</property>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/slide-to-unlock.svg</property>
+                    <property name="summary" translatable="yes">Slide to Unlock</property>
+                    <property name="explanation" translatable="yes">When your device is locked, sliding up will show the keypad where you can unlock your device with your PIN.</property>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/close-apps.svg</property>
+                    <property name="summary" translatable="yes">Closing Applications</property>
+                    <property name="explanation" translatable="yes">In the Overview, you can see a list of your applications, dismiss them with a swipe up or by hitting the close button.</property>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/launch-apps.svg</property>
+                    <property name="summary" translatable="yes">Launching Applications</property>
+                    <property name="explanation" translatable="yes">Tap an application icon in the App Grid to launch it, or use the Search bar to find the application you are looking for.</property>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/see-notifications.svg</property>
+                    <property name="summary" translatable="yes">See Your Notifications</property>
+                    <property name="explanation" translatable="yes">At any time pull down from the top of the device to see notifications from all your apps!</property>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/all-set.svg</property>
+                    <property name="summary" translatable="yes">All Set!</property>
+                    <property name="explanation" translatable="yes">Start using your @BRAND@!
+For further help or tips see the Help app.</property>
+                    <property name="widget">
+                      <object class="GtkButton">
+                        <property name="label" translatable="yes">Get Started</property>
+                        <property name="action-name">app.quit</property>
+                        <style>
+                          <class name="pill"/>
+                          <class name="suggested-action"/>
+                        </style>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+
+              </object>
+            </child>
+
+            <child type="overlay">
+              <object class="GtkButton">
+                <property name="valign">center</property>
+                <property name="halign">end</property>
+                <property name="margin-end">6</property>
+                <signal name="clicked" handler="on_btn_next_clicked" swapped="yes"/>
+                <binding name="visible">
+                  <closure type="gboolean" function="get_btn_next_visible">
+                    <lookup name="position">main_carousel</lookup>
+                    <lookup name="n-pages">main_carousel</lookup>
+                  </closure>
+                </binding>
+                <child>
+                  <object class="GtkImage">
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="pixel-size">24</property>
+                    <property name="icon-name">go-next-symbolic</property>
+                  </object>
+                </child>
+                <style>
+                  <class name="circular"/>
+                  <class name="flat"/>
+                </style>
+              </object>
+            </child>
+
+            <child type="overlay">
+              <object class="GtkButton">
+                <property name="valign">center</property>
+                <property name="halign">start</property>
+                <property name="margin-start">6</property>
+                <signal name="clicked" handler="on_btn_previous_clicked" swapped="yes"/>
+                <binding name="visible">
+                  <closure type="gboolean" function="get_btn_previous_visible">
+                    <lookup name="position">main_carousel</lookup>
+                  </closure>
+                </binding>
+                <child>
+                  <object class="GtkImage">
+                    <property name="margin-start">12</property>
+                    <property name="margin-end">12</property>
+                    <property name="margin-top">12</property>
+                    <property name="margin-bottom">12</property>
+                    <property name="pixel-size">24</property>
+                    <property name="icon-name">go-previous-symbolic</property>
+                  </object>
+                </child>
+                <style>
+                  <class name="circular"/>
+                  <class name="flat"/>
+                </style>
+              </object>
+            </child>
+
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+
+  <menu id="primary_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Keyboard Shortcuts</attribute>
+        <attribute name="action">win.show-help-overlay</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_About Phosh Tour</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

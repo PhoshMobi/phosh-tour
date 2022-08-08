@@ -1,0 +1,7 @@
+option('brand',
+       type: 'string', value: 'Librem 5',
+       description: 'The branding to use')
+
+option('vendor',
+       type: 'string', value: 'PureOS',
+       description: 'The vendor to use')

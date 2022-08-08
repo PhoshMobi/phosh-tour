@@ -1,0 +1,6 @@
+data/sm.puri.PhoshTour.desktop.in.in
+data/sm.puri.PhoshTour.metainfo.xml.in.in
+src/gtk/help-overlay.ui
+src/main.c
+src/phosh-tour-application.c
+src/ui/phosh-tour-window.ui

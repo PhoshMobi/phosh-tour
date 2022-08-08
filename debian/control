@@ -1,0 +1,23 @@
+Source: phosh-tour
+Section: x11
+Priority: optional
+Maintainer: Guido Günther <agx@sigxcpu.org>
+Build-Depends:
+ appstream,
+ debhelper-compat (= 13),
+ desktop-file-utils,
+ libadwaita-1-dev,
+ libgtk-4-dev,
+ libsensors-dev,
+ meson,
+Standards-Version: 4.6.0
+Homepage: https://gitlab.gnome.org/guidog/phosh-tour/
+Rules-Requires-Root: no
+
+Package: phosh-tour
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: An introduction to phosh on smartphones
+ Phosh tour allows to show a device dependent introduction.
