@@ -23,8 +23,7 @@
           <object class="GtkOverlay">
             <child>
               <object class="AdwCarousel" id="main_carousel">
-                <property name="margin-top">12</property>
-                <property name="margin-bottom">12</property>
+                <property name="margin-bottom">24</property>
                 <child>
                   <object class="PtPage">
                     <property name="image-uri">resource:///sm/puri/PhoshTour/pages/welcome.svg</property>
