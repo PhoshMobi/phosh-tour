@@ -5,24 +5,29 @@
     <property name="hexpand">true</property>
     <child>
       <object class ="AdwClamp">
-        <property name="maximum-size">360</property>
-        <property name="margin-start">12</property>
-        <property name="margin-end">12</property>
+        <property name="maximum-size">400</property>
+        <property name="margin-start">24</property>
+        <property name="margin-end">24</property>
 	<child>
 	  <object class="GtkBox">
 	    <property name="orientation">vertical</property>
-            <property name="valign">start</property>
+            <property name="valign">center</property>
             <property name="vexpand">true</property>
             <property name="hexpand">true</property>
             <property name="halign">center</property>
             <property name="spacing">12</property>
 	    <child>
-	      <object class="GtkPicture" id="image">
+        <object class ="AdwClamp">
+          <property name="maximum-size">240</property>
+            <child>
+      	      <object class="GtkPicture" id="image">
                 <property name="halign">center</property>
                 <property name="can-shrink">false</property>
                 <property name="keep-aspect-ratio">true</property>
-	      </object>
-	    </child>
+      	      </object>
+      	    </child>
+        </object>
+      </child>
 	    <child>
 	      <object class="GtkLabel" id="lbl_summary">
                 <property name="justify">center</property>
