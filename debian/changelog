@@ -1,3 +1,20 @@
+phosh-tour (0.21.0) experimental; urgency=medium
+
+  [ Sam Hewitt ]
+  * Remove unnecessary elements in welcome.svg
+  * Add flat class to header
+  * Minor layout and margin adjustments
+  * Adjust the page clamp and clamp the image
+  * Margin adjustments for the carousel and images
+  * New app icons
+  * Follow ups for the end page of Tour
+
+  [ Guido Günther ]
+  * ci: Update Debian Bookworm image
+  * metainfo: Add launchable and screen requirements
+
+ -- Guido Günther <agx@sigxcpu.org>  Thu, 08 Sep 2022 09:52:40 +0200
+
 phosh-tour (0.20.0~alpha0) experimental; urgency=medium
 
   * Initial release
