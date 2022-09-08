@@ -91,7 +91,7 @@
                 <child>
                   <object class="PtPage">
                     <property name="image-uri">resource:///sm/puri/PhoshTour/pages/all-set.svg</property>
-                    <property name="summary" translatable="yes">Welcome to @BRAND@!</property>
+                    <property name="summary" translatable="yes">Welcome to your @BRAND@!</property>
                     <property name="explanation" translatable="yes">To find out more about @VENDOR@ or your device, check out the Quick Start guide.</property>
                     <property name="widget">
                       <object class="GtkButton">
