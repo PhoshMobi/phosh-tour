@@ -13,6 +13,17 @@
 
   <content_rating type="oars-1.1"/>
 
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </recommends>
+
+  <launchable type="desktop-id">sm.puri.PhoshTour.desktop</launchable>
+
   <custom>
     <value key="Purism::form_factor">workstation</value>
     <value key="Purism::form_factor">mobile</value>
@@ -22,8 +33,8 @@
   <url type="bugtracker">https://gitlab.gnome.org//guidog/phosh-tour/issues</url>
 
   <releases>
-    <release version="0.20.0.alpha0" date="2022-08-09">
-      <description>Not released yet</description>
+    <release version="0.21.0" date="2022-09-08">
+      <description>Initial release</description>
     </release>
   </releases>
 </component>
