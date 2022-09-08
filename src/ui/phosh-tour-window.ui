@@ -91,11 +91,11 @@
                 <child>
                   <object class="PtPage">
                     <property name="image-uri">resource:///sm/puri/PhoshTour/pages/all-set.svg</property>
-                    <property name="summary" translatable="yes">All Set!</property>
-                    <property name="explanation" translatable="yes">Start using your @BRAND@!
-For further help or tips see the Help app.</property>
+                    <property name="summary" translatable="yes">Welcome to @BRAND@!</property>
+                    <property name="explanation" translatable="yes">To find out more about @VENDOR@ or your device, check out the Quick Start guide.</property>
                     <property name="widget">
                       <object class="GtkButton">
+                        <property name="margin-top">24</property>
                         <property name="label" translatable="yes">Get Started</property>
                         <property name="action-name">app.quit</property>
                         <style>
@@ -114,7 +114,7 @@ For further help or tips see the Help app.</property>
               <object class="GtkButton">
                 <property name="valign">center</property>
                 <property name="halign">end</property>
-                <property name="margin-end">6</property>
+                <property name="margin-end">12</property>
                 <signal name="clicked" handler="on_btn_next_clicked" swapped="yes"/>
                 <binding name="visible">
                   <closure type="gboolean" function="get_btn_next_visible">
@@ -124,11 +124,7 @@ For further help or tips see the Help app.</property>
                 </binding>
                 <child>
                   <object class="GtkImage">
-                    <property name="margin-start">12</property>
-                    <property name="margin-end">12</property>
-                    <property name="margin-top">12</property>
-                    <property name="margin-bottom">12</property>
-                    <property name="pixel-size">24</property>
+                    <property name="pixel-size">16</property>
                     <property name="icon-name">go-next-symbolic</property>
                   </object>
                 </child>
@@ -143,7 +139,7 @@ For further help or tips see the Help app.</property>
               <object class="GtkButton">
                 <property name="valign">center</property>
                 <property name="halign">start</property>
-                <property name="margin-start">6</property>
+                <property name="margin-start">12</property>
                 <signal name="clicked" handler="on_btn_previous_clicked" swapped="yes"/>
                 <binding name="visible">
                   <closure type="gboolean" function="get_btn_previous_visible">
@@ -152,11 +148,7 @@ For further help or tips see the Help app.</property>
                 </binding>
                 <child>
                   <object class="GtkImage">
-                    <property name="margin-start">12</property>
-                    <property name="margin-end">12</property>
-                    <property name="margin-top">12</property>
-                    <property name="margin-bottom">12</property>
-                    <property name="pixel-size">24</property>
+                    <property name="pixel-size">16</property>
                     <property name="icon-name">go-previous-symbolic</property>
                   </object>
                 </child>

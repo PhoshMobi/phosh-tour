@@ -8,6 +8,7 @@
         <property name="maximum-size">400</property>
         <property name="margin-start">24</property>
         <property name="margin-end">24</property>
+        <property name="margin-bottom">24</property>
 	<child>
 	  <object class="GtkBox">
 	    <property name="orientation">vertical</property>
