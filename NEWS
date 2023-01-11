@@ -1,3 +1,16 @@
+phosh-tour 0.23.0
+-----------------
+Released: January 2023
+* Sync with phosh's version
+* Fix metainfo
+
+phosh-tour 0.21.0
+-----------------
+* Style updates
+* Contributors:
+	Guido Günther
+	Sam Hewitt
+
 phosh-tour 0.20.0~alpha1
 ------------------------
 Released: August 2022

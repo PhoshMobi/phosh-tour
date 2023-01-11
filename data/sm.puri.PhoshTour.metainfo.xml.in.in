@@ -24,15 +24,14 @@
 
   <launchable type="desktop-id">sm.puri.PhoshTour.desktop</launchable>
 
-  <custom>
-    <value key="Purism::form_factor">workstation</value>
-    <value key="Purism::form_factor">mobile</value>
-  </custom>
-
   <url type="homepage">https://gitlab.gnome.org//guidog/phosh-tour</url>
   <url type="bugtracker">https://gitlab.gnome.org//guidog/phosh-tour/issues</url>
 
   <releases>
+    <release version="0.23.0" date="2023-01-11">
+      <description>Fix metainfo issues</description>
+    </release>
+
     <release version="0.21.0" date="2022-09-08">
       <description>Initial release</description>
     </release>
