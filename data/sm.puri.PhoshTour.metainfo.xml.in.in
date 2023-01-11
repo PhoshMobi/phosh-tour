@@ -28,6 +28,10 @@
   <url type="bugtracker">https://gitlab.gnome.org//guidog/phosh-tour/issues</url>
 
   <releases>
+    <release version="0.23.0" date="2023-01-11">
+      <description>Fix metainfo issues</description>
+    </release>
+
     <release version="0.21.0" date="2022-09-08">
       <description>Initial release</description>
     </release>

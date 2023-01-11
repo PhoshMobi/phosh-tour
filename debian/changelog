@@ -1,3 +1,12 @@
+phosh-tour (0.23.0) experimental; urgency=medium
+
+  * Sync up with phosh's version
+  * metainfo: Drop Purism::form_factor.
+    The duplicate key (rightfully) tips up metainfo validation
+    and we also have `display_length` set as well.
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 11 Jan 2023 12:44:21 +0100
+
 phosh-tour (0.21.0) experimental; urgency=medium
 
   [ Sam Hewitt ]
