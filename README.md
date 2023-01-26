@@ -43,7 +43,10 @@ You can run form the source tree:
 ```sh
 _build/src/phosh-tour
 ```
-The result should look something like this:
+The result should look something like this (device name and vendor are customizable):
+
+![First page](screenshots/first-page.png)
+![Swipe up](screenshots/swipe.png)
 
 # Getting in Touch
 * Issue tracker: https://gitlab.gnome.org/guidog/phosh-mobile-settings/issues
