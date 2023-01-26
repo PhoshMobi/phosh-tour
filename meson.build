@@ -96,6 +96,14 @@ subdir('data')
 subdir('src')
 subdir('po')
 
+summary({
+     'Brand': get_option('brand'),
+     'Vendor': get_option('vendor'),
+  },
+  bool_yn: true,
+  section: 'Config',
+)
+
 # gnome.post_install() is available since meson 0.59.0
 # Distributions use their own tooling (e.g. postinst, triggers, etc)
 # so it is okay if the post_install() is not run on distro builds
