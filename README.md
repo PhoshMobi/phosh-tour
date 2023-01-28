@@ -28,7 +28,7 @@ For an explicit list of dependencies check the `Build-Depends` entry in the
 
 ## Building
 
-fWe use the meson (and thereby Ninja) build system for phosh-tour.  The quickest
+We use the meson (and thereby Ninja) build system for phosh-tour.  The quickest
 way to get going is to do the following:
 
 ```sh

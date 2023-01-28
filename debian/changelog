@@ -1,3 +1,17 @@
+phosh-tour (0.24.0) experimental; urgency=medium
+
+  * build: Use meson's version compare.
+    Avoids warnings as meson is now aware that we're limiting things to
+    certain versions.
+  * build: Add summary
+  * data: Add category to desktop file
+  * tour-window: Add missing 'your'
+  * README: Use meson only
+  * README: Add screenshots.
+    Closes: https://gitlab.gnome.org/guidog/phosh-tour/-/issues/6
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 28 Jan 2023 16:20:35 +0100
+
 phosh-tour (0.23.0) experimental; urgency=medium
 
   * Sync up with phosh's version
