@@ -28,12 +28,12 @@ For an explicit list of dependencies check the `Build-Depends` entry in the
 
 ## Building
 
-We use the meson (and thereby Ninja) build system for phosh.  The quickest
+fWe use the meson (and thereby Ninja) build system for phosh-tour.  The quickest
 way to get going is to do the following:
 
 ```sh
 meson . _build
-ninja -C _build
+meson compile -C _build
 ```
 
 ## Running
@@ -43,7 +43,10 @@ You can run form the source tree:
 ```sh
 _build/src/phosh-tour
 ```
-The result should look something like this:
+The result should look something like this (device name and vendor are customizable):
+
+![First page](screenshots/first-page.png)
+![Swipe up](screenshots/swipe.png)
 
 # Getting in Touch
 * Issue tracker: https://gitlab.gnome.org/guidog/phosh-mobile-settings/issues
