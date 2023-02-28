@@ -1,3 +1,13 @@
+phosh-tour (0.25.0) experimental; urgency=medium
+
+  [ Sam Hewitt ]
+  * pages: Update quick settings illustration to match new UI
+
+  [ Guido Günther ]
+  * metainfo: Add screenshots. This makes things nicer in software centers
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 28 Feb 2023 15:46:34 +0100
+
 phosh-tour (0.24.0) experimental; urgency=medium
 
   * build: Use meson's version compare.
