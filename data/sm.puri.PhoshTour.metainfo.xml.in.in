@@ -27,7 +27,26 @@
   <url type="homepage">https://gitlab.gnome.org//guidog/phosh-tour</url>
   <url type="bugtracker">https://gitlab.gnome.org//guidog/phosh-tour/issues</url>
 
+  <screenshots>
+    <screenshot type="default">
+      <caption>The Tour's first page</caption>
+      <image>https://gitlab.gnome.org//guidog/phosh-tour/-/raw/main/screenshots/first-page.png?inline=false</image>
+    </screenshot>
+    <screenshot type="default">
+      <caption>Swipe Toure's swipe gesture page</caption>
+      <image>https://gitlab.gnome.org//guidog/phosh-tour/-/raw/main/screenshots/swipe.png?inline=false</image>
+    </screenshot>
+  </screenshots>
+
   <releases>
+    <release version="0.25.0" date="2023-02-28">
+      <description>Update quicksettings page to match Phosh's new layout</description>
+    </release>
+
+    <release version="0.24.0" date="2023-01-28">
+      <description>Various fixes</description>
+    </release>
+
     <release version="0.23.0" date="2023-01-11">
       <description>Fix metainfo issues</description>
     </release>
