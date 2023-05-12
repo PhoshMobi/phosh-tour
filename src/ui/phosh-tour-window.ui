@@ -58,6 +58,14 @@
 
                 <child>
                   <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/power-menu.svg</property>
+                    <property name="summary" translatable="yes">Power Menu</property>
+                    <property name="explanation" translatable="yes">Pressing and holding the Power button will display a menu with quick actions for your device. When set up, an Emergency calling action will also be available.</property>
+                  </object>
+                </child>
+
+                <child>
+                  <object class="PtPage">
                     <property name="image-uri">resource:///sm/puri/PhoshTour/pages/slide-to-unlock.svg</property>
                     <property name="summary" translatable="yes">Slide to Unlock</property>
                     <property name="explanation" translatable="yes">When your device is locked, sliding up will show the keypad where you can unlock your device with your PIN.</property>
