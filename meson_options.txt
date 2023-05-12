@@ -1,5 +1,7 @@
+# Use non-breaking space to avoid word wrap in brand or vendor names
+
 option('brand',
-       type: 'string', value: 'Librem 5',
+       type: 'string', value: 'Librem 5',
        description: 'The branding to use')
 
 option('vendor',
