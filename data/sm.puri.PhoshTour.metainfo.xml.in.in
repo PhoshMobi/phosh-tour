@@ -39,6 +39,10 @@
   </screenshots>
 
   <releases>
+    <release version="0.28.0" date="2023-05-29">
+      <description><p>Add a new page for the power-button menu</p></description>
+    </release>
+
     <release version="0.25.0" date="2023-02-28">
       <description><p>Update quicksettings page to match Phosh's new layout</p></description>
     </release>

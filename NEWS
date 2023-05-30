@@ -1,3 +1,12 @@
+phosh-tour 0.28.0
+-----------------
+Released: May 2023
+* Add new page for power-button menu
+* Layout fixes to prevent overflow and brand word break
+* Contributors:
+    * Guido Günther
+    * Sam Hewitt
+
 phosh-tour 0.25.0
 -----------------
 Released: February 2023

@@ -1,3 +1,18 @@
+phosh-tour (0.28.0) experimental; urgency=medium
+
+  [ Sam Hewitt ]
+  * Add page for the new power menu action
+
+  [ Guido Günther ]
+  * pt-page: Untabify
+  * pt-page: Let summary word wrap.
+    Otherwise long summaries can make the window overflow on small screens
+  * build: Use narrow non-breaking space to avoid brand word wrap
+  * metainfo: Wrap text in paragraphs. Otherrwise gnome-software doesn't pick
+    them up
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 29 May 2023 12:10:21 +0200
+
 phosh-tour (0.25.0) experimental; urgency=medium
 
   [ Sam Hewitt ]
