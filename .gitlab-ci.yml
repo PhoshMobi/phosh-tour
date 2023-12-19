@@ -71,9 +71,9 @@ flatpak:master:
     extends: '.flatpak'
     stage: 'build'
     variables:
-        MANIFEST_PATH: "./build-aux/flatpak/sm.puri.PhoshTour.json"
+        MANIFEST_PATH: "./build-aux/flatpak/mobi.phosh.PhoshTour.json"
         RUNTIME_REPO: "https://nightly.gnome.org/gnome-nightly.flatpakrepo"
         FLATPAK_MODULE: "phosh-tour"
-        APP_ID: "sm.puri.PhoshTour.Devel"
-        BUNDLE: "sm.puri.PhoshTour.Devel.flatpak"
+        APP_ID: "mobi.phosh.PhoshTour.Devel"
+        BUNDLE: "mobi.phosh.PhoshTour.Devel.flatpak"
 

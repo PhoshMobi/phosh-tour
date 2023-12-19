@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
-  <gresource prefix="/sm/puri/PhoshTour">
+  <gresource prefix="/mobi.phosh/PhoshTour">
     <file>ui/phosh-tour-window.ui</file>
     <file>ui/pt-page.ui</file>
     <file>gtk/help-overlay.ui</file>
   </gresource>
-  <gresource prefix="/sm/puri/PhoshTour/pages/">
+  <gresource prefix="/mobi.phosh/PhoshTour/pages/">
     <file alias="welcome.svg">../data/pages/welcome.svg</file>
     <file alias="kill-switches.svg">../data/pages/kill-switches.svg</file>
     <file alias="go-home.svg">../data/pages/go-home.svg</file>

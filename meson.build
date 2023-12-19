@@ -7,7 +7,7 @@ project('phosh-tour', 'c',
                    ],
 )
 
-application_id = 'sm.puri.PhoshTour'
+application_id = 'mobi.phosh.PhoshTour'
 prefix = get_option('prefix')
 libdir = join_paths(prefix, get_option('libdir'))
 plugins_dir = join_paths(prefix, libdir, 'phosh', 'plugins')
