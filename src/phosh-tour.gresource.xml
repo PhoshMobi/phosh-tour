@@ -16,5 +16,7 @@
     <file alias="power-menu.svg">../data/pages/power-menu.svg</file>
     <file alias="see-notifications.svg">../data/pages/see-notifications.svg</file>
     <file alias="all-set.svg">../data/pages/all-set.svg</file>
+    <file alias="show-keyboard.svg">../data/pages/show-keyboard.svg</file>
   </gresource>
 </gresources>
+

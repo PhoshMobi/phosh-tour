@@ -50,6 +50,14 @@
 
                 <child>
                   <object class="PtPage">
+                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/show-keyboard.svg</property>
+                    <property name="summary" translatable="yes">Show Keyboard</property>
+                    <property name="explanation" translatable="yes">Long pressing on the home bar will reveal the keyboard at any time.</property>
+                  </object>
+                </child>"
+
+                <child>
+                  <object class="PtPage">
                     <property name="image-uri">resource:///sm/puri/PhoshTour/pages/quick-settings.svg</property>
                     <property name="summary" translatable="yes">Quick Settings</property>
                     <property name="explanation" translatable="yes">To quickly change things like screen brightness, adjust volume, or toggle settings, swipe down from the top of your device at any time.</property>
