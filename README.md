@@ -49,7 +49,7 @@ The result should look something like this (device name and vendor are customiza
 ![Swipe up](screenshots/swipe.png)
 
 # Getting in Touch
-* Issue tracker: https://gitlab.gnome.org/guidog/phosh-mobile-settings/issues
+* Issue tracker: https://gitlab.gnome.org/guidog/phosh-tour/issues
 * Matrix: https://im.puri.sm/#/room/#phosh:talk.puri.sm
 
 [main]: https://gitlab.gnome.org/World/guido/phosh-tour/-/tree/main

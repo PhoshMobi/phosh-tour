@@ -26,7 +26,7 @@
                 <property name="margin-bottom">24</property>
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/welcome.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/welcome.svg</property>
                     <property name="summary" translatable="yes">Welcome</property>
                     <property name="explanation" translatable="yes">Get to know the features of your @BRAND@ and @VENDOR@.</property>
                   </object>
@@ -34,7 +34,7 @@
 
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/kill-switches.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/kill-switches.svg</property>
                     <property name="summary" translatable="yes">Really Disconnect</property>
                     <property name="explanation" translatable="yes">At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the kill switches on the side of your @BRAND@</property>
                   </object>
@@ -42,7 +42,7 @@
 
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/go-home.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/go-home.svg</property>
                     <property name="summary" translatable="yes">Going Home</property>
                     <property name="explanation" translatable="yes">Swiping up on the home bar at the bottom of your screen will bring you to the Overview where you can see your running applications.</property>
                   </object>
@@ -50,7 +50,7 @@
 
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/show-keyboard.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/show-keyboard.svg</property>
                     <property name="summary" translatable="yes">Show Keyboard</property>
                     <property name="explanation" translatable="yes">Long pressing on the home bar will reveal the keyboard at any time.</property>
                   </object>
@@ -58,7 +58,7 @@
 
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/quick-settings.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/quick-settings.svg</property>
                     <property name="summary" translatable="yes">Quick Settings</property>
                     <property name="explanation" translatable="yes">To quickly change things like screen brightness, adjust volume, or toggle settings, swipe down from the top of your device at any time.</property>
                   </object>
@@ -66,7 +66,7 @@
 
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/power-menu.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/power-menu.svg</property>
                     <property name="summary" translatable="yes">Power Menu</property>
                     <property name="explanation" translatable="yes">Pressing and holding the Power button will display a menu with quick actions for your device. When set up, an Emergency calling action will also be available.</property>
                   </object>
@@ -74,7 +74,7 @@
 
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/slide-to-unlock.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/slide-to-unlock.svg</property>
                     <property name="summary" translatable="yes">Slide to Unlock</property>
                     <property name="explanation" translatable="yes">When your device is locked, sliding up will show the keypad where you can unlock your device with your PIN.</property>
                   </object>
@@ -82,7 +82,7 @@
 
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/close-apps.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/close-apps.svg</property>
                     <property name="summary" translatable="yes">Closing Applications</property>
                     <property name="explanation" translatable="yes">In the Overview, you can see a list of your applications, dismiss them with a swipe up or by hitting the close button.</property>
                   </object>
@@ -90,7 +90,7 @@
 
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/launch-apps.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/launch-apps.svg</property>
                     <property name="summary" translatable="yes">Launching Applications</property>
                     <property name="explanation" translatable="yes">Tap an application icon in the App Grid to launch it, or use the Search bar to find the application you are looking for.</property>
                   </object>
@@ -98,7 +98,7 @@
 
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/see-notifications.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/see-notifications.svg</property>
                     <property name="summary" translatable="yes">See Your Notifications</property>
                     <property name="explanation" translatable="yes">At any time pull down from the top of the device to see notifications from all your apps!</property>
                   </object>
@@ -106,7 +106,7 @@
 
                 <child>
                   <object class="PtPage">
-                    <property name="image-uri">resource:///sm/puri/PhoshTour/pages/all-set.svg</property>
+                    <property name="image-uri">resource:///mobi.phosh/PhoshTour/pages/all-set.svg</property>
                     <property name="summary" translatable="yes">Welcome to your @BRAND@!</property>
                     <property name="explanation" translatable="yes">To find out more about @VENDOR@ or your device, check out the Quick Start guide.</property>
                     <property name="widget">

@@ -7,7 +7,7 @@ project('phosh-tour', 'c',
                    ],
 )
 
-application_id = 'sm.puri.PhoshTour'
+application_id = 'mobi.phosh.PhoshTour'
 prefix = get_option('prefix')
 libdir = join_paths(prefix, get_option('libdir'))
 plugins_dir = join_paths(prefix, libdir, 'phosh', 'plugins')
@@ -78,7 +78,7 @@ add_project_arguments(
 
 config_h = configuration_data()
 config_h.set_quoted('PACKAGE_VERSION', meson.project_version())
-config_h.set_quoted('GETTEXT_PACKAGE', 'mobile-settings')
+config_h.set_quoted('GETTEXT_PACKAGE', 'phosh-tour')
 config_h.set_quoted('LOCALEDIR', join_paths(get_option('prefix'), get_option('localedir')))
 config_h.set_quoted('PHOSH_TOUR_BRAND', get_option('brand'))
 config_h.set_quoted('PHOSH_TOUR_VENDOR', get_option('vendor'))
