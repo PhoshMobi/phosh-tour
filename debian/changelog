@@ -1,3 +1,18 @@
+phosh-tour (0.35.0) experimental; urgency=medium
+
+  [ Sam Hewitt ]
+  * Add page to highlight showing the keyboard function
+
+  [ Guido Günther ]
+  * README: Fix issue URL
+  * build: Fix gettext package name
+  * main: Don't hardcode app-id.
+    Use the #define we have
+  * packaging: Remove superfluous clean file
+  * treewide: Switch to mobi.phosh prefix
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 30 Dec 2023 21:40:22 +0100
+
 phosh-tour (0.28.0) experimental; urgency=medium
 
   [ Sam Hewitt ]
