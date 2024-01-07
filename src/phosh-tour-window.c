@@ -84,7 +84,7 @@ phosh_tour_window_class_init (PhoshTourWindowClass *klass)
   g_type_ensure (PT_TYPE_PAGE);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/mobi.phosh/PhoshTour/ui/phosh-tour-window.ui");
+                                               "/mobi/phosh/PhoshTour/ui/phosh-tour-window.ui");
   gtk_widget_class_bind_template_child (widget_class, PhoshTourWindow, main_carousel);
   gtk_widget_class_bind_template_callback (widget_class, on_btn_next_clicked);
   gtk_widget_class_bind_template_callback (widget_class, on_btn_previous_clicked);
