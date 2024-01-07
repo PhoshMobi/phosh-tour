@@ -24,6 +24,7 @@
             <child>
               <object class="AdwCarousel" id="main_carousel">
                 <property name="margin-bottom">24</property>
+
                 <child>
                   <object class="PtPage">
                     <property name="image-uri">resource:///mobi/phosh/PhoshTour/pages/welcome.svg</property>
@@ -133,18 +134,18 @@
                 <property name="margin-end">12</property>
                 <property name="action-name">win.flip-page</property>
                 <property name="action-target">1</property>
+                <property name="child">
+                  <object class="GtkImage">
+                    <property name="pixel-size">16</property>
+                    <property name="icon-name">go-next-symbolic</property>
+                  </object>
+                </property>
                 <binding name="visible">
                   <closure type="gboolean" function="get_btn_next_visible">
                     <lookup name="position">main_carousel</lookup>
                     <lookup name="n-pages">main_carousel</lookup>
                   </closure>
                 </binding>
-                <child>
-                  <object class="GtkImage">
-                    <property name="pixel-size">16</property>
-                    <property name="icon-name">go-next-symbolic</property>
-                  </object>
-                </child>
                 <style>
                   <class name="circular"/>
                   <class name="flat"/>
@@ -159,17 +160,17 @@
                 <property name="margin-start">12</property>
                 <property name="action-name">win.flip-page</property>
                 <property name="action-target">-1</property>
+                <property name="child">
+                  <object class="GtkImage">
+                    <property name="pixel-size">16</property>
+                    <property name="icon-name">go-previous-symbolic</property>
+                  </object>
+                </property>
                 <binding name="visible">
                   <closure type="gboolean" function="get_btn_previous_visible">
                     <lookup name="position">main_carousel</lookup>
                   </closure>
                 </binding>
-                <child>
-                  <object class="GtkImage">
-                    <property name="pixel-size">16</property>
-                    <property name="icon-name">go-previous-symbolic</property>
-                  </object>
-                </child>
                 <style>
                   <class name="circular"/>
                   <class name="flat"/>
