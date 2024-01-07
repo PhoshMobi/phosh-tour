@@ -41,20 +41,16 @@ goto_page (PhoshTourWindow *self, int num)
 
 
 static void
-on_btn_next_clicked (PhoshTourWindow *self)
+on_flip_page_activated (GtkWidget *widget, const char *action_name, GVariant *param)
 {
+  PhoshTourWindow *self = PHOSH_TOUR_WINDOW (widget);
   int num = adw_carousel_get_position (self->main_carousel);
+  gint32 offset;
 
-  goto_page (self, num + 1);
+  offset = g_variant_get_int32 (param);
+  goto_page (self, num + offset);
 }
 
-static void
-on_btn_previous_clicked (PhoshTourWindow *self)
-{
-  int num = adw_carousel_get_position (self->main_carousel);
-
-  goto_page (self, num - 1);
-}
 
 static gboolean
 get_btn_next_visible (GObject *object, double position, int n_pages)
@@ -86,10 +82,11 @@ phosh_tour_window_class_init (PhoshTourWindowClass *klass)
   gtk_widget_class_set_template_from_resource (widget_class,
                                                "/mobi/phosh/PhoshTour/ui/phosh-tour-window.ui");
   gtk_widget_class_bind_template_child (widget_class, PhoshTourWindow, main_carousel);
-  gtk_widget_class_bind_template_callback (widget_class, on_btn_next_clicked);
-  gtk_widget_class_bind_template_callback (widget_class, on_btn_previous_clicked);
+
   gtk_widget_class_bind_template_callback (widget_class, get_btn_next_visible);
   gtk_widget_class_bind_template_callback (widget_class, get_btn_previous_visible);
+
+  gtk_widget_class_install_action (widget_class, "win.flip-page", "i", on_flip_page_activated);
 }
 
 static void

@@ -131,7 +131,8 @@
                 <property name="valign">center</property>
                 <property name="halign">end</property>
                 <property name="margin-end">12</property>
-                <signal name="clicked" handler="on_btn_next_clicked" swapped="yes"/>
+                <property name="action-name">win.flip-page</property>
+                <property name="action-target">1</property>
                 <binding name="visible">
                   <closure type="gboolean" function="get_btn_next_visible">
                     <lookup name="position">main_carousel</lookup>
@@ -156,7 +157,8 @@
                 <property name="valign">center</property>
                 <property name="halign">start</property>
                 <property name="margin-start">12</property>
-                <signal name="clicked" handler="on_btn_previous_clicked" swapped="yes"/>
+                <property name="action-name">win.flip-page</property>
+                <property name="action-target">-1</property>
                 <binding name="visible">
                   <closure type="gboolean" function="get_btn_previous_visible">
                     <lookup name="position">main_carousel</lookup>
