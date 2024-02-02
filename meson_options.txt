@@ -1,9 +1,9 @@
 # Use non-breaking space to avoid word wrap in brand or vendor names
 
 option('brand',
-       type: 'string', value: 'Librem 5',
-       description: 'The branding to use')
+       type: 'string', value: 'Phone',
+       description: 'The branding to use, e.g. Librem 5')
 
 option('vendor',
-       type: 'string', value: 'PureOS',
-       description: 'The vendor to use')
+       type: 'string', value: 'Phosh',
+       description: 'The vendor to use, e.g. Phosh, Debian, …')
