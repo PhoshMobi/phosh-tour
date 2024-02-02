@@ -14,12 +14,21 @@
 
 #include <glib/gi18n.h>
 
+#define DESC _("- A graphical tour introducing your device")
 
 struct _PtApplication {
   GtkApplication parent_instance;
 };
 
 G_DEFINE_TYPE (PtApplication, pt_application, ADW_TYPE_APPLICATION)
+
+
+static const GOptionEntry entries[] = {
+  { "version", '\0', G_OPTION_FLAG_NONE, G_OPTION_ARG_NONE,
+    NULL, "Get the current version", NULL,
+  },
+  G_OPTION_ENTRY_NULL
+};
 
 
 PtApplication *
@@ -30,6 +39,7 @@ pt_application_new (char *application_id, GApplicationFlags flags)
                        "flags", flags,
                        NULL);
 }
+
 
 static void
 pt_application_activate (GApplication *app)
@@ -46,12 +56,26 @@ pt_application_activate (GApplication *app)
 }
 
 
+static int
+pt_application_handle_local_options (GApplication *app, GVariantDict *options)
+{
+  if (g_variant_dict_contains (options, "version")) {
+    g_print ("%s %s %s\n", PHOSH_TOUR_APP, PHOSH_TOUR_VERSION, DESC);
+
+    return 0;
+  }
+
+  return G_APPLICATION_CLASS (pt_application_parent_class)->handle_local_options (app, options);
+}
+
+
 static void
 pt_application_class_init (PtApplicationClass *klass)
 {
   GApplicationClass *app_class = G_APPLICATION_CLASS (klass);
 
   app_class->activate = pt_application_activate;
+  app_class->handle_local_options = pt_application_handle_local_options;
 }
 
 
@@ -103,4 +127,7 @@ pt_application_init (PtApplication *self)
     "<primary>q",
     NULL,
   });
+
+  g_application_set_option_context_parameter_string (G_APPLICATION (self), DESC);
+  g_application_add_main_option_entries (G_APPLICATION (self), entries);
 }
