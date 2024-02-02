@@ -14,6 +14,8 @@
 #include "pt-window.h"
 #include "pt-page.h"
 
+#define GMOBILE_USE_UNSTABLE_API
+#include <gmobile.h>
 #include <glib/gi18n.h>
 
 
@@ -95,5 +97,17 @@ pt_window_class_init (PtWindowClass *klass)
 static void
 pt_window_init (PtWindow *self)
 {
+  g_auto (GStrv) compatibles = gm_device_tree_get_compatibles (NULL, NULL);
+
   gtk_widget_init_template (GTK_WIDGET (self));
+
+  for (int i = 0; i < adw_carousel_get_n_pages (self->main_carousel); i++) {
+    GtkWidget *page;
+
+    page = adw_carousel_get_nth_page (self->main_carousel, i);
+    if (PT_IS_HW_PAGE (page) && !pt_hw_page_is_compatible (PT_HW_PAGE (page),
+                                                           (const char * const *)compatibles)) {
+      adw_carousel_remove (self->main_carousel, page);
+    }
+  }
 }
