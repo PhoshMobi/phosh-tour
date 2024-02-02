@@ -9,6 +9,8 @@ phosh_tour_sources = [
   'pt-window.c',
   'pt-page.h',
   'pt-page.c',
+  'pt-hw-page.h',
+  'pt-hw-page.c',
   'pt-util.h',
   'pt-util.c',
   phosh_tour_enum_sources,
