@@ -1,3 +1,17 @@
+phosh-tour (0.36.0) experimental; urgency=medium
+
+  * treewide: Avoid '.' in resource names.
+    This unbreaks showing the shortcuts window
+    Fixes: b9c27c3 ("treewide: Switch to mobi.phosh prefix")
+  * window: Use actions instead of signal handlers.
+    Simpler signatures and we just need a single function
+  * window: Use child property for buttons
+  * window: Add keyboard shortcuts for skipping through the pages.
+    Useful for testing but also when the device has a keyboard attached.
+  * help-overlay: Add keyboard shortcuts and gestures
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 02 Feb 2024 09:23:47 +0100
+
 phosh-tour (0.35.0) experimental; urgency=medium
 
   [ Sam Hewitt ]
