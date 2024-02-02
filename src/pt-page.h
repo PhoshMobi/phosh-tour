@@ -11,8 +11,12 @@
 G_BEGIN_DECLS
 
 #define PT_TYPE_PAGE (pt_page_get_type ())
+G_DECLARE_DERIVABLE_TYPE (PtPage, pt_page, PT, PAGE, AdwBin)
 
-G_DECLARE_FINAL_TYPE (PtPage, pt_page, PT, PAGE, AdwBin)
+struct _PtPageClass
+{
+  AdwBinClass parent_class;
+};
 
 PtPage          *pt_page_new               (void);
 void             pt_page_set_summary       (PtPage *self, const char *summary);
