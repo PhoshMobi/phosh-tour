@@ -95,11 +95,11 @@ add_project_arguments(
 
 
 config_h = configuration_data()
-config_h.set_quoted('PACKAGE_VERSION', meson.project_version())
 config_h.set_quoted('GETTEXT_PACKAGE', 'phosh-tour')
 config_h.set_quoted('LOCALEDIR', join_paths(get_option('prefix'), get_option('localedir')))
 config_h.set_quoted('PHOSH_TOUR_BRAND', get_option('brand'))
 config_h.set_quoted('PHOSH_TOUR_VENDOR', get_option('vendor'))
+config_h.set_quoted('PHOSH_TOUR_VERSION', meson.project_version())
 config_h.set_quoted('PHOSH_TOUR_APP_ID', application_id)
 
 configure_file(

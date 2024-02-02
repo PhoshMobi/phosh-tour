@@ -77,7 +77,7 @@ pt_application_show_about (GSimpleAction *action,
                          "program-name", PHOSH_TOUR_BRAND "Tour",
                          "title", _("About " PHOSH_TOUR_BRAND " "),
                          "translator-credits", _ ("translator-credits"),
-                         "version", PACKAGE_VERSION,
+                         "version", PHOSH_TOUR_VERSION,
                          "website", "https://gitlab.gnome.org/guidog/phosh-tour",
                          NULL);
 }
