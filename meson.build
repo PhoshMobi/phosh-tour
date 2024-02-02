@@ -16,9 +16,13 @@ glib_ver = '2.74'
 glib_ver_str = 'GLIB_VERSION_@0@'.format(glib_ver.replace('.','_'))
 glib_ver_cmp = '>=@0@'.format(glib_ver)
 
+gtk_ver = '4.12'
+gtk_ver_str = 'GDK_VERSION_@0@'.format(gtk_ver.replace('.','_'))
+gtk_ver_cmp = '>=@0@'.format(gtk_ver)
+
 glib_dep = dependency('glib-2.0', version: glib_ver_cmp)
 gio_dep = dependency('gio-2.0', version: glib_ver_cmp)
-gtk_dep = dependency('gtk4', version: '>= 4.4')
+gtk_dep = dependency('gtk4', version: gtk_ver_cmp)
 adwaita_dep = dependency('libadwaita-1', version: '>= 1.1')
 
 i18n = import('i18n')
@@ -77,6 +81,8 @@ add_project_arguments(
   [global_c_args,
    '-DGLIB_VERSION_MIN_REQUIRED=@0@'.format(glib_ver_str),
    '-DGLIB_VERSION_MAX_ALLOWED=@0@'.format(glib_ver_str),
+   '-DGDK_VERSION_MIN_REQUIRED=@0@'.format(gtk_ver_str),
+   '-DGDK_VERSION_MAX_ALLOWED=@0@'.format(gtk_ver_str),
   ],
   language: 'c'
 )
