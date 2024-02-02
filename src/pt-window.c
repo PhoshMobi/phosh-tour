@@ -11,6 +11,7 @@
 
 #include "phosh-tour-config.h"
 #include "pt-application.h"
+#include "pt-hw-page.h"
 #include "pt-window.h"
 #include "pt-page.h"
 
@@ -83,6 +84,7 @@ pt_window_class_init (PtWindowClass *klass)
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
   g_type_ensure (PT_TYPE_PAGE);
+  g_type_ensure (PT_TYPE_HW_PAGE);
 
   gtk_widget_class_set_template_from_resource (widget_class,
                                                "/mobi/phosh/PhoshTour/ui/pt-window.ui");
@@ -98,16 +100,27 @@ static void
 pt_window_init (PtWindow *self)
 {
   g_auto (GStrv) compatibles = gm_device_tree_get_compatibles (NULL, NULL);
+  int kept = 0, removed = 0;
 
   gtk_widget_init_template (GTK_WIDGET (self));
 
-  for (int i = 0; i < adw_carousel_get_n_pages (self->main_carousel); i++) {
+  while (kept < adw_carousel_get_n_pages (self->main_carousel)) {
     GtkWidget *page;
+    gboolean compatible;
 
-    page = adw_carousel_get_nth_page (self->main_carousel, i);
-    if (PT_IS_HW_PAGE (page) && !pt_hw_page_is_compatible (PT_HW_PAGE (page),
-                                                           (const char * const *)compatibles)) {
+    page = adw_carousel_get_nth_page (self->main_carousel, kept);
+
+    compatible = !PT_IS_HW_PAGE (page) ||
+      pt_hw_page_is_compatible (PT_HW_PAGE (page), (const char * const *)compatibles);
+
+    if (!compatible) {
       adw_carousel_remove (self->main_carousel, page);
+      removed++;
+      continue;
     }
+
+    kept++;
   }
+
+  g_debug ("Kept %d page(s), removed %d hw specific page(s)", kept, removed);
 }
