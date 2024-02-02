@@ -1,9 +1,13 @@
 include:
+ - project: 'guidog/meta-phosh'
+   ref: '04a85df2f3311f3012b6c49bf353b376ae0f32b2'
+   file: '/ci/phosh-common-jobs.yml'
  - remote: 'https://gitlab.freedesktop.org/freedesktop/ci-templates/-/raw/34039cd573a2df832d465bc9e4c5f543571f5241/templates/ci-fairy.yml'
  - remote: 'https://gitlab.gnome.org/GNOME/citemplates/raw/master/flatpak/flatpak_ci_initiative.yml'
 
 stages:
  - build
+ - test+docs
  - style-checks
 
 workflow:
@@ -45,6 +49,10 @@ variables:
     - 'echo "Build opts: ${BUILD_OPTS}"'
     - meson ${BUILD_OPTS} . _build
     - meson compile -C _build
+
+check-po:
+  stage: test+docs
+  extends: .phosh-check-po
 
 # Sanity checks of MR settings and commit logs
 commit-log-check:
