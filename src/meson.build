@@ -17,6 +17,7 @@ phosh_tour_sources = [
 phosh_tour_deps = [
   gio_dep,
   glib_dep,
+  gmobile_dep,
   gtk_dep,
   adwaita_dep,
 ]
