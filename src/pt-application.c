@@ -23,7 +23,7 @@ G_DEFINE_TYPE (PtApplication, pt_application, ADW_TYPE_APPLICATION)
 
 
 PtApplication *
-pt_application_new (gchar *application_id, GApplicationFlags flags)
+pt_application_new (char *application_id, GApplicationFlags flags)
 {
   return g_object_new (PT_TYPE_APPLICATION,
                        "application-id", application_id,
@@ -62,8 +62,8 @@ pt_application_show_about (GSimpleAction *action,
 {
   PtApplication *self = PT_APPLICATION (user_data);
   GtkWindow *window = NULL;
-  const gchar *authors[] = {"Guido Günther", NULL};
-  const gchar *artists[] = {"Sam Hewitt ", NULL};
+  const char *authors[] = {"Guido Günther", NULL};
+  const char *artists[] = {"Sam Hewitt ", NULL};
 
   g_return_if_fail (PT_IS_APPLICATION (self));
 

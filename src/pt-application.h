@@ -17,7 +17,7 @@ G_BEGIN_DECLS
 
 G_DECLARE_FINAL_TYPE (PtApplication, pt_application, PT, APPLICATION, AdwApplication)
 
-PtApplication *pt_application_new (gchar *application_id, GApplicationFlags flags);
+PtApplication *pt_application_new (char *application_id, GApplicationFlags flags);
 GtkWidget     *pt_application_get_device_panel (PtApplication *self);
 
 G_END_DECLS
