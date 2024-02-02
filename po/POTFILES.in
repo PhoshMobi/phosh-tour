@@ -3,4 +3,4 @@ data/mobi.phosh.PhoshTour.metainfo.xml.in.in
 src/gtk/help-overlay.ui
 src/main.c
 src/phosh-tour-application.c
-src/ui/phosh-tour-window.ui
+src/ui/pt-window.ui

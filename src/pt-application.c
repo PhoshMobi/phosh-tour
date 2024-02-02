@@ -9,7 +9,7 @@
 #include "phosh-tour-config.h"
 
 #include "phosh-tour-application.h"
-#include "phosh-tour-window.h"
+#include "pt-window.h"
 
 #include <glib/gi18n.h>
 
@@ -39,7 +39,7 @@ phosh_tour_application_activate (GApplication *app)
 
   window = gtk_application_get_active_window (GTK_APPLICATION (app));
   if (window == NULL)
-    window = g_object_new (PHOSH_TOUR_TYPE_WINDOW, "application", app, NULL);
+    window = g_object_new (PT_TYPE_WINDOW, "application", app, NULL);
 
   gtk_window_present (window);
 }

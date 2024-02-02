@@ -1,30 +1,33 @@
 /*
  * Copyright (C) 2022 Purism SPC
+ *               2023-2024 Guido Günther
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
  *
  * Author: Guido Günther <agx@sigxcpu.org>
  */
 
+#define G_LOG_DOMAIN "pt-window"
+
 #include "phosh-tour-config.h"
 #include "phosh-tour-application.h"
-#include "phosh-tour-window.h"
+#include "pt-window.h"
 #include "pt-page.h"
 
 #include <glib/gi18n.h>
 
 
-struct _PhoshTourWindow {
+struct _PtWindow {
   AdwApplicationWindow parent_instance;
 
   AdwCarousel         *main_carousel;
 };
 
-G_DEFINE_TYPE (PhoshTourWindow, phosh_tour_window, ADW_TYPE_APPLICATION_WINDOW)
+G_DEFINE_TYPE (PtWindow, pt_window, ADW_TYPE_APPLICATION_WINDOW)
 
 
 static void
-goto_page (PhoshTourWindow *self, int num)
+goto_page (PtWindow *self, int num)
 {
   int n_pages = adw_carousel_get_n_pages (self->main_carousel);
   GtkWidget *page;
@@ -43,7 +46,7 @@ goto_page (PhoshTourWindow *self, int num)
 static void
 on_flip_page_activated (GtkWidget *widget, const char *action_name, GVariant *param)
 {
-  PhoshTourWindow *self = PHOSH_TOUR_WINDOW (widget);
+  PtWindow *self = PT_WINDOW (widget);
   int num = adw_carousel_get_position (self->main_carousel);
   gint32 offset;
 
@@ -73,15 +76,15 @@ get_btn_previous_visible (GObject *object, double position)
 
 
 static void
-phosh_tour_window_class_init (PhoshTourWindowClass *klass)
+pt_window_class_init (PtWindowClass *klass)
 {
   GtkWidgetClass *widget_class = GTK_WIDGET_CLASS (klass);
 
   g_type_ensure (PT_TYPE_PAGE);
 
   gtk_widget_class_set_template_from_resource (widget_class,
-                                               "/mobi/phosh/PhoshTour/ui/phosh-tour-window.ui");
-  gtk_widget_class_bind_template_child (widget_class, PhoshTourWindow, main_carousel);
+                                               "/mobi/phosh/PhoshTour/ui/pt-window.ui");
+  gtk_widget_class_bind_template_child (widget_class, PtWindow, main_carousel);
 
   gtk_widget_class_bind_template_callback (widget_class, get_btn_next_visible);
   gtk_widget_class_bind_template_callback (widget_class, get_btn_previous_visible);
@@ -90,7 +93,7 @@ phosh_tour_window_class_init (PhoshTourWindowClass *klass)
 }
 
 static void
-phosh_tour_window_init (PhoshTourWindow *self)
+pt_window_init (PtWindow *self)
 {
   gtk_widget_init_template (GTK_WIDGET (self));
 }
