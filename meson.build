@@ -1,6 +1,6 @@
 project('phosh-tour', 'c',
           version: '0.36.0',
-    meson_version: '>= 0.56.0',
+    meson_version: '>= 0.58.0',
   default_options: [ 'warning_level=2',
                      'werror=false',
                      'c_std=gnu11',
