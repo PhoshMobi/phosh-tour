@@ -10,7 +10,7 @@
 #define G_LOG_DOMAIN "pt-window"
 
 #include "phosh-tour-config.h"
-#include "phosh-tour-application.h"
+#include "pt-application.h"
 #include "pt-window.h"
 #include "pt-page.h"
 

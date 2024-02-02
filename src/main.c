@@ -19,12 +19,12 @@
 #include <glib/gi18n.h>
 
 #include "phosh-tour-config.h"
-#include "phosh-tour-application.h"
+#include "pt-application.h"
 
 int
 main (int argc, char *argv[])
 {
-  g_autoptr (PhoshTourApplication) app = NULL;
+  g_autoptr (PtApplication) app = NULL;
   int ret;
 
   /* Set up gettext translations */
@@ -32,7 +32,7 @@ main (int argc, char *argv[])
   bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
   textdomain (GETTEXT_PACKAGE);
 
-  app = phosh_tour_application_new (PHOSH_TOUR_APP_ID,
+  app = pt_application_new (PHOSH_TOUR_APP_ID,
 #if GLIB_CHECK_VERSION(2,74,0)
                                          G_APPLICATION_DEFAULT_FLAGS);
 #else
