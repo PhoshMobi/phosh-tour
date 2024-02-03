@@ -11,9 +11,6 @@ phosh_tour_sources = [
   'pt-page.c',
   'pt-hw-page.h',
   'pt-hw-page.c',
-  'pt-util.h',
-  'pt-util.c',
-  phosh_tour_enum_sources,
 ]
 
 phosh_tour_deps = [

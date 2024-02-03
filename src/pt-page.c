@@ -10,7 +10,6 @@
 
 #include "phosh-tour-config.h"
 #include "pt-page.h"
-#include "pt-util.h"
 
 #include <adwaita.h>
 #include <glib/gi18n.h>
