@@ -40,6 +40,7 @@ brand_string (GString *string)
 {
   g_string_replace (string, "@BRAND@", PHOSH_TOUR_BRAND, 0);
   g_string_replace (string, "@VENDOR@", PHOSH_TOUR_VENDOR, 0);
+  g_string_replace (string, "@URL@", PHOSH_TOUR_URL, 0);
 }
 
 

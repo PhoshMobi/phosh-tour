@@ -45,6 +45,7 @@
                 <property name="justify">center</property>
                 <property name="valign">center</property>
                 <property name="wrap">true</property>
+                <property name="use-markup">true</property>
                 <style>
                   <class name="body"/>
                 </style>
