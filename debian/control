@@ -12,7 +12,7 @@ Build-Depends:
  libsensors-dev,
  meson,
 Standards-Version: 4.6.0
-Homepage: https://gitlab.gnome.org/guidog/phosh-tour/
+Homepage: https://gitlab.gnome.org/World/Phosh/phosh-tour/
 Rules-Requires-Root: no
 
 Package: phosh-tour
