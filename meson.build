@@ -1,6 +1,6 @@
 project('phosh-tour', 'c',
           version: '0.36.0',
-    meson_version: '>= 0.56.0',
+    meson_version: '>= 0.58.0',
   default_options: [ 'warning_level=2',
                      'werror=false',
                      'c_std=gnu11',
@@ -12,11 +12,22 @@ prefix = get_option('prefix')
 libdir = join_paths(prefix, get_option('libdir'))
 plugins_dir = join_paths(prefix, libdir, 'phosh', 'plugins')
 
-glib_ver = '>= 2.62'
-glib_dep = dependency('glib-2.0', version: glib_ver)
-gio_dep = dependency('gio-2.0', version: glib_ver)
-gtk_dep = dependency('gtk4', version: '>= 4.4')
-adwaita_dep = dependency('libadwaita-1', version: '>= 1.1')
+glib_ver = '2.74'
+glib_ver_str = 'GLIB_VERSION_@0@'.format(glib_ver.replace('.','_'))
+glib_ver_cmp = '>=@0@'.format(glib_ver)
+
+gtk_ver = '4.12'
+gtk_ver_str = 'GDK_VERSION_@0@'.format(gtk_ver.replace('.','_'))
+gtk_ver_cmp = '>=@0@'.format(gtk_ver)
+
+adw_ver = '1.4'
+adw_ver_str = 'ADW_VERSION_@0@'.format(adw_ver.replace('.','_'))
+adw_ver_cmp = '>=@0@'.format(adw_ver)
+
+glib_dep = dependency('glib-2.0', version: glib_ver_cmp)
+gio_dep = dependency('gio-2.0', version: glib_ver_cmp)
+gtk_dep = dependency('gtk4', version: gtk_ver_cmp)
+adwaita_dep = dependency('libadwaita-1', version: adw_ver_cmp)
 
 i18n = import('i18n')
 
@@ -71,17 +82,25 @@ foreach arg: test_c_args
   endif
 endforeach
 add_project_arguments(
-  global_c_args,
+  [global_c_args,
+   '-DGLIB_VERSION_MIN_REQUIRED=@0@'.format(glib_ver_str),
+   '-DGLIB_VERSION_MAX_ALLOWED=@0@'.format(glib_ver_str),
+   '-DGDK_VERSION_MIN_REQUIRED=@0@'.format(gtk_ver_str),
+   '-DGDK_VERSION_MAX_ALLOWED=@0@'.format(gtk_ver_str),
+   '-DADW_VERSION_MIN_REQUIRED=@0@'.format(adw_ver_str),
+   '-DADW_VERSION_MAX_ALLOWED=@0@'.format(adw_ver_str),
+  ],
   language: 'c'
 )
 
 
 config_h = configuration_data()
-config_h.set_quoted('PACKAGE_VERSION', meson.project_version())
 config_h.set_quoted('GETTEXT_PACKAGE', 'phosh-tour')
 config_h.set_quoted('LOCALEDIR', join_paths(get_option('prefix'), get_option('localedir')))
+config_h.set_quoted('PHOSH_TOUR_APP', meson.project_name())
 config_h.set_quoted('PHOSH_TOUR_BRAND', get_option('brand'))
 config_h.set_quoted('PHOSH_TOUR_VENDOR', get_option('vendor'))
+config_h.set_quoted('PHOSH_TOUR_VERSION', meson.project_version())
 config_h.set_quoted('PHOSH_TOUR_APP_ID', application_id)
 
 configure_file(

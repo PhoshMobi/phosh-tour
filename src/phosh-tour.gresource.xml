@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/mobi/phosh/PhoshTour">
-    <file>ui/phosh-tour-window.ui</file>
-    <file>ui/pt-page.ui</file>
-    <file>gtk/help-overlay.ui</file>
+    <file preprocess="xml-stripblanks">ui/pt-window.ui</file>
+    <file preprocess="xml-stripblanks">ui/pt-page.ui</file>
+    <file preprocess="xml-stripblanks">gtk/help-overlay.ui</file>
   </gresource>
   <gresource prefix="/mobi/phosh/PhoshTour/pages/">
     <file alias="welcome.svg">../data/pages/welcome.svg</file>
