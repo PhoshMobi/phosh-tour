@@ -28,6 +28,13 @@ glib_dep = dependency('glib-2.0', version: glib_ver_cmp)
 gio_dep = dependency('gio-2.0', version: glib_ver_cmp)
 gtk_dep = dependency('gtk4', version: gtk_ver_cmp)
 adwaita_dep = dependency('libadwaita-1', version: adw_ver_cmp)
+gmobile = subproject('gmobile',
+                     default_options: [
+                       'examples=false',
+                       'gtk_doc=false',
+                       'tests=false',
+                     ])
+gmobile_dep = gmobile.get_variable('gmobile_dep')
 
 i18n = import('i18n')
 

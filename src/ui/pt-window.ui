@@ -34,8 +34,9 @@
                 </child>
 
                 <child>
-                  <object class="PtPage">
+                  <object class="PtHwPage">
                     <property name="image-uri">resource:///mobi/phosh/PhoshTour/pages/kill-switches.svg</property>
+                    <property name="compatibles">purism,librem5</property>
                     <property name="summary" translatable="yes">Really Disconnect</property>
                     <property name="explanation" translatable="yes">At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the kill switches on the side of your @BRAND@</property>
                   </object>

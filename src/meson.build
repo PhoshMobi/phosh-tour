@@ -9,6 +9,8 @@ phosh_tour_sources = [
   'pt-window.c',
   'pt-page.h',
   'pt-page.c',
+  'pt-hw-page.h',
+  'pt-hw-page.c',
   'pt-util.h',
   'pt-util.c',
   phosh_tour_enum_sources,
@@ -17,6 +19,7 @@ phosh_tour_sources = [
 phosh_tour_deps = [
   gio_dep,
   glib_dep,
+  gmobile_dep,
   gtk_dep,
   adwaita_dep,
 ]

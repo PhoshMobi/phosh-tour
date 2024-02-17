@@ -25,17 +25,15 @@ enum {
 };
 static GParamSpec *props[PROP_LAST_PROP];
 
-struct _PtPage {
-  AdwBin      parent;
-
+typedef struct _PtPagePrivate {
   char       *image_uri;
   GtkPicture *image;
   GtkLabel   *lbl_summary;
   GtkLabel   *lbl_explanation;
   AdwBin     *bin_widget;
-};
+} PtPagePrivate;
 
-G_DEFINE_TYPE (PtPage, pt_page, ADW_TYPE_BIN)
+G_DEFINE_TYPE_WITH_PRIVATE (PtPage, pt_page, ADW_TYPE_BIN)
 
 
 static void
@@ -81,19 +79,20 @@ pt_page_get_property (GObject    *object,
                       GParamSpec *pspec)
 {
   PtPage *self = PT_PAGE (object);
+  PtPagePrivate *priv = pt_page_get_instance_private (self);
 
   switch (property_id) {
   case PROP_SUMMARY:
-    g_value_set_string (value, gtk_label_get_label (self->lbl_summary));
+    g_value_set_string (value, gtk_label_get_label (priv->lbl_summary));
     break;
   case PROP_EXPLANATION:
-    g_value_set_string (value, gtk_label_get_label (self->lbl_explanation));
+    g_value_set_string (value, gtk_label_get_label (priv->lbl_explanation));
     break;
   case PROP_IMAGE_URI:
-    g_value_set_string (value, self->image_uri);
+    g_value_set_string (value, priv->image_uri);
     break;
   case PROP_WIDGET:
-    g_value_set_object (value, adw_bin_get_child (self->bin_widget));
+    g_value_set_object (value, adw_bin_get_child (priv->bin_widget));
     break;
   default:
     G_OBJECT_WARN_INVALID_PROPERTY_ID (object, property_id, pspec);
@@ -106,8 +105,9 @@ static void
 pt_page_finalize (GObject *object)
 {
   PtPage *self = PT_PAGE (object);
+  PtPagePrivate *priv = pt_page_get_instance_private (self);
 
-  g_clear_pointer (&self->image_uri, g_free);
+  g_clear_pointer (&priv->image_uri, g_free);
 
   G_OBJECT_CLASS (pt_page_parent_class)->finalize (object);
 }
@@ -147,10 +147,10 @@ pt_page_class_init (PtPageClass *klass)
 
   gtk_widget_class_set_template_from_resource (widget_class,
                                                "/mobi/phosh/PhoshTour/ui/pt-page.ui");
-  gtk_widget_class_bind_template_child (widget_class, PtPage, image);
-  gtk_widget_class_bind_template_child (widget_class, PtPage, lbl_summary);
-  gtk_widget_class_bind_template_child (widget_class, PtPage, lbl_explanation);
-  gtk_widget_class_bind_template_child (widget_class, PtPage, bin_widget);
+  gtk_widget_class_bind_template_child_private (widget_class, PtPage, image);
+  gtk_widget_class_bind_template_child_private (widget_class, PtPage, lbl_summary);
+  gtk_widget_class_bind_template_child_private (widget_class, PtPage, lbl_explanation);
+  gtk_widget_class_bind_template_child_private (widget_class, PtPage, bin_widget);
 }
 
 
@@ -171,61 +171,71 @@ pt_page_new (void)
 void
 pt_page_set_summary (PtPage *self, const char *summary)
 {
+  PtPagePrivate *priv;
   g_autoptr (GString) label = g_string_new (summary);
 
   g_return_if_fail (PT_IS_PAGE (self));
+  priv = pt_page_get_instance_private (self);
 
   brand_string (label);
 
-  gtk_label_set_label (self->lbl_summary, label->str);
+  gtk_label_set_label (priv->lbl_summary, label->str);
 }
 
 
 void
 pt_page_set_explanation (PtPage *self, const char *explanation)
 {
+  PtPagePrivate *priv;
   g_autoptr (GString) label = g_string_new (explanation);
 
   g_return_if_fail (PT_IS_PAGE (self));
+  priv = pt_page_get_instance_private (self);
 
   brand_string (label);
 
-  gtk_label_set_label (self->lbl_explanation, label->str);
+  gtk_label_set_label (priv->lbl_explanation, label->str);
 }
 
 
 void
 pt_page_set_image_uri (PtPage *self, const char *uri)
 {
+  PtPagePrivate *priv;
   GFile *file = NULL;
   g_autoptr (GdkTexture) texture = NULL;
 
   g_return_if_fail (PT_IS_PAGE (self));
+  priv = pt_page_get_instance_private (self);
 
-  g_free (self->image_uri);
-  self->image_uri = g_strdup (uri);
+  g_free (priv->image_uri);
+  priv->image_uri = g_strdup (uri);
 
-  if (self->image_uri) {
+  if (priv->image_uri) {
     g_autoptr (GError) err = NULL;
 
     /* don't use gtk_picture_set_resouce as it doesn't tell us what failed */
     file = g_file_new_for_uri (uri);
     texture = gdk_texture_new_from_file (file, &err);
     if (texture == NULL)
-      g_warning ("Failed to load image %s: %s", self->image_uri, err->message);
+      g_warning ("Failed to load image %s: %s", priv->image_uri, err->message);
   }
 
-  gtk_picture_set_paintable (self->image, GDK_PAINTABLE (texture));
+  gtk_picture_set_paintable (priv->image, GDK_PAINTABLE (texture));
 }
 
 
 void
 pt_page_set_widget (PtPage *self, GtkWidget *widget)
 {
+  PtPagePrivate *priv;
+
   g_return_if_fail (PT_IS_PAGE (self));
   g_return_if_fail (GTK_IS_WIDGET (widget));
 
-  adw_bin_set_child (self->bin_widget, widget);
+  priv = pt_page_get_instance_private (self);
 
-  gtk_widget_set_visible (GTK_WIDGET (self->bin_widget), !!widget);
+  adw_bin_set_child (priv->bin_widget, widget);
+
+  gtk_widget_set_visible (GTK_WIDGET (priv->bin_widget), !!widget);
 }
