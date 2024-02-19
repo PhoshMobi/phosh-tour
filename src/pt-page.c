@@ -10,7 +10,6 @@
 
 #include "phosh-tour-config.h"
 #include "pt-page.h"
-#include "pt-util.h"
 
 #include <adwaita.h>
 #include <glib/gi18n.h>
@@ -39,8 +38,9 @@ G_DEFINE_TYPE_WITH_PRIVATE (PtPage, pt_page, ADW_TYPE_BIN)
 static void
 brand_string (GString *string)
 {
-  pt_string_replace (string, "@BRAND@", PHOSH_TOUR_BRAND, 0);
-  pt_string_replace (string, "@VENDOR@", PHOSH_TOUR_VENDOR, 0);
+  g_string_replace (string, "@BRAND@", PHOSH_TOUR_BRAND, 0);
+  g_string_replace (string, "@VENDOR@", PHOSH_TOUR_VENDOR, 0);
+  g_string_replace (string, "@URL@", PHOSH_TOUR_URL, 0);
 }
 
 
