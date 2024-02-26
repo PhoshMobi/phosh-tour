@@ -1,3 +1,55 @@
+phosh-tour (0.37.0) experimental; urgency=medium
+
+  [ MoonlightWave-12 ]
+  * Add German translation
+
+  [ Guido Günther ]
+  * gitignore: Ignore generated po files
+  * ci: Drop unused reference
+  * ci: Switch to trixie
+  * ci: Modernize commit log check.
+    We add the common scripts from meta-phosh as of
+    07c78b1e35a6572d118800dd6cbde904bb999acc for that.
+  * ci: Add po check
+  * window: Use pt_ prefix.
+    It's more consistent and shorter
+  * application: Use pt_ prefix.
+    It's more consistent and shorter
+  * application: Consistently use char *
+    We avoid g* types when we can just use plain C types
+  * build: Bump required meson version.
+    We want to use str.replace()
+  * build: Bump required glib version to 2.74.
+    No need to keep conditional for versions older than Debian stable.
+  * build: Bump required GTK4 version
+  * build: Bump required libadwaita version
+  * main: Drop conditional compile.
+    We can assume glib 2.74 or newer now
+  * resources: Minimize XML
+  * build: Use PHOSH_TOUR_ prefix consistently
+  * application: Add --version
+  * gmobile: Add as subproject.
+    We want to use it's DT parsing. We add as git submodule too to ease the
+    flatpak build. This can go once gmobile is also a shared lib.
+  * page: Make it a derivable type
+  * hw-page: Add class for hardware specific pages.
+    We parse hook into builder to strip whitespace out of the compatibles
+    GStrv. This ensures the property setter works as expected.
+  * window: Remove pages that don't fit the hardware.
+    Closes: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/5
+  * window: Make the kill switch page a hardware page.
+    Limit the compatibles to the Librem 5
+  * options: Use more neutral vendor and device
+  * pt-page: Use g_string_replace.
+    We have newer glib now
+  * pt-util: Drop pt_string_replace.
+    Not needed anymore
+  * page: Allow to set a URL.
+    Allow to specify a URL where the user can find more information
+  * treewide: Update project URL
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 06 Mar 2024 14:27:55 +0100
+
 phosh-tour (0.36.0) experimental; urgency=medium
 
   * treewide: Avoid '.' in resource names.

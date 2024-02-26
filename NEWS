@@ -1,3 +1,16 @@
+phosh-tour 0.37.0
+-----------------
+Released: March 2024
+* Allow to show pages based on the hardware we run on
+* Allow to configure "next steps" URL
+* Modernize ci
+* Issues fixed:
+  - https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/5
+* Contributors:
+    * Guido Günther
+* UI translations:
+    * MoonlightWave-12 (de)
+
 phosh-tour 0.36.0
 -----------------
 Released: February 2024
