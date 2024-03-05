@@ -62,7 +62,7 @@ phosh-tour (0.24.0) experimental; urgency=medium
   * tour-window: Add missing 'your'
   * README: Use meson only
   * README: Add screenshots.
-    Closes: https://gitlab.gnome.org/guidog/phosh-tour/-/issues/6
+    Closes: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/6
 
  -- Guido Günther <agx@sigxcpu.org>  Sat, 28 Jan 2023 16:20:35 +0100
 

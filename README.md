@@ -9,7 +9,7 @@ Phosh Tour is licensed under the GPLv3+.
 ## Getting the source
 
 ```sh
-git clone https://gitlab.gnome.org/guidog/phosh-tour
+git clone https://gitlab.gnome.org/World/Phosh/phosh-tour
 cd phosh-tour
 ```
 
@@ -49,9 +49,9 @@ The result should look something like this (device name and vendor are customiza
 ![Swipe up](screenshots/swipe.png)
 
 # Getting in Touch
-* Issue tracker: https://gitlab.gnome.org/guidog/phosh-tour/issues
+* Issue tracker: https://gitlab.gnome.org/World/Phosh/phosh-tour/issues
 * Matrix: https://im.puri.sm/#/room/#phosh:talk.puri.sm
 
-[main]: https://gitlab.gnome.org/World/guido/phosh-tour/-/tree/main
-[.gitlab-ci.yml]: https://gitlab.gnome.org/World/guido/phosh-tour/-/blob/main/.gitlab-ci.yml
-[debian/control]: https://gitlab.gnome.org/World/guido/phosh-tour/-/blob/main/debian/control
+[main]: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/tree/main
+[.gitlab-ci.yml]: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/blob/main/.gitlab-ci.yml
+[debian/control]: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/blob/main/debian/control

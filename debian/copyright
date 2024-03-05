@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: phosh-tour
-Source: https://gitlab.gnome.org/guidog/phosh-tour
+Source: https://gitlab.gnome.org/World/Phosh/phosh-tour
 
 Files: *
 Copyright: 2022 Purism SPC

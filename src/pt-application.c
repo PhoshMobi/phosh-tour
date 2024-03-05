@@ -102,7 +102,7 @@ pt_application_show_about (GSimpleAction *action,
                          "title", _("About " PHOSH_TOUR_BRAND " "),
                          "translator-credits", _ ("translator-credits"),
                          "version", PHOSH_TOUR_VERSION,
-                         "website", "https://gitlab.gnome.org/guidog/phosh-tour",
+                         "website", "https://gitlab.gnome.org/World/Phosh/phosh-tour",
                          NULL);
 }
 
