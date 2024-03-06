@@ -42,6 +42,10 @@
   </screenshots>
 
   <releases>
+    <release version="0.37.0" date="2024-04-06">
+      <description><p>Allow for hardware specific pages</p></description>
+    </release>
+
     <release version="0.36.0" date="2024-02-02">
       <description><p>Improve keyboard navigation</p></description>
     </release>
