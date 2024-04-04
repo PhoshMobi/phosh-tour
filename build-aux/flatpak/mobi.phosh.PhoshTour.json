@@ -26,9 +26,8 @@
             "buildsystem" : "meson",
             "sources" : [
                 {
-                    "type" : "git",
-                    "url" : ".",
-		    "branch" : "main"
+                    "type" : "dir",
+                    "path" : "../.."
                 }
             ]
         }
