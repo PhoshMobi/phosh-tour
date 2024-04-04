@@ -202,7 +202,6 @@ void
 pt_page_set_image_uri (PtPage *self, const char *uri)
 {
   PtPagePrivate *priv;
-  GFile *file = NULL;
   g_autoptr (GdkTexture) texture = NULL;
 
   g_return_if_fail (PT_IS_PAGE (self));
@@ -211,17 +210,10 @@ pt_page_set_image_uri (PtPage *self, const char *uri)
   g_free (priv->image_uri);
   priv->image_uri = g_strdup (uri);
 
-  if (priv->image_uri) {
-    g_autoptr (GError) err = NULL;
-
-    /* don't use gtk_picture_set_resouce as it doesn't tell us what failed */
-    file = g_file_new_for_uri (uri);
-    texture = gdk_texture_new_from_file (file, &err);
-    if (texture == NULL)
-      g_warning ("Failed to load image %s: %s", priv->image_uri, err->message);
-  }
-
-  gtk_picture_set_paintable (priv->image, GDK_PAINTABLE (texture));
+  if (priv->image_uri)
+    gtk_picture_set_resource (priv->image, &uri[strlen("resource://")]);
+  else
+    gtk_picture_set_paintable (priv->image, GDK_PAINTABLE (texture));
 }
 
 
