@@ -1,3 +1,18 @@
+phosh-tour (0.38.0) experimental; urgency=medium
+
+  * build: Allow to use shared gmobile.
+  * subprojects: Switch gmobile to 0.1.0.
+    This allows us to build with newer json-glib
+  * flatpak: Build local dir.
+  * flatpak: Build gmobile separately.
+  * build: Drop gmobile submodule.
+    We use the shared lib or the fallback via the wrap
+  * page: Use gtk_picture_set_resouce.
+    Things are robust enough now that we can live with less error reporting.
+    Closes: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/4
+
+ -- Guido Günther <agx@sigxcpu.org>  Thu, 04 Apr 2024 11:03:35 +0200
+
 phosh-tour (0.37.0) experimental; urgency=medium
 
   [ MoonlightWave-12 ]
