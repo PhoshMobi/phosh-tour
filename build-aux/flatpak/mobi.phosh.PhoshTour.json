@@ -21,14 +21,25 @@
     ],
     "modules" : [
         {
-            "name" : "phosh-tour",
+            "name" : "gmobile",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : ".",
-		    "branch" : "main"
+                    "url"  : "https://gitlab.gnome.org/World/Phosh/gmobile.git",
+		    "tag"  : "v0.1.0"
+                }
+            ]
+        },
+        {
+            "name" : "phosh-tour",
+            "builddir" : true,
+            "buildsystem" : "meson",
+            "sources" : [
+                {
+                    "type" : "dir",
+                    "path" : "../.."
                 }
             ]
         }
