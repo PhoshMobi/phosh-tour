@@ -1,3 +1,13 @@
+phosh-tour 0.38.0
+-----------------
+Released: April 2024
+* Fix blurry images with scale != 1
+* Fix flatpak build
+* Issues fixed:
+    * https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/4
+* Contributors:
+    * Guido Günther
+
 phosh-tour 0.37.0
 -----------------
 Released: March 2024
