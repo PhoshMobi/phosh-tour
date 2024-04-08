@@ -32,8 +32,9 @@ gmobile_dep = dependency('gmobile',
   version: '>= 0.1.0',
   fallback: ['gmobile', 'gmobile_dep'],
   default_options: [ 'examples=false',
-                       'gtk_doc=false',
-                       'tests=false',
+                     'introspection=false',
+                     'gtk_doc=false',
+                     'tests=false',
   ])
 
 i18n = import('i18n')
