@@ -36,7 +36,7 @@ default:
 variables:
   # For ci-fairy
   FDO_UPSTREAM_REPO: World/Phosh/phosh-tour
-  DEBIAN_IMAGE: $CI_REGISTRY/guidog/phosh-osk-stub/debian:v0.0.2024-03-04
+  DEBIAN_IMAGE: $CI_REGISTRY/guidog/phosh-osk-stub/debian:v0.0.2024-05-03
   COMMON_BUILD_OPTS: --werror
   GIT_SUBMODULE_STRATEGY: recursive
 
