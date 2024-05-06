@@ -1,3 +1,11 @@
+phosh-tour (0.39.0) experimental; urgency=medium
+
+  * power-menu: Convert character to path.
+    Closes: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/11
+  * ci: Add common style check
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 14 May 2024 10:28:58 +0200
+
 phosh-tour (0.38.0) experimental; urgency=medium
 
   * build: Allow to use shared gmobile.

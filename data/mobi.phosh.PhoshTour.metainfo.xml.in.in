@@ -42,6 +42,10 @@
   </screenshots>
 
   <releases>
+    <release version="0.39.0" date="2024-05-14">
+      <description><p>Fix broken power menu when font is missing</p></description>
+    </release>
+
     <release version="0.38.0" date="2024-04-05">
       <description><p>Fix blurry images</p></description>
     </release>
