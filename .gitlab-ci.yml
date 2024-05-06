@@ -1,6 +1,6 @@
 include:
  - project: 'guidog/meta-phosh'
-   ref: '04a85df2f3311f3012b6c49bf353b376ae0f32b2'
+   ref: 'f3c92e90dcc0d65322888217429b75dd101bd0d3'
    file: '/ci/phosh-common-jobs.yml'
  - remote: 'https://gitlab.freedesktop.org/freedesktop/ci-templates/-/raw/34039cd573a2df832d465bc9e4c5f543571f5241/templates/ci-fairy.yml'
  - remote: 'https://gitlab.gnome.org/GNOME/citemplates/raw/master/flatpak/flatpak_ci_initiative.yml'
@@ -51,26 +51,6 @@ variables:
     - meson ${BUILD_OPTS} . _build
     - meson compile -C _build
 
-check-po:
-  stage: test+docs
-  extends: .phosh-check-po
-
-# Sanity checks of MR settings and commit logs
-commit-log-check:
-  extends:
-    - .fdo.ci-fairy
-  stage: style-checks
-  variables:
-    GIT_DEPTH: "100"
-  needs: []
-  script: |
-    ci-fairy check-commits --junit-xml=commit-message-junit-report.xml
-  artifacts:
-    reports:
-      junit: commit-message-junit-report.xml
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH'
-
 build:native-debian-trixie:
   stage: build
   image: ${DEBIAN_IMAGE}
@@ -92,3 +72,28 @@ flatpak:master:
         FLATPAK_MODULE: "phosh-tour"
         APP_ID: "mobi.phosh.PhoshTour.Devel"
         BUNDLE: "mobi.phosh.PhoshTour.Devel.flatpak"
+
+check-po:
+  stage: test+docs
+  extends: .phosh-check-po
+
+# Sanity checks of MR settings and commit logs
+sanity:
+  extends:
+    - .fdo.ci-fairy
+  stage: style-checks
+  variables:
+    GIT_DEPTH: "100"
+  needs: []
+  script: |
+    ci-fairy check-commits --junit-xml=commit-message-junit-report.xml
+  artifacts:
+    reports:
+      junit: commit-message-junit-report.xml
+  rules:
+    - if: '$CI_MERGE_REQUEST_TARGET_BRANCH_NAME'
+
+format-check:
+  stage: style-checks
+  extends: .phosh-format-check
+  allow_failure: true
