@@ -1,0 +1,268 @@
+# Russian translation for phosh-tour.
+# Copyright (C) 2024 phosh-tour'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+#
+# Aleksandr Melman <Alexmelman88@gmail.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-03 20:19+0100\n"
+"PO-Revision-Date: 2024-08-04 19:15+0300\n"
+"Last-Translator: Aleksandr Melman <Alexmelman88@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+msgid "@BRAND@ Tour"
+msgstr "Ознакомление @BRAND@"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Мобильный;тур;ознакомление;@BRAND@;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr ""
+"Это приложение познакомит вас с устройством с помощью небольшого "
+"графического экскурса."
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+msgid "@BRAND@ graphical tour"
+msgstr "Графическое ознакомление @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+msgid "The Tour's first page"
+msgstr "Первая страница Ознакомления"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+msgid "Swipe Toure's swipe gesture page"
+msgstr "Страница жеста пролистывания"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:46
+msgid "Improve keyboard navigation"
+msgstr "Улучшение навигации с помощью клавиатуры"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:50
+msgid "Add a new page explaining how to unfold the on screen keyboard"
+msgstr ""
+"Добавлена новая страница, объясняющая, как развернуть экранную клавиатуру"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:54
+msgid "Add a new page for the power-button menu"
+msgstr "Добавлена новая страница для меню кнопки питания"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:58
+msgid "Update quicksettings page to match Phosh's new layout"
+msgstr ""
+"Обновление страницы быстрых настроек в соответствии с новым оформлением Phosh"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:62
+msgid "Various fixes"
+msgstr "Различные исправления"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:66
+msgid "Fix metainfo issues"
+msgstr "Исправление проблем с metainfo"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:70
+msgid "Initial release"
+msgstr "Первоначальный выпуск"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Жесты сенсорной панели"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Навигация"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Предыдущая страница"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Общие"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Показать комбинации клавиш"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Выйти"
+
+#: src/phosh-tour-application.c:77
+msgid "About "
+msgstr "О приложении "
+
+#: src/phosh-tour-application.c:78
+msgid "translator-credits"
+msgstr "Aleksandr Melman <Alexmelman88@gmail.com>"
+
+#: src/ui/phosh-tour-window.ui:31
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: src/ui/phosh-tour-window.ui:32
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Познакомьтесь с особенностями вашего @BRAND@ и @VENDOR@."
+
+#: src/ui/phosh-tour-window.ui:39
+msgid "Really Disconnect"
+msgstr "Действительно отключается"
+
+#: src/ui/phosh-tour-window.ui:40
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"В любой момент вы можете отключить Wi-Fi, Bluetooth и телефонию, переключив "
+"переключатели на боковой панели вашего @BRAND@"
+
+#: src/ui/phosh-tour-window.ui:47
+msgid "Going Home"
+msgstr "Возвращение к домашнему экрану"
+
+#: src/ui/phosh-tour-window.ui:48
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"Проведите пальцем вверх на домашней панели в нижней части экрана, вы "
+"попадете в раздел \"Обзор\", где можно увидеть запущенные приложения."
+
+#: src/ui/phosh-tour-window.ui:55
+msgid "Show Keyboard"
+msgstr "Показать клавиатуру"
+
+#: src/ui/phosh-tour-window.ui:56
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr "Долгое нажатие на домашнюю панель в любой момент откроет клавиатуру."
+
+#: src/ui/phosh-tour-window.ui:63
+msgid "Quick Settings"
+msgstr "Быстрые настройки"
+
+#: src/ui/phosh-tour-window.ui:64
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"Чтобы быстро изменить яркость экрана, отрегулировать громкость или "
+"переключить настройки, проведите пальцем вниз от верхней части устройства в "
+"любое время."
+
+#: src/ui/phosh-tour-window.ui:71
+msgid "Power Menu"
+msgstr "Меню питания"
+
+#: src/ui/phosh-tour-window.ui:72
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"Если нажать и удерживать кнопку питания, появится меню с быстрыми действиями "
+"для вашего устройства. При настройке также будет доступно действие "
+"\"Экстренный вызов\"."
+
+#: src/ui/phosh-tour-window.ui:79
+msgid "Slide to Unlock"
+msgstr "Проведите пальцем для разблокировки"
+
+#: src/ui/phosh-tour-window.ui:80
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Если устройство заблокировано, проведя пальцем вверх, вы увидите клавиатуру, "
+"с помощью которой можно разблокировать устройство с помощью PIN-кода."
+
+#: src/ui/phosh-tour-window.ui:87
+msgid "Closing Applications"
+msgstr "Закрытие приложений"
+
+#: src/ui/phosh-tour-window.ui:88
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"В \"Обзоре\" можно просмотреть список приложений, закрыть их, проведя "
+"пальцем вверх или нажав кнопку закрытия."
+
+#: src/ui/phosh-tour-window.ui:95
+msgid "Launching Applications"
+msgstr "Запуск приложений"
+
+#: src/ui/phosh-tour-window.ui:96
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Нажмите значок приложения в сетке приложений, чтобы запустить его, или "
+"воспользуйтесь строкой поиска, чтобы найти нужное приложение."
+
+#: src/ui/phosh-tour-window.ui:103
+msgid "See Your Notifications"
+msgstr "Просмотр уведомлений"
+
+#: src/ui/phosh-tour-window.ui:104
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"В любой момент проведите пальцем вниз с верхней части устройства, чтобы "
+"увидеть уведомления из всех ваших приложений!"
+
+#: src/ui/phosh-tour-window.ui:111
+msgid "Welcome to your @BRAND@!"
+msgstr "Добро пожаловать в ваш @BRAND@!"
+
+#: src/ui/phosh-tour-window.ui:112
+msgid ""
+"To find out more about @VENDOR@ or your device, check out the Quick Start "
+"guide."
+msgstr ""
+"Чтобы узнать больше о @VENDOR@ или вашем устройстве, ознакомьтесь с "
+"руководством по быстрому запуску."
+
+#: src/ui/phosh-tour-window.ui:116
+msgid "Get Started"
+msgstr "Начать"
+
+#: src/ui/phosh-tour-window.ui:212
+msgid "_Keyboard Shortcuts"
+msgstr "_Комбинации клавиш"
+
+#: src/ui/phosh-tour-window.ui:216
+msgid "_About Phosh Tour"
+msgstr "_О приложении"
