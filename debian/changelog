@@ -1,3 +1,14 @@
+phosh-tour (0.41.0~rc1) experimental; urgency=medium
+
+  [ Aleksandr Melman ]
+  * po: Add Russian translation
+
+  [ Guido Günther ]
+  * ci: Add consistency check.
+    Update to ea4668f69646566c16baa0efb16d85a5a51a01f0 for that.
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 07 Aug 2024 19:21:19 +0200
+
 phosh-tour (0.39.0) experimental; urgency=medium
 
   * power-menu: Convert character to path.
