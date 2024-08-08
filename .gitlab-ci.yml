@@ -1,6 +1,6 @@
 include:
  - project: 'guidog/meta-phosh'
-   ref: 'f3c92e90dcc0d65322888217429b75dd101bd0d3'
+   ref: 'ea4668f69646566c16baa0efb16d85a5a51a01f0'
    file: '/ci/phosh-common-jobs.yml'
  - remote: 'https://gitlab.freedesktop.org/freedesktop/ci-templates/-/raw/34039cd573a2df832d465bc9e4c5f543571f5241/templates/ci-fairy.yml'
  - remote: 'https://gitlab.gnome.org/GNOME/citemplates/raw/master/flatpak/flatpak_ci_initiative.yml'
@@ -76,6 +76,10 @@ flatpak:master:
 check-po:
   stage: test+docs
   extends: .phosh-check-po
+
+check-consistency:
+  stage: test+docs
+  extends: .phosh-check-consistency
 
 # Sanity checks of MR settings and commit logs
 sanity:

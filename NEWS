@@ -1,3 +1,12 @@
+phosh-tour 0.41.0~rc1
+---------------------
+Released: August 2024
+* Check version consistency in CI
+* Contributors:
+    * Guido Günther
+* UI translations:
+    * Aleksandr Melman (ru)
+
 phosh-tour 0.39.0
 -----------------
 Released: May 2024
