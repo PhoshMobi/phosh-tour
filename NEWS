@@ -1,5 +1,5 @@
-phosh-tour 0.41.0~rc1
----------------------
+phosh-tour 0.41.0
+-----------------
 Released: August 2024
 * Check version consistency in CI
 * Contributors:

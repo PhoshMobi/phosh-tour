@@ -1,3 +1,9 @@
+phosh-tour (0.41.0) experimental; urgency=medium
+
+  * No changes to rc1
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 13 Aug 2024 08:07:33 +0200
+
 phosh-tour (0.41.0~rc1) experimental; urgency=medium
 
   [ Aleksandr Melman ]
