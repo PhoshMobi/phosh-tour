@@ -42,6 +42,10 @@
   </screenshots>
 
   <releases>
+    <release version="0.41.0" date="2024-08-15">
+      <description><p>Add RU translation</p></description>
+    </release>
+
     <release version="0.39.0" date="2024-05-14">
       <description><p>Fix broken power menu when font is missing</p></description>
     </release>
