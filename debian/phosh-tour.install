@@ -1,3 +1,7 @@
 usr/bin/phosh-tour
-usr/share/applications/mobi.phosh.PhoshTour.desktop.xml
-usr/share/metainfo/mobi.phosh.PhoshTour.appdata.xml
+usr/share/applications/mobi.phosh.PhoshTour.desktop
+usr/share/glib-2.0/schemas/mobi.phosh.PhoshTour.gschema.xml
+usr/share/icons/hicolor/scalable/apps/mobi.phosh.PhoshTour.svg
+usr/share/icons/hicolor/symbolic/apps/mobi.phosh.PhoshTour-symbolic.svg
+usr/share/locale/*/LC_MESSAGES/phosh-tour.mo
+usr/share/metainfo/mobi.phosh.PhoshTour.metainfo.xml
