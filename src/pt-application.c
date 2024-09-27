@@ -122,7 +122,7 @@ pt_application_handle_local_options (GApplication *app, GVariantDict *options)
 
   if (g_variant_dict_contains (options, "run-once")) {
     self->run_once = TRUE;
-    g_print ("Running the tour with --run-once option.\n");
+    g_debug ("Running the tour with --run-once option.\n");
   }
 
   return G_APPLICATION_CLASS (pt_application_parent_class)->handle_local_options (app, options);

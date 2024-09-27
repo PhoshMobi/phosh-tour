@@ -1,0 +1,11 @@
+[Unit]
+Description=@BRAND@ Tour
+ConditionPathExists=!%h/.config/phosh-tour/run-once
+After=mobi.phosh.Shell.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/phosh-tour --run-once
+
+[Install]
+WantedBy=mobi.phosh.Shell.target
