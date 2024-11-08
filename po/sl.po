@@ -1,0 +1,241 @@
+# Slovenian translation for phosh-tour.
+# Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+#
+# Martin Srebotnjak <miles@filmsi.net>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 13:56+0000\n"
+"PO-Revision-Date: 2024-11-08 15:50+0100\n"
+"Language-Team: Slovenian <Slovenian>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
+"%100<=4 ? 2 : 3);\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+msgid "@BRAND@ Tour"
+msgstr "Voden ogled @BRAND@"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "mobilni telefon;mobilnik;ogled;@BRAND@;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr ""
+"Ta program vas seznani z vašo napravo prek majhnega grafičnega vodenega "
+"ogleda."
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+msgid "@BRAND@ graphical tour"
+msgstr "Grafični vodeni ogled @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+msgid "The Tour's first page"
+msgstr "Prva stran vodenega ogleda"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+#, fuzzy
+msgid "Swipe Toure's swipe gesture page"
+msgstr "Stran s potezami podrsanja Swipe Toure"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Poteze na sledilni ploščici"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Naslednja stran"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Prejšnja stran"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Krmarjenje"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Naslednja stran"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Predhodna stran"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Splošno"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Pokaže tipkovne bližnjice‫"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Izhod"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- Grafični vodeni ogled, ki predstavi vašo napravo"
+
+#: src/pt-application.c:102
+msgid "About "
+msgstr "O vodenem ogledu"
+
+#: src/pt-application.c:103
+msgid "translator-credits"
+msgstr "Martin Srebotnjak <miles@filmsi.net>"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Dobrodošli"
+
+#: src/ui/pt-window.ui:32
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Spoznajte funkcije svojega @BRAND@ in @VENDOR@."
+
+#: src/ui/pt-window.ui:40
+msgid "Really Disconnect"
+msgstr "Resnično prekinite povezavo"
+
+#: src/ui/pt-window.ui:41
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"Kadar koli lahko onemogočite Wi-Fi, Bluetooth in telefonijo tako, da "
+"preklopite stikala za izklop vašega @BRAND@"
+
+#: src/ui/pt-window.ui:48
+msgid "Going Home"
+msgstr "Domov"
+
+#: src/ui/pt-window.ui:49
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"Če podrsate navzgor po začetni vrstici na dnu zaslona, boste prišli do "
+"pregleda programov, ki se izvajajo."
+
+#: src/ui/pt-window.ui:56
+msgid "Show Keyboard"
+msgstr "Pokaži tipkovnico"
+
+#: src/ui/pt-window.ui:57
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr ""
+"Dolg pritisk na domačo vrstico bo v poljubnem trenutku razkril tipkovnico."
+
+#: src/ui/pt-window.ui:64
+msgid "Quick Settings"
+msgstr "Hitre nastavitve"
+
+#: src/ui/pt-window.ui:65
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"Če želite hitro spremeniti svetlost zaslona, prilagoditi glasnost ali "
+"preklopiti nastavitve, kadar koli podrsnite navzdol z vrha naprave."
+
+#: src/ui/pt-window.ui:72
+msgid "Power Menu"
+msgstr "Meni za napajanje"
+
+#: src/ui/pt-window.ui:73
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"Če pritisnete in pridržite gumb za vklop/izklop, se prikaže meni s hitrimi "
+"dejanji za vašo napravo. Ko je nastavljen, bo na voljo tudi dejanje klica v "
+"sili."
+
+#: src/ui/pt-window.ui:80
+msgid "Slide to Unlock"
+msgstr "Oddrsnite za odklep"
+
+#: src/ui/pt-window.ui:81
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Ko je naprava zaklenjena, se s podrsanjem navzgor prikaže tipkovnica, na "
+"kateri lahko napravo odklenete s kodo PIN."
+
+#: src/ui/pt-window.ui:88
+msgid "Closing Applications"
+msgstr "Zapiranje programov"
+
+#: src/ui/pt-window.ui:89
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"V Pregledu si lahko ogledate seznam svojih programov, jih zaprete s povlekom "
+"navzgor ali s pritiskom gumba za zapiranje."
+
+#: src/ui/pt-window.ui:96
+msgid "Launching Applications"
+msgstr "Zagon programov"
+
+#: src/ui/pt-window.ui:97
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Tapnite ikono programa v mreži programov, da ga zaženete, ali pa uporabite "
+"iskalno vrstico, da poiščete program, ki ga iščete."
+
+#: src/ui/pt-window.ui:104
+msgid "See Your Notifications"
+msgstr "Ogled obvestil"
+
+#: src/ui/pt-window.ui:105
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"Kadar koli povlecite navzdol z vrha naprave, da si ogledate obvestila iz "
+"vseh programov!"
+
+#: src/ui/pt-window.ui:112
+msgid "Welcome to your @BRAND@!"
+msgstr "Dobrodošli v svojem @BRAND@!"
+
+#: src/ui/pt-window.ui:113
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr "Če želite izvedeti več o @VENDOR@ ali napravi, si oglejte @URL@."
+
+#: src/ui/pt-window.ui:117
+msgid "Get Started"
+msgstr "Začnite z učenjem"
+
+#: src/ui/pt-window.ui:213
+msgid "_Keyboard Shortcuts"
+msgstr "_Tipkovne bližnjice"
+
+#: src/ui/pt-window.ui:217
+msgid "_About Phosh Tour"
+msgstr "_O programu Vodeni ogled Phosh"
