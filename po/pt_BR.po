@@ -1,0 +1,238 @@
+# Brazilian Portuguese translation for phosh-tour.
+# Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-08 13:56+0000\n"
+"PO-Revision-Date: 2024-11-08 13:51-0300\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 47.0\n"
+
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+msgid "@BRAND@ Tour"
+msgstr "@BRAND@ Tour"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Móvel;Celular;Tour;@BRAND@;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr ""
+"Este aplicativo apresenta seu dispositivo por meio de um pequeno tour "
+"gráfico."
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+msgid "@BRAND@ graphical tour"
+msgstr "Tour gráfico do @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+msgid "The Tour's first page"
+msgstr "A primeira página do Tour"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+msgid "Swipe Toure's swipe gesture page"
+msgstr "Deslize pela a página de gestos de deslizar do Tour"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Gestos de touchpad"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Próxima página"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navegação"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Próxima página"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Página anterior"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Geral"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Mostra os atalhos"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Sai"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- Um tour gráfico apresentando seu dispositivo"
+
+#: src/pt-application.c:102
+msgid "About "
+msgstr "Sobre"
+
+#: src/pt-application.c:103
+msgid "translator-credits"
+msgstr "Rafael Fontenelle <rafaelff@gnome.org>"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Boas vindas"
+
+#: src/ui/pt-window.ui:32
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Conheça as características de seu @BRAND@ e do seu @VENDOR@."
+
+#: src/ui/pt-window.ui:40
+msgid "Really Disconnect"
+msgstr "Realmente se desconecte"
+
+#: src/ui/pt-window.ui:41
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"A qualquer momento você pode desabilitar o Wi-Fi, o Bluetooth e a telefonia "
+"acionando os interruptores de segurança na lateral do seu @BRAND@"
+
+#: src/ui/pt-window.ui:48
+msgid "Going Home"
+msgstr "Indo para o início"
+
+#: src/ui/pt-window.ui:49
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"Deslizar para cima na barra de início na parte inferior da tela levará você "
+"à visão geral, onde você pode ver seus aplicativos em execução."
+
+#: src/ui/pt-window.ui:56
+msgid "Show Keyboard"
+msgstr "Mostrar o teclado"
+
+#: src/ui/pt-window.ui:57
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr ""
+"Pressionamento longo da barra de início revelará o teclado a qualquer "
+"momento."
+
+#: src/ui/pt-window.ui:64
+msgid "Quick Settings"
+msgstr "Configurações rápidas"
+
+#: src/ui/pt-window.ui:65
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"Para alterar rapidamente coisas como brilho da tela, ajustar o volume ou "
+"alternar configurações, deslize de cima para baixo no seu dispositivo a "
+"qualquer momento."
+
+#: src/ui/pt-window.ui:72
+msgid "Power Menu"
+msgstr "Menu de energia"
+
+#: src/ui/pt-window.ui:73
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"Pressionar e segurar o botão de liga/desliga exibirá um menu com ações "
+"rápidas para seu dispositivo. Quando configurado, uma ação de chamada de "
+"emergência também estará disponível."
+
+#: src/ui/pt-window.ui:80
+msgid "Slide to Unlock"
+msgstr "Deslize para desbloquear"
+
+#: src/ui/pt-window.ui:81
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Quando seu dispositivo estiver bloqueado, deslizar para cima exibirá o "
+"teclado onde você pode desbloquear seu dispositivo com seu PIN."
+
+#: src/ui/pt-window.ui:88
+msgid "Closing Applications"
+msgstr "Encerrando os aplicativos"
+
+#: src/ui/pt-window.ui:89
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"Na visão geral, você pode ver uma lista de seus aplicativos e descartá-los "
+"deslizando para cima ou clicando no botão de fechar."
+
+#: src/ui/pt-window.ui:96
+msgid "Launching Applications"
+msgstr "Iniciando os aplicativos"
+
+#: src/ui/pt-window.ui:97
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Toque em um ícone de aplicativo na grade de aplicativos para iniciá-lo ou "
+"use a barra de pesquisa para encontrar o aplicativo que você está procurando."
+
+#: src/ui/pt-window.ui:104
+msgid "See Your Notifications"
+msgstr "Veja suas notificações"
+
+#: src/ui/pt-window.ui:105
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"A qualquer momento, puxe da parte superior do dispositivo para baixo para "
+"ver notificações de todos os seus aplicativos!"
+
+#: src/ui/pt-window.ui:112
+msgid "Welcome to your @BRAND@!"
+msgstr "Seja bem-vindo ao seu @BRAND@!"
+
+#: src/ui/pt-window.ui:113
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr "Para saber mais sobre @VENDOR@ ou seu dispositivo, confira @URL@."
+
+#: src/ui/pt-window.ui:117
+msgid "Get Started"
+msgstr "Começar"
+
+#: src/ui/pt-window.ui:213
+msgid "_Keyboard Shortcuts"
+msgstr "Atalhos de _teclado"
+
+#: src/ui/pt-window.ui:217
+msgid "_About Phosh Tour"
+msgstr "_Sobre o Phosh Tour"
