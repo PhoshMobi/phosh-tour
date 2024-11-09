@@ -1,0 +1,233 @@
+# Hebrew translation for phosh-tour.
+# Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Yaron Shahrabani <sh.yaron@gmail.com>,  2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2024-11-08 22:38+0000\n"
+"PO-Revision-Date: 2024-11-09 20:57+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+msgid "@BRAND@ Tour"
+msgstr "סיור היכרות עם @BRAND@"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "סלולרי;נייד;סיור;טיול;הדרכה;חפיפה;התחלה;חניכה;@BRAND@;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr "היישום הזה מציג בפניך את יכולות המכשיר שלך דרך סיור גרפי קטן."
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+msgid "@BRAND@ graphical tour"
+msgstr "סיור גרפי ברחבי @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+msgid "The Tour's first page"
+msgstr "העמוד הראשון של הסיור"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+msgid "Swipe Toure's swipe gesture page"
+msgstr "אפשר להחליק את עמוד מחוות ההחלקה של תור"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "מחוות משטח מגע"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "העמוד הבא"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "העמוד הקודם"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "ניווט"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "העמוד הבא"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "העמוד הקודם"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "כללי"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "הצגת קיצורי מקלדת"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "יציאה"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- סיור גרפי ברחבי המכשיר שלך"
+
+#: src/pt-application.c:102
+msgid "About "
+msgstr "על אודות "
+
+#: src/pt-application.c:103
+msgid "translator-credits"
+msgstr "ירון שהרבני <sh.yaron@gmail.com>"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "ברוך בואך"
+
+#: src/ui/pt-window.ui:32
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "היכרות עם היכולות של ה־@BRAND@ מבית @VENDOR@."
+
+#: src/ui/pt-window.ui:40
+msgid "Really Disconnect"
+msgstr "באמת להתנתק"
+
+#: src/ui/pt-window.ui:41
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"בכל עת ניתן לכבות את הרשת האלחוטית, הבלוטות׳ והטלפוניה על ידי הפעלת/כיבוי "
+"מתגי ההשבתה שבצד ה־@BRAND@ שלך"
+
+#: src/ui/pt-window.ui:48
+msgid "Going Home"
+msgstr "חזרה הביתה"
+
+#: src/ui/pt-window.ui:49
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"החלקה של סרגל הבית שבתחתית המסך כלפי מעלה יוביל אותך לסקירה בה ניתן לראות את "
+"היישומים הפעילים שלך."
+
+#: src/ui/pt-window.ui:56
+msgid "Show Keyboard"
+msgstr "הצגת מקלדת"
+
+#: src/ui/pt-window.ui:57
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr "לחיצה ארוכה על סרגל הבית תחשוף את המקלדת שלך בכל עת."
+
+#: src/ui/pt-window.ui:64
+msgid "Quick Settings"
+msgstr "הגדרות מהירות"
+
+#: src/ui/pt-window.ui:65
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"כדי לשנות במהירות דברים כמו בהירות מסך, כוונון עוצמת שמע או החלפת מצב "
+"הגדרות, יש להחליק כלפי מטה מהחלק העליון של המכשיר בכל עת."
+
+#: src/ui/pt-window.ui:72
+msgid "Power Menu"
+msgstr "תפריט כיבוי"
+
+#: src/ui/pt-window.ui:73
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"לחיצה והחזקה של כפתור הכיבוי/הדלקה יציג תפריט עם פעולות מהירות למכשיר שלך. "
+"כשמוגדר, תהיה גם אפשרות לשיחת חירום."
+
+#: src/ui/pt-window.ui:80
+msgid "Slide to Unlock"
+msgstr "החלקה לפתיחה"
+
+#: src/ui/pt-window.ui:81
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"כאשר המכשיר שלך נעול, החלקה כלפי מעלה תציג את לוח המספרים שבאמצעותו אפשר "
+"לשחרר את נעילת המכשיר שלך עם קוד אישי (PIN)."
+
+#: src/ui/pt-window.ui:88
+msgid "Closing Applications"
+msgstr "סגירת יישומים"
+
+#: src/ui/pt-window.ui:89
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"במסך הסקירה, אפשר לראות את רשימת היישומים שלך, להעיף אותם בהחלקה כלפי מעלה "
+"או בלחיצה על כפתור הסגירה שלהם."
+
+#: src/ui/pt-window.ui:96
+msgid "Launching Applications"
+msgstr "הפעלת יישומים"
+
+#: src/ui/pt-window.ui:97
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"יש לגעת בסמל יישום ברשת היישומים כדי להפעיל אותו או להשתמש בסרגל החיפוש כדי "
+"לאתר את היישום המבוקש."
+
+#: src/ui/pt-window.ui:104
+msgid "See Your Notifications"
+msgstr "הצגת ההתראות שלך"
+
+#: src/ui/pt-window.ui:105
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"בכל עת ניתן למשוך כלפי מטה מהחלק העליון של המכשיר כדי לצפות בהתראות מכל "
+"היישומים שלך!"
+
+#: src/ui/pt-window.ui:112
+msgid "Welcome to your @BRAND@!"
+msgstr "ברוך בואך ל־@BRAND@ שלך!"
+
+#: src/ui/pt-window.ui:113
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr "למידע נוסף על @VENDOR@ או על המכשיר שלך יש לגשת אל @URL@."
+
+#: src/ui/pt-window.ui:117
+msgid "Get Started"
+msgstr "מאיפה מתחילים"
+
+#: src/ui/pt-window.ui:213
+msgid "_Keyboard Shortcuts"
+msgstr "_קיצורי מקלדת"
+
+#: src/ui/pt-window.ui:217
+msgid "_About Phosh Tour"
+msgstr "על _סיור Phose"
