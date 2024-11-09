@@ -1,0 +1,216 @@
+# Persian translation for phosh-tour.
+# Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Danial Behzadi <dani.behzi@ubuntu.com>,  2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2024-11-09 22:03+0000\n"
+"PO-Revision-Date: 2024-11-10 02:54+0330\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"Language-Team: Persian <fa@li.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+msgid "@BRAND@ Tour"
+msgstr "گشت @BRAND@"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mobile;Tour;@BRAND@;موبایل;همراه;گشت;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr "این کاره با گشت نگاشتاری کوچکی،‌شما را با افزاره‌تان آشنا می‌کند."
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+msgid "@BRAND@ graphical tour"
+msgstr "گشت نگاشتاری @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+msgid "The Tour's first page"
+msgstr "نخستین صفحهٔ گشت"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+msgid "Swipe Toure's swipe gesture page"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "حرکات صفحه‌لمسی"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "صفحهٔ بعدی"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "صفحهٔ پیشین"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "ناوبری"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "صفحهٔ بعدی"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "صفحهٔ پیشین"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "عمومی"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "نمایش میان‌برها"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "خروج"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "گشتی نگاشتاری که افزاره‌تان را معرّفی می‌کند"
+
+#: src/pt-application.c:102
+msgid "About "
+msgstr "دربارهٔ "
+
+#: src/pt-application.c:103
+msgid "translator-credits"
+msgstr "دانیال بهزادی <dani.behzi@ubuntu.com>"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "خوش آمدید"
+
+#: src/ui/pt-window.ui:32
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr ""
+
+#: src/ui/pt-window.ui:40
+msgid "Really Disconnect"
+msgstr ""
+
+#: src/ui/pt-window.ui:41
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+
+#: src/ui/pt-window.ui:48
+msgid "Going Home"
+msgstr "رفتن به خانه"
+
+#: src/ui/pt-window.ui:49
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+
+#: src/ui/pt-window.ui:56
+msgid "Show Keyboard"
+msgstr "نمایش صفحه‌کلید"
+
+#: src/ui/pt-window.ui:57
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr ""
+
+#: src/ui/pt-window.ui:64
+msgid "Quick Settings"
+msgstr "تنظیمات سریع"
+
+#: src/ui/pt-window.ui:65
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+
+#: src/ui/pt-window.ui:72
+msgid "Power Menu"
+msgstr "فهرست نیرو"
+
+#: src/ui/pt-window.ui:73
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+
+#: src/ui/pt-window.ui:80
+msgid "Slide to Unlock"
+msgstr "کشیدن برای قفل‌گشایی"
+
+#: src/ui/pt-window.ui:81
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+
+#: src/ui/pt-window.ui:88
+msgid "Closing Applications"
+msgstr "بستن برنامه‌ها"
+
+#: src/ui/pt-window.ui:89
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+
+#: src/ui/pt-window.ui:96
+msgid "Launching Applications"
+msgstr "اجرای برنامه‌ها"
+
+#: src/ui/pt-window.ui:97
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+
+#: src/ui/pt-window.ui:104
+msgid "See Your Notifications"
+msgstr "دیدن آگاهی‌هایتان"
+
+#: src/ui/pt-window.ui:105
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+
+#: src/ui/pt-window.ui:112
+msgid "Welcome to your @BRAND@!"
+msgstr "به @BRAND@ خوش آمدید!"
+
+#: src/ui/pt-window.ui:113
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr ""
+
+#: src/ui/pt-window.ui:117
+msgid "Get Started"
+msgstr "آغاز کردن"
+
+#: src/ui/pt-window.ui:213
+msgid "_Keyboard Shortcuts"
+msgstr "_میان‌برهای صفحه‌کلید"
+
+#: src/ui/pt-window.ui:217
+msgid "_About Phosh Tour"
+msgstr "_دربارهٔ گشت فوش"
