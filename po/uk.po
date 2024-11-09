@@ -1,0 +1,238 @@
+# Ukrainian translation for phosh-tour.
+# Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>,  2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issue"
+"s\n"
+"POT-Creation-Date: 2024-11-08 22:38+0000\n"
+"PO-Revision-Date: 2024-11-09 15:25+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 23.04.3\n"
+
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+msgid "@BRAND@ Tour"
+msgstr "@BRAND@ Tour"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mobile;Tour;@BRAND@;мобільний;тур;фош;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr ""
+"За допомогою цієї програми ви зможете ознайомитися із вашим пристроєм у"
+" форматі невеличкого графічного огляду."
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+msgid "@BRAND@ graphical tour"
+msgstr "Графічний огляд @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+msgid "The Tour's first page"
+msgstr "Перша сторінка огляду"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+msgid "Swipe Toure's swipe gesture page"
+msgstr "Сторінка жестів огляду торкань"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Жести дотику"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Наступна сторінка"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Попередня сторінка"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Навігація"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Наступна сторінка"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Попередня сторінка"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Загальне"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Показати скорочення"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Вийти"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- Графічний огляд-вступ до вашого пристрою"
+
+#: src/pt-application.c:102
+msgid "About "
+msgstr "Про "
+
+#: src/pt-application.c:103
+msgid "translator-credits"
+msgstr "Юрій Чорноіван <yurchor@ukr.net>, 2024"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Вітаємо"
+
+#: src/ui/pt-window.ui:32
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Ознайомтеся із можливостями вашого @BRAND@ і @VENDOR@."
+
+#: src/ui/pt-window.ui:40
+msgid "Really Disconnect"
+msgstr "Справді від'єднатися"
+
+#: src/ui/pt-window.ui:41
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"Ви будь-коли можете вимкнути Wi-Fi, Bluetooth і зв'язок за допомогою"
+" перемикачів на бічній поверхні вашого @BRAND@"
+
+#: src/ui/pt-window.ui:48
+msgid "Going Home"
+msgstr "Додому"
+
+#: src/ui/pt-window.ui:49
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"Протягування вгору на панелі домівки у нижній частині екрана відкриє"
+" сторінку огляду, на якій буде показано запущені програми."
+
+#: src/ui/pt-window.ui:56
+msgid "Show Keyboard"
+msgstr "Показати клавіатуру"
+
+#: src/ui/pt-window.ui:57
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr "Довге натискання на панелі домівки відкриє панель клавіатури."
+
+#: src/ui/pt-window.ui:64
+msgid "Quick Settings"
+msgstr "Швидке налаштовування"
+
+#: src/ui/pt-window.ui:65
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"Щоб швидко змінити параметри роботи, зокрема яскравість екрана, гучність або"
+" відкрити панель параметрів, протягніть вниз з верхньої частини екрана."
+
+#: src/ui/pt-window.ui:72
+msgid "Power Menu"
+msgstr "Меню живлення"
+
+#: src/ui/pt-window.ui:73
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"Якщо натиснути і утримувати кнопку живлення, буде показано меню із кнопками"
+" дій для вашого пристрою. Якщо налаштовано, можна буде також скористатися"
+" кнопкою термінового виклику."
+
+#: src/ui/pt-window.ui:80
+msgid "Slide to Unlock"
+msgstr "Протягніть для розблокування"
+
+#: src/ui/pt-window.ui:81
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Якщо ваш пристрій заблоковано, перетягування вгору відкриє панель введення,"
+" за допомогою якої ви можете розблокувати пристрій введенням PIN-коду."
+
+#: src/ui/pt-window.ui:88
+msgid "Closing Applications"
+msgstr "Закриття програм"
+
+#: src/ui/pt-window.ui:89
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"На панелі огляду буде показано список ваших програм. Закрити програму можна"
+" перетягуванням вгору або натисканням кнопки закриття."
+
+#: src/ui/pt-window.ui:96
+msgid "Launching Applications"
+msgstr "Запуск програм"
+
+#: src/ui/pt-window.ui:97
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Натисніть кнопку програми у таблиці програм, щоб запустити її, або"
+" скористайтеся панеллю пошуку для пошуку потрібної програми."
+
+#: src/ui/pt-window.ui:104
+msgid "See Your Notifications"
+msgstr "Перегляд сповіщень"
+
+#: src/ui/pt-window.ui:105
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"Ви можете будь-коли потягнути вниз з верхньої частини екрана для перегляду"
+" сповіщень від усіх програм!"
+
+#: src/ui/pt-window.ui:112
+msgid "Welcome to your @BRAND@!"
+msgstr "Вітаємо у вашому @BRAND@!"
+
+#: src/ui/pt-window.ui:113
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr ""
+"Щоб дізнатися більше про @VENDOR@ або ваш пристрій, зверніться до @URL@."
+
+#: src/ui/pt-window.ui:117
+msgid "Get Started"
+msgstr "Початок"
+
+#: src/ui/pt-window.ui:213
+msgid "_Keyboard Shortcuts"
+msgstr "_Клавіатурні скорочення"
+
+#: src/ui/pt-window.ui:217
+msgid "_About Phosh Tour"
+msgstr "_Про «Phosh Tour»"
