@@ -1,0 +1,235 @@
+# Georgian translation for phosh-tour.
+# Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Ekaterine Papava <papava.e@gtu.ge>,  2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2024-11-09 23:24+0000\n"
+"PO-Revision-Date: 2024-11-10 01:30+0100\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <ka@li.org>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+msgid "@BRAND@ Tour"
+msgstr "@BRAND@-ის ტური"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mobile;Tour;@BRAND@;მობლური;ტური;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr "ეს აპი გაგაცნობთ თქვენს მოწყობილობას პატარა გრაფიკული ტურით."
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+msgid "@BRAND@ graphical tour"
+msgstr "@BRAND@-ის გრაფიკული ტური"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+msgid "The Tour's first page"
+msgstr "ტურის პირველი გვერდი"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+msgid "Swipe Toure's swipe gesture page"
+msgstr "გაუსვით თითი Toure-ის ჟესტებს გვერდს"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "სენსორი ეკრანის ჟესტები"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "შემდეგი გვერდი"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "წინა გვერდი"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "ნავიგაცია"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "შემდეგი გვერდი"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "წინა გვერდი"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "ზოგადი"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "მალსახმობების ჩვენება"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "გასვლა"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- გრაფიკული ტური, რომელიც თქვენს მოწყობილობას გაცნობთ"
+
+#: src/pt-application.c:102
+msgid "About "
+msgstr "შესახებ "
+
+#: src/pt-application.c:103
+msgid "translator-credits"
+msgstr "თემური დოღონაძე"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "მოგესალმებით"
+
+#: src/ui/pt-window.ui:32
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "გაიგეთ მეტი თქვენი @BRAND@ და @VENDOR@-ის შესახებ."
+
+#: src/ui/pt-window.ui:40
+msgid "Really Disconnect"
+msgstr "მართლა გათიშვა"
+
+#: src/ui/pt-window.ui:41
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"Wi-Fi-ის, ბლუთუზის და ტელეფონიის გამორთვა ნებისმიერ დროს შეგიძლიათ თქვენი "
+"@BRAND@-ის გვერდზე არსებული გადამრთველით"
+
+#: src/ui/pt-window.ui:48
+msgid "Going Home"
+msgstr "საწყისზე გადასვლა"
+
+#: src/ui/pt-window.ui:49
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"ეკრანის ბოლოში საწყის პანელზე მაღლა ასმა გადაგიყვანთ გადახედვის ეკრანზე, "
+"სადაც თქვენი გაშვებული აპლიკაციების ნახვა შეგიძლიათ."
+
+#: src/ui/pt-window.ui:56
+msgid "Show Keyboard"
+msgstr "კლავიატურის ჩვენება"
+
+#: src/ui/pt-window.ui:57
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr "საწყის ეკრანზე დიდხანს დაწოლა ნებისმიერ დროს კლავიატურას გამოაჩენს."
+
+#: src/ui/pt-window.ui:64
+msgid "Quick Settings"
+msgstr "სწრაფი მორგება"
+
+#: src/ui/pt-window.ui:65
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"იმისათვის, რომ სწრაფად შეცვალოთ ისეთი პარამეტრები, როგორიცაა ეკრანის "
+"სიკაშკაშე, ხმის სიმძლავრე ან გადასართველი პარამეტრები, ჩამოუსვით ზემოდან "
+"ქვემოთ ნებისმიერ დროს."
+
+#: src/ui/pt-window.ui:72
+msgid "Power Menu"
+msgstr "კვების მენიუ"
+
+#: src/ui/pt-window.ui:73
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"ჩართვის ღილაკზე დაჭერა და მისი დაჭერილად შენარჩუნება გაჩვენებთ მენიუს სწრაფი "
+"ქმედებებისთვის. როცა მოირგებთ, სასწრაფო ზარებიც ხელმისაწვდომია."
+
+#: src/ui/pt-window.ui:80
+msgid "Slide to Unlock"
+msgstr "გაუსვით განბლოკვისთვის"
+
+#: src/ui/pt-window.ui:81
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"როცა თქვენი მოწყობილობა დაბლოკილია, ეკრანზე გადასმა გაჩვენებთ კლავიატურას, "
+"საიდანაც მოწყობილობის განბლოკვა თქვენი PIN-კოდით შეგიძლიათ."
+
+#: src/ui/pt-window.ui:88
+msgid "Closing Applications"
+msgstr "აპლიკაციების დახურვა"
+
+#: src/ui/pt-window.ui:89
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"გადახედვის ეკრანზე შეგიძლიათ იხილოთ თქვენი აპლიკაციების სია. მოაცილეთ ისინი "
+"ზემოთ ასმით ან დახურვის ღილაკზე დაჭერით."
+
+#: src/ui/pt-window.ui:96
+msgid "Launching Applications"
+msgstr "აპლიკაციების გაშვება"
+
+#: src/ui/pt-window.ui:97
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"დაატყაპუნეთ აპლიკაციის ხატულაზე აპების ბადეზე, რომ გაუშვათ ის, ან გამოიყენეთ "
+"ძებნის პანელი, რომ იპოვოთ აპლიკაცია, რომელსაც ეძებთ."
+
+#: src/ui/pt-window.ui:104
+msgid "See Your Notifications"
+msgstr "იხილეთ თქვენი შეტყობინებები"
+
+#: src/ui/pt-window.ui:105
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"ნებისმიერ დროს ჩამოუსვით მოწყობილობის ზედა ნაწილი, რომ ნახოთ გაფრთხილებები "
+"ყველა თქვენი აპიდან!"
+
+#: src/ui/pt-window.ui:112
+msgid "Welcome to your @BRAND@!"
+msgstr "მოგესალმებათ თქვენი @BRAND@!"
+
+#: src/ui/pt-window.ui:113
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr ""
+"@VENDOR@-ის ან თქვენი მოწყობილობის შესახებ მეტი ინფორმაციის მისაღებად იხილეთ "
+"@URL@."
+
+#: src/ui/pt-window.ui:117
+msgid "Get Started"
+msgstr "დაწყება"
+
+#: src/ui/pt-window.ui:213
+msgid "_Keyboard Shortcuts"
+msgstr "კლავიატურის მალსახმობები"
+
+#: src/ui/pt-window.ui:217
+msgid "_About Phosh Tour"
+msgstr "Phosh Tour-ის _შესახებ"
