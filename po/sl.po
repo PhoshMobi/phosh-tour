@@ -7,18 +7,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:56+0000\n"
-"PO-Revision-Date: 2024-11-08 15:50+0100\n"
-"Language-Team: Slovenian <Slovenian>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2024-11-08 21:46+0000\n"
+"PO-Revision-Date: 2024-11-10 09:42+0100\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100>=3 && n"
 "%100<=4 ? 2 : 3);\n"
-"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
-"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "X-Generator: Poedit 2.2.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -47,7 +47,6 @@ msgid "The Tour's first page"
 msgstr "Prva stran vodenega ogleda"
 
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
-#, fuzzy
 msgid "Swipe Toure's swipe gesture page"
 msgstr "Stran s potezami podrsanja Swipe Toure"
 
