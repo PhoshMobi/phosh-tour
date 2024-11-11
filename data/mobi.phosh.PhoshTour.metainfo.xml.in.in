@@ -36,54 +36,54 @@
       <image>https://gitlab.gnome.org/World/Phosh/phosh-tour/-/raw/main/screenshots/first-page.png?inline=false</image>
     </screenshot>
     <screenshot type="default">
-      <caption>Swipe Toure's swipe gesture page</caption>
+      <caption>The Tour's swipe gesture page</caption>
       <image>https://gitlab.gnome.org/World/Phosh/phosh-tour/-/raw/main/screenshots/swipe.png?inline=false</image>
     </screenshot>
   </screenshots>
 
   <releases>
     <release version="0.41.0" date="2024-08-15">
-      <description><p>Add RU translation</p></description>
+      <description translate="no"><p>Add RU translation</p></description>
     </release>
 
     <release version="0.39.0" date="2024-05-14">
-      <description><p>Fix broken power menu when font is missing</p></description>
+      <description translate="no"><p>Fix broken power menu when font is missing</p></description>
     </release>
 
     <release version="0.38.0" date="2024-04-05">
-      <description><p>Fix blurry images</p></description>
+      <description translate="no"><p>Fix blurry images</p></description>
     </release>
 
     <release version="0.37.0" date="2024-04-06">
-      <description><p>Allow for hardware specific pages</p></description>
+      <description translate="no"><p>Allow for hardware specific pages</p></description>
     </release>
 
     <release version="0.36.0" date="2024-02-02">
-      <description><p>Improve keyboard navigation</p></description>
+      <description translate="no"><p>Improve keyboard navigation</p></description>
     </release>
 
     <release version="0.35.0" date="2024-01-01">
-      <description><p>Add a new page explaining how to unfold the on screen keyboard</p></description>
+      <description translate="no"><p>Add a new page explaining how to unfold the on screen keyboard</p></description>
     </release>
 
     <release version="0.28.0" date="2023-05-29">
-      <description><p>Add a new page for the power-button menu</p></description>
+      <description translate="no"><p>Add a new page for the power-button menu</p></description>
     </release>
 
     <release version="0.25.0" date="2023-02-28">
-      <description><p>Update quicksettings page to match Phosh's new layout</p></description>
+      <description translate="no"><p>Update quicksettings page to match Phosh's new layout</p></description>
     </release>
 
     <release version="0.24.0" date="2023-01-28">
-      <description><p>Various fixes</p></description>
+      <description translate="no"><p>Various fixes</p></description>
     </release>
 
     <release version="0.23.0" date="2023-01-11">
-      <description><p>Fix metainfo issues</p></description>
+      <description translate="no"><p>Fix metainfo issues</p></description>
     </release>
 
     <release version="0.21.0" date="2022-09-08">
-      <description><p>Initial release</p></description>
+      <description translate="no"><p>Initial release</p></description>
     </release>
   </releases>
 </component>
