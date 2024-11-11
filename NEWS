@@ -1,3 +1,25 @@
+phosh-tour 0.43~rc1
+-------------------
+Released November 2024
+* Some i18n related tweaks to translatable strings
+* Issues fixed:
+    * https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/16
+    * https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/15
+* Contributors:
+    * Guido Günther
+* UI translations:
+    * Anders Jonsson (sv)
+    * Artur S0 (ru)
+    * Danial Behzadi (fa)
+    * Daniel Șerbănescu (ro)
+    * Ekaterine Papava (ka)
+    * Jiri Grönroos (fi)
+    * Martin (sl)
+    * Rafael Fontenelle (pt_BR)
+    * Vincent Chatelain (fr)
+    * Yaron Shahrabani (he)
+    * Yuri Chornoivan (uk)
+
 phosh-tour 0.41.0
 -----------------
 Released: August 2024
