@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
   <id>mobi.phosh.PhoshTour</id>
+  <!-- Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5) -->
   <name>@BRAND@ Tour</name>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
@@ -9,6 +10,7 @@
       This apps introduces you to your device via a small graphical tour.
     </p>
   </description>
+  <!-- Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5) -->
   <summary>@BRAND@ graphical tour</summary>
   <replaces>
       <id>sm.puri.PhoshTour</id>

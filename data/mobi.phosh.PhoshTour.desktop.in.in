@@ -1,4 +1,5 @@
 [Desktop Entry]
+# @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 Name=@BRAND@ Tour
 Exec=phosh-tour
 # Translators: Do NOT translate or transliterate this text (this is an icon file name)
@@ -8,6 +9,7 @@ Type=Application
 Categories=GNOME;GTK;Utility;
 StartupNotify=true
 # Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+# @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 Keywords=Mobile;Tour;@BRAND@;
 OnlyShowIn=Phosh;
 X-Purism-FormFactor=Workstation;Mobile;

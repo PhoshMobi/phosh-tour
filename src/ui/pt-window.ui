@@ -29,6 +29,8 @@
                   <object class="PtPage">
                     <property name="image-uri">resource:///mobi/phosh/PhoshTour/pages/welcome.svg</property>
                     <property name="summary" translatable="yes">Welcome</property>
+                    <!--Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated -->
+                    <!-- @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5) -->
                     <property name="explanation" translatable="yes">Get to know the features of your @BRAND@ and @VENDOR@.</property>
                   </object>
                 </child>
@@ -38,6 +40,8 @@
                     <property name="image-uri">resource:///mobi/phosh/PhoshTour/pages/kill-switches.svg</property>
                     <property name="compatibles">purism,librem5</property>
                     <property name="summary" translatable="yes">Really Disconnect</property>
+                    <!--Translators: @BRAND@ is substitution variable and must not be translated -->
+                    <!-- @BRAND@ is the brand of a device (e.g. Librem 5) -->
                     <property name="explanation" translatable="yes">At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the kill switches on the side of your @BRAND@</property>
                   </object>
                 </child>
@@ -109,7 +113,11 @@
                 <child>
                   <object class="PtPage">
                     <property name="image-uri">resource:///mobi/phosh/PhoshTour/pages/all-set.svg</property>
+                    <!--Translators: @BRAND@ is a substitution variable and must not be translated -->
+                    <!-- @BRAND@ is the brand of a device (e.g. Librem 5) -->
                     <property name="summary" translatable="yes">Welcome to your @BRAND@!</property>
+                    <!-- Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated -->
+                    <!-- @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information -->
                     <property name="explanation" translatable="yes">To find out more about @VENDOR@ or your device, check out @URL@.</property>
                     <property name="widget">
                       <object class="GtkButton">
