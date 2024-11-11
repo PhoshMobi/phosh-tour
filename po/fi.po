@@ -1,0 +1,225 @@
+# Finnish translation for phosh-tour.
+# Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Jiri Grönroos <jiri.gronroos@iki.fi>,  2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2024-11-11 17:50+0000\n"
+"PO-Revision-Date: 2024-11-11 20:29+0200\n"
+"Last-Translator: \n"
+"Language-Team: Finnish <Finnish>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+msgid "@BRAND@ Tour"
+msgstr "@BRAND@-esittely"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mobile;Tour;@BRAND@;esittely;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr "Tämä sovellus esittelee sinut laitteellesi."
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+msgid "@BRAND@ graphical tour"
+msgstr "@BRAND@ - graafinen esittely"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+msgid "The Tour's first page"
+msgstr "Esittelyn ensimmäinen sivu"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+msgid "The Tour's swipe gesture page"
+msgstr ""
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Kosketuslevyn eleet"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Seuraava sivu"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Edellinen sivu"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Liikkuminen"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Seuraava sivu"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Edellinen sivu"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Yleiset"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Näytä pikanäppäimet"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Lopeta"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- Laitteesi graafinen esittely"
+
+#: src/pt-application.c:102
+msgid "About "
+msgstr "Tietoja "
+
+#: src/pt-application.c:103
+msgid "translator-credits"
+msgstr "Jiri Grönroos"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Tervetuloa"
+
+#: src/ui/pt-window.ui:32
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr ""
+
+#: src/ui/pt-window.ui:40
+msgid "Really Disconnect"
+msgstr "Katkaise todella yhteys"
+
+#: src/ui/pt-window.ui:41
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+
+#: src/ui/pt-window.ui:48
+msgid "Going Home"
+msgstr "Kohti kotia"
+
+#: src/ui/pt-window.ui:49
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+
+#: src/ui/pt-window.ui:56
+msgid "Show Keyboard"
+msgstr "Näytä näppäimistö"
+
+#: src/ui/pt-window.ui:57
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr ""
+
+#: src/ui/pt-window.ui:64
+msgid "Quick Settings"
+msgstr "Pika-asetukset"
+
+#: src/ui/pt-window.ui:65
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+
+#: src/ui/pt-window.ui:72
+msgid "Power Menu"
+msgstr "Virranhallintavalikko"
+
+#: src/ui/pt-window.ui:73
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+
+#: src/ui/pt-window.ui:80
+msgid "Slide to Unlock"
+msgstr "Avaa lukitus liu'uttamalla"
+
+#: src/ui/pt-window.ui:81
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Kun laite on lukittu, liu'utus ylöspäin tuo esiin näppäimistön, jonka avulla "
+"voit avata laitteen lukituksen PIN-koodilla."
+
+#: src/ui/pt-window.ui:88
+msgid "Closing Applications"
+msgstr "Sovellusten sulkeminen"
+
+#: src/ui/pt-window.ui:89
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"Näet yleisnäkymässä sovellukset ja voit sulkea ne pyyhkimällä sovelluksen "
+"ikkunan ylöspäin tai napauttamalla sulkemispainiketta."
+
+#: src/ui/pt-window.ui:96
+msgid "Launching Applications"
+msgstr "Sovellusten käynnistäminen"
+
+#: src/ui/pt-window.ui:97
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Käynnistä sovellus napauttamalla sen kuvaketta sovellusruudukossa, tai käytä "
+"hakupalkkia etsiäksesi sovellusta."
+
+#: src/ui/pt-window.ui:104
+msgid "See Your Notifications"
+msgstr "Katso ilmoitukset"
+
+#: src/ui/pt-window.ui:105
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"Vedä milloin tahansa alas näytön yläreunasta nähdäksesi kaikkien sovellusten "
+"ilmoitukset!"
+
+#: src/ui/pt-window.ui:112
+msgid "Welcome to your @BRAND@!"
+msgstr "Tervetuloa, käytössäsi on @BRAND@!"
+
+#: src/ui/pt-window.ui:113
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr "Lisätietoja valmistajasta @VENDOR@ ja laitteestasi sivulla @URL@."
+
+#: src/ui/pt-window.ui:117
+msgid "Get Started"
+msgstr "Aloitetaan"
+
+#: src/ui/pt-window.ui:213
+msgid "_Keyboard Shortcuts"
+msgstr "_Pikanäppäimet"
+
+#: src/ui/pt-window.ui:217
+msgid "_About Phosh Tour"
+msgstr "_Tietoja - Phosh-esittely"
