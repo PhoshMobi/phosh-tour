@@ -1,3 +1,58 @@
+phosh-tour (0.43~rc1) experimental; urgency=medium
+
+  [ Guido Günther ]
+  * packaging: Install NEWS
+  * packaging: Use shared gmobile
+  * packaging: Don't override dh_install.
+    Rather use dh_auto_install as intended and move files as otherwise
+    the .install file is ignored
+    This makes dh_missing work as expected
+  * metainfo: Fix typo.
+    Closes: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/16
+    Thanks to Alexandre Franke
+  * metainfo: Don't translate release changes.
+    Let's safe translator effor for important things.
+  * window: Add translator comments for VENDOR, BRAND and URL.
+    Closes: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/15
+  * data: Add translator comments for BRAND.
+    Closes: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/15
+
+  [ Martin ]
+  * Add Slovenian translation
+  * Update Slovenian translation
+
+  [ Rafael Fontenelle ]
+  * Add Brazilian Portuguese translation
+
+  [ Yuri Chornoivan ]
+  * Add Ukrainian translation
+
+  [ Yaron Shahrabani ]
+  * Add Hebrew translation
+
+  [ Anders Jonsson ]
+  * Add Swedish translation
+
+  [ Danial Behzadi ]
+  * Add Persian translation
+
+  [ Ekaterine Papava ]
+  * Add Georgian translation
+
+  [ Daniel Șerbănescu ]
+  * Add Romanian translation
+
+  [ Artur S0 ]
+  * Update Russian translation
+
+  [ Vincent Chatelain ]
+  * Add French translation
+
+  [ Jiri Grönroos ]
+  * Add Finnish translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 11 Nov 2024 20:39:26 +0100
+
 phosh-tour (0.41.0) experimental; urgency=medium
 
   * No changes to rc1
