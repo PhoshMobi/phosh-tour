@@ -6,9 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-08 13:56+0000\n"
-"PO-Revision-Date: 2024-11-09 23:02+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2024-11-11 17:10+0000\n"
+"PO-Revision-Date: 2024-11-11 18:29+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -42,9 +43,8 @@ msgstr "Grafisk @BRAND@-rundtur"
 msgid "The Tour's first page"
 msgstr "Rundturens första sida"
 
-# TODO: Tour****, Swipe doubled
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
-msgid "Swipe Toure's swipe gesture page"
+msgid "The Tour's swipe gesture page"
 msgstr "Rundturens svepgestsida"
 
 #: src/gtk/help-overlay.ui:12
