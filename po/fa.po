@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2024-11-09 22:03+0000\n"
-"PO-Revision-Date: 2024-11-10 02:54+0330\n"
+"POT-Creation-Date: 2024-11-11 17:10+0000\n"
+"PO-Revision-Date: 2024-11-15 03:05+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
 "Language: fa\n"
@@ -41,8 +41,8 @@ msgid "The Tour's first page"
 msgstr "نخستین صفحهٔ گشت"
 
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
-msgid "Swipe Toure's swipe gesture page"
-msgstr ""
+msgid "The Tour's swipe gesture page"
+msgstr "صفحهٔ حرکت‌های کشیدنی گشت"
 
 #: src/gtk/help-overlay.ui:12
 msgid "Touchpad gestures"
@@ -104,17 +104,19 @@ msgstr "خوش آمدید"
 
 #: src/ui/pt-window.ui:32
 msgid "Get to know the features of your @BRAND@ and @VENDOR@."
-msgstr ""
+msgstr "شناختن ویژگی‌های @BRAND@ و @VENDOR@."
 
 #: src/ui/pt-window.ui:40
 msgid "Really Disconnect"
-msgstr ""
+msgstr "قطع واقعی"
 
 #: src/ui/pt-window.ui:41
 msgid ""
 "At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
 "kill switches on the side of your @BRAND@"
 msgstr ""
+"در هر زمانی می‌تواند وای‌فای، بلوتوث و تلفنتان را با تنظیم دکمه‌های قطع در کنار "
+"@BRAND@ از کار بیندازید"
 
 #: src/ui/pt-window.ui:48
 msgid "Going Home"
@@ -125,6 +127,8 @@ msgid ""
 "Swiping up on the home bar at the bottom of your screen will bring you to "
 "the Overview where you can see your running applications."
 msgstr ""
+"بالا کشیدن روی نوار خانه در پایین صفحه به نمای کلی می‌بردتان که در آن‌جا "
+"می‌توانید برنامه‌های در حال اجرایتان را ببینید."
 
 #: src/ui/pt-window.ui:56
 msgid "Show Keyboard"
@@ -132,7 +136,7 @@ msgstr "نمایش صفحه‌کلید"
 
 #: src/ui/pt-window.ui:57
 msgid "Long pressing on the home bar will reveal the keyboard at any time."
-msgstr ""
+msgstr "نگه داشتن طولانی روی نوار خانه در هر زمانی، صفحه‌کلید را آشکار می‌کند."
 
 #: src/ui/pt-window.ui:64
 msgid "Quick Settings"
@@ -143,6 +147,8 @@ msgid ""
 "To quickly change things like screen brightness, adjust volume, or toggle "
 "settings, swipe down from the top of your device at any time."
 msgstr ""
+"برای تغییر سریع چیزهایی چون روشنایی صفحه، حجم صدا یا تغییر وضعیت تنظیمات، در "
+"هر زمانی از بالای افزاره به پایین بکشید."
 
 #: src/ui/pt-window.ui:72
 msgid "Power Menu"
@@ -154,6 +160,8 @@ msgid ""
 "for your device. When set up, an Emergency calling action will also be "
 "available."
 msgstr ""
+"نگه داشتن دکمهٔ خاموش فهرستی از کنش‌های سریع برای افزاره‌تان را نشان خواهد داد. "
+"در صورت تنظیم شدن، کنش تماس اضطراری نیز موجود خواهد بود."
 
 #: src/ui/pt-window.ui:80
 msgid "Slide to Unlock"
@@ -164,6 +172,8 @@ msgid ""
 "When your device is locked, sliding up will show the keypad where you can "
 "unlock your device with your PIN."
 msgstr ""
+"هنگام قفل بودن افزاره، بالا کشیدن صفحهٔ شماره‌ای را نشان خواهد داد که می‌توانید "
+"با پینتان قفل افزاره را بگشایید."
 
 #: src/ui/pt-window.ui:88
 msgid "Closing Applications"
@@ -174,6 +184,8 @@ msgid ""
 "In the Overview, you can see a list of your applications, dismiss them with "
 "a swipe up or by hitting the close button."
 msgstr ""
+"در نمای کلی می‌توانید سیاهه‌ای از برنامه‌هایتان را دیده و با کشیدنشان به بالا "
+"یا زدن دکمهٔ بستن، ببندیدشان."
 
 #: src/ui/pt-window.ui:96
 msgid "Launching Applications"
@@ -184,6 +196,8 @@ msgid ""
 "Tap an application icon in the App Grid to launch it, or use the Search bar "
 "to find the application you are looking for."
 msgstr ""
+"برای اجرای برنامه‌های داخل سیاههٔ کاره‌ها روی نقشکان زده یا برای یافتن برنامه‌ای "
+"که می‌خواهید از نوار جست‌وجو استفاده کنید."
 
 #: src/ui/pt-window.ui:104
 msgid "See Your Notifications"
@@ -194,6 +208,7 @@ msgid ""
 "At any time pull down from the top of the device to see notifications from "
 "all your apps!"
 msgstr ""
+"در هر زمانی برای دیدن آگاهی‌های همهٔ کاره‌هایتان از بالای افزاره به پایین بکشید!"
 
 #: src/ui/pt-window.ui:112
 msgid "Welcome to your @BRAND@!"
@@ -201,7 +216,7 @@ msgstr "به @BRAND@ خوش آمدید!"
 
 #: src/ui/pt-window.ui:113
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
-msgstr ""
+msgstr "برای دانستن بیش‌تر در بارهٔ @VENDOR@ افزاره‌تان، @URL@ را ببینید."
 
 #: src/ui/pt-window.ui:117
 msgid "Get Started"
