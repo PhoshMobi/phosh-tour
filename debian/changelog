@@ -1,3 +1,26 @@
+phosh-tour (0.43.0) experimental; urgency=medium
+
+  [ Juliano de Souza Camargo ]
+  * Update Brazilian Portuguese translation
+
+  [ Yuri Chornoivan ]
+  * Update Ukrainian translation
+
+  [ Anders Jonsson ]
+  * Update Swedish translation
+
+  [ Danial Behzadi ]
+  * Update Persian translation
+
+  [ Antonio Marin ]
+  * Update Romanian translation
+
+  [ Guido Günther ]
+  * packaging: Update version regex.
+    Allows us to handle release candidates better
+
+ -- Guido Günther <agx@sigxcpu.org>  Fri, 15 Nov 2024 12:01:54 +0100
+
 phosh-tour (0.43~rc1) experimental; urgency=medium
 
   [ Guido Günther ]
