@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2024-11-09 13:26+0000\n"
-"PO-Revision-Date: 2024-11-10 00:13+0100\n"
+"POT-Creation-Date: 2024-11-11 17:10+0000\n"
+"PO-Revision-Date: 2024-11-12 12:49+0100\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -45,8 +45,8 @@ msgid "The Tour's first page"
 msgstr "Prima pagină a turului"
 
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
-msgid "Swipe Toure's swipe gesture page"
-msgstr "Pagina de gesturi a turului"
+msgid "The Tour's swipe gesture page"
+msgstr "Pagina cu gesturi a turului"
 
 #: src/gtk/help-overlay.ui:12
 msgid "Touchpad gestures"
