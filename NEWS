@@ -1,5 +1,5 @@
-phosh-tour 0.43~rc1
--------------------
+phosh-tour 0.43.0
+-----------------
 Released November 2024
 * Some i18n related tweaks to translatable strings
 * Issues fixed:
@@ -9,11 +9,13 @@ Released November 2024
     * Guido Günther
 * UI translations:
     * Anders Jonsson (sv)
+    * Antonio Marin (ro)
     * Artur S0 (ru)
     * Danial Behzadi (fa)
     * Daniel Șerbănescu (ro)
     * Ekaterine Papava (ka)
     * Jiri Grönroos (fi)
+    * Juliano de Souza Camargo (pt_BR)
     * Martin (sl)
     * Rafael Fontenelle (pt_BR)
     * Vincent Chatelain (fr)
