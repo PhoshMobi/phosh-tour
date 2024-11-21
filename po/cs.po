@@ -1,0 +1,250 @@
+# Czech translation for phosh-tour.
+# Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Daniel Rusek <mail@asciiwolf.com>,  2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2024-11-19 04:01+0000\n"
+"PO-Revision-Date: 2024-11-21 01:12+0100\n"
+"Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
+"Language-Team: Czech <Czech>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 3.5\n"
+
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.desktop.in.in:4
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
+msgid "@BRAND@ Tour"
+msgstr "Prohlídka @BRAND@"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.desktop.in.in:14
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mobilní;Prohlídka;@BRAND@;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr ""
+"Tato aplikace vás seznámí s vaším zařízením prostřednictvím malé grafické "
+"prohlídky."
+
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
+msgid "@BRAND@ graphical tour"
+msgstr "Grafická prohlídka @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
+msgid "The Tour's first page"
+msgstr "První stránka Prohlídky"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
+msgid "The Tour's swipe gesture page"
+msgstr "Stránka Prohlídky s gestem přejetí prstem"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Gesta touchpadu"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Další stránka"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Předchozí stránka"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navigace"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Další stránka"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Předchozí stránka"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Obecné"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Zobrazit klávesové zkratky"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Ukončit"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- Grafická prohlídka představující vaše zařízení"
+
+#: src/pt-application.c:102
+msgid "About "
+msgstr "O aplikaci"
+
+#: src/pt-application.c:103
+msgid "translator-credits"
+msgstr "Daniel Rusek <mail@asciiwolf.com>"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Vítejte"
+
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Seznamte se s funkcemi svého @BRAND@ a @VENDOR@."
+
+#: src/ui/pt-window.ui:42
+msgid "Really Disconnect"
+msgstr "Skutečně se odpojte"
+
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"Kdykoli můžete deaktivovat Wi-Fi, Bluetooth a telefonování přepnutím "
+"vypínačů na straně vašeho @BRAND@"
+
+#: src/ui/pt-window.ui:52
+msgid "Going Home"
+msgstr "Jděte domů"
+
+#: src/ui/pt-window.ui:53
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"Přejetím prstem nahoru na domovské liště v dolní části obrazovky se "
+"dostanete do Přehledu, kde můžete vidět spuštěné aplikace."
+
+#: src/ui/pt-window.ui:60
+msgid "Show Keyboard"
+msgstr "Zobrazte klávesnici"
+
+#: src/ui/pt-window.ui:61
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr "Dlouhým stisknutím na domovské liště se klávesnice kdykoliv odkryje."
+
+#: src/ui/pt-window.ui:68
+msgid "Quick Settings"
+msgstr "Rychlá nastavení"
+
+#: src/ui/pt-window.ui:69
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"Chcete-li rychle změnit věci, jako je jas obrazovky, upravit hlasitost nebo "
+"přepnout nastavení, kdykoli přejeďte prstem dolů z horní části zařízení."
+
+#: src/ui/pt-window.ui:76
+msgid "Power Menu"
+msgstr "Nabídka napájení"
+
+#: src/ui/pt-window.ui:77
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"Stisknutím a podržením tlačítka Napájení se zobrazí nabídka s rychlými "
+"akcemi pro vaše zařízení. Po nastavení bude k dispozici také akce nouzového "
+"volání."
+
+#: src/ui/pt-window.ui:84
+msgid "Slide to Unlock"
+msgstr "Odemkněte posunutím"
+
+#: src/ui/pt-window.ui:85
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Když je zařízení uzamčeno, posunutím nahoru se zobrazí klávesnice, pomocí "
+"které můžete zařízení odemknout kódem PIN."
+
+#: src/ui/pt-window.ui:92
+msgid "Closing Applications"
+msgstr "Zavírejte aplikace"
+
+#: src/ui/pt-window.ui:93
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"V Přehledu můžete vidět seznam svých aplikací a zavřít je přejetím nahoru "
+"nebo stisknutím tlačítka Zavřít."
+
+#: src/ui/pt-window.ui:100
+msgid "Launching Applications"
+msgstr "Spouštějte aplikace"
+
+#: src/ui/pt-window.ui:101
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Klepnutím na ikonu aplikace v mřížce aplikací ji spustíte, nebo použijte "
+"panel Hledat pro nalezení aplikace, kterou hledáte."
+
+#: src/ui/pt-window.ui:108
+msgid "See Your Notifications"
+msgstr "Podívejte se na svá upozornění"
+
+#: src/ui/pt-window.ui:109
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"Kdykoli přejeďte prstem dolů z horní části zařízení, abyste viděli oznámení "
+"ze všech svých aplikací!"
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:118
+msgid "Welcome to your @BRAND@!"
+msgstr "Vítejte ve svém @BRAND@!"
+
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:121
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr ""
+"Chcete-li se dozvědět více o @VENDOR@ nebo vašem zařízení, podívejte se na "
+"@URL@."
+
+#: src/ui/pt-window.ui:125
+msgid "Get Started"
+msgstr "Začněte"
+
+#: src/ui/pt-window.ui:221
+msgid "_Keyboard Shortcuts"
+msgstr "_Klávesové zkratky"
+
+#: src/ui/pt-window.ui:225
+msgid "_About Phosh Tour"
+msgstr "O _aplikaci Prohlídka Phosh"
