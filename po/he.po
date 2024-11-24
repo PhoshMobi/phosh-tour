@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2024-11-08 22:38+0000\n"
-"PO-Revision-Date: 2024-11-09 20:57+0200\n"
+"POT-Creation-Date: 2024-11-11 17:10+0000\n"
+"PO-Revision-Date: 2024-11-24 08:27+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "Language: he\n"
@@ -42,8 +42,8 @@ msgid "The Tour's first page"
 msgstr "העמוד הראשון של הסיור"
 
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
-msgid "Swipe Toure's swipe gesture page"
-msgstr "אפשר להחליק את עמוד מחוות ההחלקה של תור"
+msgid "The Tour's swipe gesture page"
+msgstr "עמוד תנועת ההחלקה של הסיור"
 
 #: src/gtk/help-overlay.ui:12
 msgid "Touchpad gestures"
