@@ -1,3 +1,28 @@
+phosh-tour (0.44.0) experimental; urgency=medium
+
+  [ Pierre Michel Augustin ]
+  * Add Haitian Creole translation
+
+  [ Ekaterine Papava ]
+  * Update Georgian translation
+
+  [ Daniel Rusek ]
+  * Add Czech translation
+
+  [ Artur S0 ]
+  * Update Russian translation
+
+  [ Yaron Shahrabani ]
+  * Update Hebrew translation
+
+  [ Emin Tufan Çetin ]
+  * Add Turkish translation
+
+  [ twlvnn kraftwerk ]
+  * Add Bulgarian translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 30 Dec 2024 17:54:55 +0100
+
 phosh-tour (0.43.0) experimental; urgency=medium
 
   [ Juliano de Souza Camargo ]
