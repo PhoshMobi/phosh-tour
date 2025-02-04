@@ -14,6 +14,19 @@ desktop_file = i18n.merge_file(
   install_dir: join_paths(get_option('datadir'), 'applications')
 )
 
+desktop_file = i18n.merge_file(
+  input: configure_file(
+    input: files('mobi.phosh.PhoshTour-first-login.desktop.in.in'),
+    output: 'mobi.phosh.PhoshTour-first-login.desktop.in',
+    configuration: desktop_conf
+  ),
+  output: 'mobi.phosh.PhoshTour-first-login.desktop',
+  type: 'desktop',
+  po_dir: '../po',
+  install: true,
+  install_dir: get_option('sysconfdir') / 'xdg' / 'autostart'
+)
+
 appstream_file = i18n.merge_file(
   input: configure_file(
     input: files('mobi.phosh.PhoshTour.metainfo.xml.in.in'),
@@ -43,5 +56,16 @@ if compile_schemas.found()
     args: ['--strict', '--dry-run', meson.current_source_dir()]
   )
 endif
+
+systemd_unit_conf = configuration_data()
+systemd_unit_conf.set('BRAND', get_option('brand'))
+
+systemd_unit = configure_file(
+  input: 'mobi.phosh.PhoshTour-first-login.service.in',
+  output: 'mobi.phosh.PhoshTour-first-login.service',
+  configuration: systemd_unit_conf,
+  install: true,
+  install_dir: get_option('prefix') / 'lib' / 'systemd' / 'user'
+)
 
 subdir('icons')

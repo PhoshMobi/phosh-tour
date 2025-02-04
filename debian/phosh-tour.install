@@ -1,5 +1,7 @@
 usr/bin/phosh-tour
 usr/share/applications/mobi.phosh.PhoshTour.desktop
+etc/xdg/autostart/mobi.phosh.PhoshTour-first-login.desktop
+usr/lib/systemd/user
 usr/share/glib-2.0/schemas/mobi.phosh.PhoshTour.gschema.xml
 usr/share/icons/hicolor/scalable/apps/mobi.phosh.PhoshTour.svg
 usr/share/icons/hicolor/symbolic/apps/mobi.phosh.PhoshTour-symbolic.svg
