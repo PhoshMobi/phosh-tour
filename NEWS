@@ -1,3 +1,10 @@
+phosh-tour 0.45~rc1
+-------------------
+Released Februar 2025
+* Add run once-mode to show the tour once after initial login
+* Contributors:
+    * sloth
+
 phosh-tour 0.44.0
 -----------------
 Released December 2024
