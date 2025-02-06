@@ -16,6 +16,7 @@ cd phosh-tour
 The [main][] branch has the current development version.
 
 ## Dependencies
+
 On a Debian based system run
 
 ```sh
@@ -43,14 +44,16 @@ You can run form the source tree:
 ```sh
 _build/src/phosh-tour
 ```
+
 The result should look something like this (device name and vendor are customizable):
 
 ![First page](screenshots/first-page.png)
 ![Swipe up](screenshots/swipe.png)
 
-# Getting in Touch
-* Issue tracker: https://gitlab.gnome.org/World/Phosh/phosh-tour/issues
-* Matrix: https://im.puri.sm/#/room/#phosh:talk.puri.sm
+## Getting in Touch
+
+* Issue tracker: <https://gitlab.gnome.org/World/Phosh/phosh-tour/issues>
+* Matrix: <https://matrix.to/#/#phosh:sigxcpu.org>
 
 [main]: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/tree/main
 [.gitlab-ci.yml]: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/blob/main/.gitlab-ci.yml
