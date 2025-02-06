@@ -1,10 +1,9 @@
-project('phosh-tour', 'c',
-          version: '0.45.rc1',
-    meson_version: '>= 0.58.0',
-  default_options: [ 'warning_level=2',
-                     'werror=false',
-                     'c_std=gnu11',
-                   ],
+project(
+  'phosh-tour',
+  'c',
+  version: '0.45.rc1',
+  meson_version: '>= 0.58.0',
+  default_options: ['warning_level=2', 'werror=false', 'c_std=gnu11'],
 )
 
 application_id = 'mobi.phosh.PhoshTour'
@@ -13,29 +12,27 @@ libdir = join_paths(prefix, get_option('libdir'))
 plugins_dir = join_paths(prefix, libdir, 'phosh', 'plugins')
 
 glib_ver = '2.74'
-glib_ver_str = 'GLIB_VERSION_@0@'.format(glib_ver.replace('.','_'))
+glib_ver_str = 'GLIB_VERSION_@0@'.format(glib_ver.replace('.', '_'))
 glib_ver_cmp = '>=@0@'.format(glib_ver)
 
 gtk_ver = '4.12'
-gtk_ver_str = 'GDK_VERSION_@0@'.format(gtk_ver.replace('.','_'))
+gtk_ver_str = 'GDK_VERSION_@0@'.format(gtk_ver.replace('.', '_'))
 gtk_ver_cmp = '>=@0@'.format(gtk_ver)
 
 adw_ver = '1.4'
-adw_ver_str = 'ADW_VERSION_@0@'.format(adw_ver.replace('.','_'))
+adw_ver_str = 'ADW_VERSION_@0@'.format(adw_ver.replace('.', '_'))
 adw_ver_cmp = '>=@0@'.format(adw_ver)
 
 glib_dep = dependency('glib-2.0', version: glib_ver_cmp)
 gio_dep = dependency('gio-2.0', version: glib_ver_cmp)
 gtk_dep = dependency('gtk4', version: gtk_ver_cmp)
 adwaita_dep = dependency('libadwaita-1', version: adw_ver_cmp)
-gmobile_dep = dependency('gmobile',
+gmobile_dep = dependency(
+  'gmobile',
   version: '>= 0.1.0',
   fallback: ['gmobile', 'gmobile_dep'],
-  default_options: [ 'examples=false',
-                     'introspection=false',
-                     'gtk_doc=false',
-                     'tests=false',
-  ])
+  default_options: ['examples=false', 'introspection=false', 'gtk_doc=false', 'tests=false'],
+)
 
 i18n = import('i18n')
 
@@ -84,21 +81,22 @@ if get_option('buildtype') != 'plain'
   test_c_args += '-fstack-protector-strong'
 endif
 
-foreach arg: test_c_args
+foreach arg : test_c_args
   if cc.has_multi_arguments(arg)
     global_c_args += arg
   endif
 endforeach
 add_project_arguments(
-  [global_c_args,
-   '-DGLIB_VERSION_MIN_REQUIRED=@0@'.format(glib_ver_str),
-   '-DGLIB_VERSION_MAX_ALLOWED=@0@'.format(glib_ver_str),
-   '-DGDK_VERSION_MIN_REQUIRED=@0@'.format(gtk_ver_str),
-   '-DGDK_VERSION_MAX_ALLOWED=@0@'.format(gtk_ver_str),
-   '-DADW_VERSION_MIN_REQUIRED=@0@'.format(adw_ver_str),
-   '-DADW_VERSION_MAX_ALLOWED=@0@'.format(adw_ver_str),
+  [
+    global_c_args,
+    '-DGLIB_VERSION_MIN_REQUIRED=@0@'.format(glib_ver_str),
+    '-DGLIB_VERSION_MAX_ALLOWED=@0@'.format(glib_ver_str),
+    '-DGDK_VERSION_MIN_REQUIRED=@0@'.format(gtk_ver_str),
+    '-DGDK_VERSION_MAX_ALLOWED=@0@'.format(gtk_ver_str),
+    '-DADW_VERSION_MIN_REQUIRED=@0@'.format(adw_ver_str),
+    '-DADW_VERSION_MAX_ALLOWED=@0@'.format(adw_ver_str),
   ],
-  language: 'c'
+  language: 'c',
 )
 
 
@@ -112,22 +110,15 @@ config_h.set_quoted('PHOSH_TOUR_VENDOR', get_option('vendor'))
 config_h.set_quoted('PHOSH_TOUR_VERSION', meson.project_version())
 config_h.set_quoted('PHOSH_TOUR_APP_ID', application_id)
 
-configure_file(
-  output: 'phosh-tour-config.h',
-  configuration: config_h,
-)
-add_project_arguments([
-  '-I' + meson.project_build_root(),
-], language: 'c')
+configure_file(output: 'phosh-tour-config.h', configuration: config_h)
+add_project_arguments(['-I' + meson.project_build_root()], language: 'c')
 
 subdir('data')
 subdir('src')
 subdir('po')
 
-summary({
-     'Brand': get_option('brand'),
-     'Vendor': get_option('vendor'),
-  },
+summary(
+  {'Brand': get_option('brand'), 'Vendor': get_option('vendor')},
   bool_yn: true,
   section: 'Config',
 )
