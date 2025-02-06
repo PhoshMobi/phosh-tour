@@ -1,3 +1,11 @@
+phosh-tour (0.45~rc1) experimental; urgency=medium
+
+  [ sloth ]
+  * pt-application: Add run once mode.
+  * data: Add autostart desktop file and systemd service file.
+
+ -- Guido Günther <agx@sigxcpu.org>  Wed, 05 Feb 2025 09:56:53 +0100
+
 phosh-tour (0.44.0) experimental; urgency=medium
 
   [ Pierre Michel Augustin ]
