@@ -1,6 +1,6 @@
 include:
  - project: 'guidog/meta-phosh'
-   ref: 'ea4668f69646566c16baa0efb16d85a5a51a01f0'
+   ref: '3629f479a3b1d37077137f05f988028c6e712378'
    file: '/ci/phosh-common-jobs.yml'
  - remote: 'https://gitlab.freedesktop.org/freedesktop/ci-templates/-/raw/34039cd573a2df832d465bc9e4c5f543571f5241/templates/ci-fairy.yml'
  - remote: 'https://gitlab.gnome.org/GNOME/citemplates/raw/master/flatpak/flatpak_ci_initiative.yml'
