@@ -101,3 +101,15 @@ format-check:
   stage: style-checks
   extends: .phosh-format-check
   allow_failure: true
+
+check-markdown:
+  stage: style-checks
+  variables:
+    PHOSH_MARKDOWN_PATHS: "*.md"
+  extends:
+    - .phosh-check-markdown
+
+check-meson:
+  stage: style-checks
+  extends:
+    - .phosh-check-meson
