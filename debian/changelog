@@ -1,3 +1,14 @@
+phosh-tour (0.45.0) experimental; urgency=medium
+
+  * po: Add correct desktop file. Catched by the updated po check
+  * treewide: Update dotfiles
+  * build: Run meson format
+  * ci: Update shared scripts to 3629f47
+  * ci: Add markdown and meson check
+  * docs: Update links and style
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 15 Feb 2025 10:03:00 +0100
+
 phosh-tour (0.45~rc1) experimental; urgency=medium
 
   [ sloth ]
