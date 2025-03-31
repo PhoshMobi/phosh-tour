@@ -1,0 +1,250 @@
+# Belarusian translation for phosh-tour.
+# Copyright (C) 2025 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Yuras Shumovich <shumovichy@gmail.com>,  2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2025-03-31 07:31+0000\n"
+"PO-Revision-Date: 2025-03-31 22:50+0300\n"
+"Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
+"Language-Team: Belarusian <Belarusian>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.5\n"
+
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.desktop.in.in:4
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
+msgid "@BRAND@ Tour"
+msgstr "Знаёмства з @BRAND@"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:14
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:12
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mobile;Tour;@BRAND@;знаёмства;мабільны;тур;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr "Гэта праграма наглядным чынам азнаёміць вас з прыладай."
+
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
+msgid "@BRAND@ graphical tour"
+msgstr "Наглядны дапаможнік @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
+msgid "The Tour's first page"
+msgstr "Першая старонка знаёмства"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
+msgid "The Tour's swipe gesture page"
+msgstr "Старонка знаёмства з жэстамі"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Жэсты сэнсарнай панэлі"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Да наступнай старонкі"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Да папярэдняй старонкі"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Навігацыя"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Да наступнай старонкі"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Да папярэдняй старонкі"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Агульныя"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Паказаць спалучэнні клавіш"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Выйсці"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- наглядны дапаможнік для азнаямлення з прыладай"
+
+#: src/pt-application.c:162
+msgid "About "
+msgstr "Аб праграме "
+
+#: src/pt-application.c:163
+msgid "translator-credits"
+msgstr "Юрась Шумовіч <shumovichy@gmail.com>"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Вітаем"
+
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Пазнаёмцеся з магчымасцямі @BRAND@ і @VENDOR@."
+
+#: src/ui/pt-window.ui:42
+msgid "Really Disconnect"
+msgstr "Сапраўднае адключэнне"
+
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"Вы заўсёды можаце змяніць становішча пераключальнікаў на баку @BRAND@, каб "
+"апаратна адключыць Wi-Fi, Bluetooth і тэлефанію"
+
+#: src/ui/pt-window.ui:52
+msgid "Going Home"
+msgstr "Актыўная хатняя панэль"
+
+#: src/ui/pt-window.ui:53
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"Калі ад хатняй панэлі ў ніжняй частцы экрана правесці пальцам уверх, вы "
+"трапіце ў рэжым «Агляд», у якім паказваюцца запушчаныя праграмы."
+
+#: src/ui/pt-window.ui:60
+msgid "Show Keyboard"
+msgstr "Паказ клавіятуры"
+
+#: src/ui/pt-window.ui:61
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr "Працяглае націсканне на хатнюю панэль адкрывае клавіятуру."
+
+#: src/ui/pt-window.ui:68
+msgid "Quick Settings"
+msgstr "Хуткія налады"
+
+#: src/ui/pt-window.ui:69
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"Каб хутка змяніць яркасць экрана, гучнасць або пераключыць налады, "
+"правядзіце пальцам уніз ад верхняй часткі прылады."
+
+#: src/ui/pt-window.ui:76
+msgid "Power Menu"
+msgstr "Меню сілкавання"
+
+#: src/ui/pt-window.ui:77
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"Калі націснуць і ўтрымліваць кнопку сілкавання, будзе паказана меню з "
+"хуткімі дзеяннямі для прылады. А калі дадаткова наладзіць, з'явіцца дзеянне "
+"«Экстранны выклік»."
+
+#: src/ui/pt-window.ui:84
+msgid "Slide to Unlock"
+msgstr "Жэст для разблакіравання"
+
+#: src/ui/pt-window.ui:85
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Калі прылада заблакіравана, правядзіце пальцам уверх, каб з'явілася "
+"клавіятура, з дапамогай якой можна ўвесці PIN-код і разблакіраваць прыладу."
+
+#: src/ui/pt-window.ui:92
+msgid "Closing Applications"
+msgstr "Закрыццё праграм"
+
+#: src/ui/pt-window.ui:93
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"У рэжыме «Агляд» паказваецца спіс праграм. Каб закрыць праграму, трэба "
+"змахнуць яе ўверх або націснуць на адпаведную кнопку."
+
+#: src/ui/pt-window.ui:100
+msgid "Launching Applications"
+msgstr "Запуск праграм"
+
+#: src/ui/pt-window.ui:101
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Каб запусціць праграму, проста націсніце на яе значок у сетцы або знайдзіце "
+"патрэбную праграму праз радок пошуку."
+
+#: src/ui/pt-window.ui:108
+msgid "See Your Notifications"
+msgstr "Прагляд апавяшчэнняў"
+
+#: src/ui/pt-window.ui:109
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"У любы час правядзіце пальцам ад верхняй часткі прылады ўніз, каб паглядзець "
+"апавяшчэнні ўсіх праграм!"
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:118
+msgid "Welcome to your @BRAND@!"
+msgstr "Сардэчна запрашаем у @BRAND@!"
+
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:121
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr "Каб даведацца больш пра @VENDOR@ або вашу прыладзе, наведайце @URL@."
+
+#: src/ui/pt-window.ui:125
+msgid "Get Started"
+msgstr "Пачаць"
+
+#: src/ui/pt-window.ui:221
+msgid "_Keyboard Shortcuts"
+msgstr "_Спалучэнні клавіш"
+
+#: src/ui/pt-window.ui:225
+msgid "_About Phosh Tour"
+msgstr "_Аб праграме"
