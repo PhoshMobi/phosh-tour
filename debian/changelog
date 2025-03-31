@@ -1,3 +1,13 @@
+phosh-tour (0.46.0) experimental; urgency=medium
+
+  [ Jordi Mas i Hernandez ]
+  * Add Catalan translation
+
+  [ Andi Chandler ]
+  * Add British English translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Mon, 31 Mar 2025 09:17:06 +0200
+
 phosh-tour (0.45.0) experimental; urgency=medium
 
   * po: Add correct desktop file. Catched by the updated po check
