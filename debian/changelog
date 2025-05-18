@@ -1,3 +1,13 @@
+phosh-tour (0.47.0) experimental; urgency=medium
+
+  [ Vasil Pupkin ]
+  * Add Belarusian translation
+
+  [ Baxrom Raxmatov ]
+  * Add Uzbek (Latin) translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 18 May 2025 09:43:24 +0200
+
 phosh-tour (0.46.0) experimental; urgency=medium
 
   [ Jordi Mas i Hernandez ]

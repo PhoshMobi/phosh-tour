@@ -45,8 +45,12 @@
 
   <releases>
 
+    <release version="0.47.0" date="2025-05-18">
+      <description translate="no"><p>Translation updates</p></description>
+    </release>
+
     <release version="0.46.0" date="2025-03-31">
-      <description translate="no"><p>Translation updated</p></description>
+      <description translate="no"><p>Translation updates</p></description>
     </release>
 
     <release version="0.45.0" date="2025-02-15">
