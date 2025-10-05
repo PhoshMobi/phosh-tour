@@ -1,3 +1,16 @@
+phosh-tour (0.50.0) experimental; urgency=medium
+
+  [ Philipp Kiemle ]
+  * Update German translation
+
+  [ Nathan Follens ]
+  * Add Dutch translation
+
+  [ Kristjan SCHMIDT ]
+  * Add Esperanto translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 05 Oct 2025 11:04:23 +0200
+
 phosh-tour (0.47.0) experimental; urgency=medium
 
   [ Vasil Pupkin ]
