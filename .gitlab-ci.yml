@@ -1,6 +1,6 @@
 include:
  - project: 'guidog/meta-phosh'
-   ref: '5cd8a2143477b1cb3197944773143bf02fae01d6'
+   ref: '992eb10ac05e479d9cff3dc0ee119a029e298e0c'
    file: '/ci/phosh-common-jobs.yml'
  - remote: 'https://gitlab.freedesktop.org/freedesktop/ci-templates/-/raw/34039cd573a2df832d465bc9e4c5f543571f5241/templates/ci-fairy.yml'
  - remote: 'https://gitlab.gnome.org/GNOME/citemplates/raw/master/flatpak/flatpak_ci_initiative.yml'
@@ -109,6 +109,11 @@ check-markdown:
     PHOSH_MARKDOWN_PATHS: "*.md"
   extends:
     - .phosh-check-markdown
+
+check-g-style:
+  stage: style-checks
+  extends:
+    - .phosh-check-g-style
 
 check-meson:
   stage: style-checks
