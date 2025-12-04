@@ -1,0 +1,228 @@
+# Basque translation for phosh-tour.
+# Copyright (C) 2025 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Asier Saratsua Garmendia <asiersarasua@ni.eus>,  2025.
+#
+msgid ""
+msgstr "Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues\n"
+"POT-Creation-Date: 2025-11-04 12:32+0000\n"
+"PO-Revision-Date: 2025-12-04 12:32+0000\n"
+"Last-Translator: Asier Saratsua Garmendia <asiersarasua@ni.eus>\n"
+"Language-Team: Basque <eu@li.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
+msgid "@BRAND@ Tour"
+msgstr "@BRAND@ bisita"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mugikorra;Bisita;@BRAND@;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr "Aplikazio honek zure gailua nola dabilen erakutsiko dizu bisita grafiko baten bidez."
+
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
+msgid "@BRAND@ graphical tour"
+msgstr "@BRAND@ bisita grafikoa"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
+msgid "The Tour's first page"
+msgstr "Bisitaren lehen orria"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
+msgid "The Tour's swipe gesture page"
+msgstr "Bisitako lerratze-keinuaren orria"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Ukipen-paneleko keinuak"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Hurrengo orria"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Aurreko orria"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Nabigazioa"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Hurrengo orria"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Aurreko orria"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Orokorra"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Erakutsi lasterbideak"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Irten"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- Zure gailua erakusten dizun bisita grafikoa"
+
+#: src/pt-application.c:162
+msgid "About "
+msgstr "Honi buruz "
+
+#: src/pt-application.c:163
+msgid "translator-credits"
+msgstr "Asier Sarasua Garmendia <asier.sarasua@gmail.com>"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Ongi etorri"
+
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Ezagutu zure @BRAND@ gailuaren eta @VENDOR@ fabrikatzailearen eginbideak."
+
+#: src/ui/pt-window.ui:42
+msgid "Really Disconnect"
+msgstr "Deskonektatu benetan"
+
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr "Wifia, Bluetootha eta telefonoa edozein momentutan desgaitu daitezke zure @BRAND@ telefonoaren alboko etengailuen bidez"
+
+#: src/ui/pt-window.ui:52
+msgid "Going Home"
+msgstr "Joan orri nagusira"
+
+#: src/ui/pt-window.ui:53
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr "Pantailaren beheko aldean dagoen barra nagusia gorantz lerratuz, exekuzioan dauden aplikazioak erakutsiko dizkizun ikuspegi batera joango zara."
+
+#: src/ui/pt-window.ui:60
+msgid "Show Keyboard"
+msgstr "Erakutsi teklatua"
+
+#: src/ui/pt-window.ui:61
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr "Barra nagusia luze sakatzean teklatua bistaratuko da."
+
+#: src/ui/pt-window.ui:68
+msgid "Quick Settings"
+msgstr "Ezarpen azkarrak"
+
+#: src/ui/pt-window.ui:69
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr "Pantailaren distira aldatzeko, bolumena doitzeko edo beste ezarpen batzuk moldatzeko, lerratu beherantz gailuaren goiko aldea."
+
+#: src/ui/pt-window.ui:76
+msgid "Power Menu"
+msgstr "Energia-menua"
+
+#: src/ui/pt-window.ui:77
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr "Energiaren botoia sakatuta mantenduz, gailuan zenbait ekintza azkar gauzatzeko balio duen menu bat bistaratuko da. Larrialdi-deiak egiteko modua ere izango duzu hor, aukera hori konfiguratuta baduzu."
+
+#: src/ui/pt-window.ui:84
+msgid "Slide to Unlock"
+msgstr "Irristatu desblokeatzeko"
+
+#: src/ui/pt-window.ui:85
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr "Gailua blokeatuta dagoenean, pantaila gorantz lerratzean zenbakizko teklatu bat agertuko da, gailua PINaren bidez desblokeatu ahal izateko."
+
+#: src/ui/pt-window.ui:92
+msgid "Closing Applications"
+msgstr "Aplikazioak ixtea"
+
+#: src/ui/pt-window.ui:93
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr "Ikuspegi orokorrean aplikazioen zerrenda bat erakusten da. Horiek ixteko, lerratu gorantz edo sakatu ixteko botoia."
+
+#: src/ui/pt-window.ui:100
+msgid "Launching Applications"
+msgstr "Aplikazioak abiaraztea"
+
+#: src/ui/pt-window.ui:101
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr "Kolpatu aplikazioen ikonoetan haiek abiarazteko, edo erabili bilaketa-barra erabili nahi duzun aplikazioa aurkitzeko."
+
+#: src/ui/pt-window.ui:108
+msgid "See Your Notifications"
+msgstr "Ikusi jakinarazpenak"
+
+#: src/ui/pt-window.ui:109
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr "Gailuaren goiko aldea beherantz arrastatu dezakezu edozein momentutan zure aplikazioen jakinarazpenak ikusteko."
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:118
+msgid "Welcome to your @BRAND@!"
+msgstr "Ongi etorri @BRAND@ markara!"
+
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:121
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr "Zure gailuaren edo bere @VENDOR@ fabrikatzailearen informazio gehiagorako, begiratu @URL@."
+
+#: src/ui/pt-window.ui:125
+msgid "Get Started"
+msgstr "Hasi"
+
+#: src/ui/pt-window.ui:221
+msgid "_Keyboard Shortcuts"
+msgstr "Laster_bideak"
+
+#: src/ui/pt-window.ui:225
+msgid "_About Phosh Tour"
+msgstr "Phosh bisitari _buruz"
