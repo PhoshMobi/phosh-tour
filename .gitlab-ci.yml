@@ -1,5 +1,5 @@
 include:
- - project: 'guidog/meta-phosh'
+ - project: 'World/Phosh/meta-phosh'
    ref: '992eb10ac05e479d9cff3dc0ee119a029e298e0c'
    file: '/ci/phosh-common-jobs.yml'
  - remote: 'https://gitlab.freedesktop.org/freedesktop/ci-templates/-/raw/34039cd573a2df832d465bc9e4c5f543571f5241/templates/ci-fairy.yml'
