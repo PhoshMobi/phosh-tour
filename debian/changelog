@@ -1,3 +1,20 @@
+phosh-tour (0.52.0) experimental; urgency=medium
+
+  [ Guido Günther ]
+  * ci: Switch to forky
+  * page: Untabify ui file. Makes the file easier to approach
+
+  [ Efstathios Iosifidis ]
+  * Add Greek translation
+
+  [ Gotam Gorabh ]
+  * ci: Use common gchar check
+
+  [ Asier Saratsua Garmendia ]
+  * Add Basque translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 04 Jan 2026 16:38:37 +0100
+
 phosh-tour (0.50.0) experimental; urgency=medium
 
   [ Philipp Kiemle ]
