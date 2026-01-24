@@ -1,0 +1,256 @@
+# Cornish translation for phosh-tour.
+# Copyright (C) 2026 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Flynn Peck <cirilla@tuta.io>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2026-01-04 15:39+0000\n"
+"PO-Revision-Date: 2026-01-24 13:39+0000\n"
+"Last-Translator: Flynn Peck <cirilla@tuta.io>\n"
+"Language-Team: kw\n"
+"Language: kw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-DL-VCS-Web: https://gitlab.gnome.org/World/Phosh/phosh-tour\n"
+"X-DL-Lang: kw\n"
+"X-DL-Module: phosh-tour\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: Translating\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 49.0\n"
+
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
+msgid "@BRAND@ Tour"
+msgstr "Torn @BRAND@"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Kellgowser;Torn;@BRAND;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr ""
+"An app ma komendya ty dhe dha devis ow devnydhya unn torn byghan grafegel."
+
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
+msgid "@BRAND@ graphical tour"
+msgstr "Torn grafegel @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
+msgid "The Tour's first page"
+msgstr "An folen kynsa an Torn"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
+msgid "The Tour's swipe gesture page"
+msgstr "An folen skubya-gwayansow an Torn"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Tochpad-gwayansow"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Folen nessa"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Folen kyns"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navigacyon"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Folen nessa"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Folen Kyns"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Ollgemmyn"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Diskwedhes Kesunyansow Bysowek"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Kwytya"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- Unn torn grafegel ow komendya dha devis"
+
+#: src/pt-application.c:162
+msgid "About "
+msgstr "A-Dro"
+
+#: src/pt-application.c:163
+msgid "translator-credits"
+msgstr "Flynn"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Dynnargh"
+
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Dyski an nasyow dha @BRAND@ hag @VENDOR@."
+
+#: src/ui/pt-window.ui:42
+msgid "Really Disconnect"
+msgstr "Unjuna y'n Gwir"
+
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"War neb tro ty gallos ungallosegi Wi-Fi, Bluetooth ha galowyow gans ow "
+"skwychella an ladha-skwychellow a-denewen dha @BRAND@"
+
+#: src/ui/pt-window.ui:52
+msgid "Going Home"
+msgstr "Mos Tre"
+
+#: src/ui/pt-window.ui:53
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"Ow skubya war-vann war an barr tre a-woles dha skrin a wra dri ty dhe an "
+"Gorwolok, le may ty gallos gweles dha appys owth eksekutya."
+
+#: src/ui/pt-window.ui:60
+msgid "Show Keyboard"
+msgstr "Diskwedhes Bysowek"
+
+#: src/ui/pt-window.ui:61
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr "Ow hir-tava war an barr tre a wra diskudha an bysowek war neb tro."
+
+#: src/ui/pt-window.ui:68
+msgid "Quick Settings"
+msgstr "Settyansow Uskis"
+
+#: src/ui/pt-window.ui:69
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"Rag chanjya uskis taklow kepar ha golewder skrin, desedha ughelder, po dewis "
+"settyansow, skubya war-woles dhyworth an topp dha devis war neb tro."
+
+#: src/ui/pt-window.ui:76
+msgid "Power Menu"
+msgstr "Rol Byw/Marow"
+
+#: src/ui/pt-window.ui:77
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"Ow tava hag ow synsi an boton Byw a wra diskwedges unn rol gans gwriansow "
+"uskis rag dha devis. Pan selys, unn gwrians Galow Goredhom a wra bos kavadow."
+
+#: src/ui/pt-window.ui:84
+msgid "Slide to Unlock"
+msgstr "Skubya rag Dialhwedha"
+
+#: src/ui/pt-window.ui:85
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Pan dha devis yw alhwedhys, ow skudya war-vann a wra diskwedhes an niverpad "
+"pan ty gallos dialhwedha dha devis gans dha PIN."
+
+#: src/ui/pt-window.ui:92
+msgid "Closing Applications"
+msgstr "Ow Kwytya Appys"
+
+#: src/ui/pt-window.ui:93
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"Yn an Gorwolok, ty gallos gweres unn rol dha appys, nagha y's gans ow skubya "
+"war-vann po gans ow tava an boton kwytya."
+
+#: src/ui/pt-window.ui:100
+msgid "Launching Applications"
+msgstr "Ow Lonchya Appys"
+
+#: src/ui/pt-window.ui:101
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Tava unn arwodhik app yn an Rastell Appys rag lonchya y'n, po devnydhya an "
+"barr Hwithrans rag kavos an app ty yw ow hwilas."
+
+#: src/ui/pt-window.ui:108
+msgid "See Your Notifications"
+msgstr "Gweles dha Gwarnyansow"
+
+#: src/ui/pt-window.ui:109
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"War neb tro skubya war-woles dhyworth an topp an devis rag gweles "
+"gwarnyansow oll dha appys!"
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:118
+msgid "Welcome to your @BRAND@!"
+msgstr "Dynnargh dhe dha @BRAND@!"
+
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:121
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr "Rag dyski moy a-dro @VENDOR@ po dha devis, omweles @URL@."
+
+#: src/ui/pt-window.ui:125
+msgid "Get Started"
+msgstr "Dalleth"
+
+#: src/ui/pt-window.ui:221
+msgid "_Keyboard Shortcuts"
+msgstr "_Kesunyansow Bysowek"
+
+#: src/ui/pt-window.ui:225
+msgid "_About Phosh Tour"
+msgstr "_A-Dro Torn Phosh"
