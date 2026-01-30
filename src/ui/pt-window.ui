@@ -111,6 +111,15 @@
                 </child>
 
                 <child>
+                  <object class="PtDistroPage">
+                    <property name="image-uri">resource:///mobi/phosh/PhoshTour/pages/distro/postmarketos/hacking.svg</property>
+                    <property name="distro-ids">postmarketos</property>
+                    <property name="summary" translatable="yes">For Linux Enthusiasts</property>
+                    <property name="explanation" translatable="yes">Eventually postmarketOS will be usable for everyone. Right now we expect our users to have Linux experience and helping out with fixing bugs</property>
+                  </object>
+                </child>
+
+                <child>
                   <object class="PtPage">
                     <property name="image-uri">resource:///mobi/phosh/PhoshTour/pages/all-set.svg</property>
                     <!--Translators: @BRAND@ is a substitution variable and must not be translated -->
