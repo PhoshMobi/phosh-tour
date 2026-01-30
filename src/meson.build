@@ -13,6 +13,8 @@ phosh_tour_sources = [
   'pt-page.c',
   'pt-hw-page.h',
   'pt-hw-page.c',
+  'pt-distro-page.c',
+  'pt-distro-page.h',
 ]
 
 phosh_tour_deps = [gio_dep, glib_dep, gmobile_dep, gtk_dep, adwaita_dep]
