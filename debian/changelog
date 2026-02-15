@@ -1,3 +1,13 @@
+phosh-tour (0.53.0) experimental; urgency=medium
+
+  [ Flynn Peck ]
+  * Add Cornish translation
+
+  [ Davide Ferracin ]
+  * Add Italian translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 15 Feb 2026 09:33:59 +0100
+
 phosh-tour (0.52.0) experimental; urgency=medium
 
   [ Guido Günther ]
