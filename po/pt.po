@@ -1,0 +1,257 @@
+# Portuguese translation for phosh-tour.
+# Copyright (C) 2026 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021-2026.
+# André Moreira <afrmscb@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2026-02-15 08:35+0000\n"
+"PO-Revision-Date: 2026-02-23 23:00+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"Language-Team: Portuguese <pt@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.8\n"
+
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
+msgid "@BRAND@ Tour"
+msgstr "Visita guiada ao @BRAND@"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mobile;Telemóvel;Visita;Tour;@BRAND@;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr ""
+"Esta aplicação apresenta-lhe o seu dispositivo através de uma pequena visita "
+"guiada."
+
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
+msgid "@BRAND@ graphical tour"
+msgstr "Visita guiada ao @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
+msgid "The Tour's first page"
+msgstr "A primeira página da visita guiada"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
+msgid "The Tour's swipe gesture page"
+msgstr "A página de gestos de deslize da visita guiada"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Gestos do painel tátil (touchpad)"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Página seguinte"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navegação"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Página seguinte"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Página anterior"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Geral"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Mostrar atalhos"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Sair"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- Uma visita guiada para apresentar o seu dispositivo"
+
+#: src/pt-application.c:162
+msgid "About "
+msgstr "Sobre "
+
+#: src/pt-application.c:163
+msgid "translator-credits"
+msgstr ""
+"Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"André Moreira <afrmscb@gmail.com>"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Boas-vindas"
+
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Conheça as funcionalidades do seu @BRAND@ e @VENDOR@."
+
+#: src/ui/pt-window.ui:42
+msgid "Really Disconnect"
+msgstr "Desligar totalmente"
+
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"A qualquer momento pode desativar o Wi-Fi, o Bluetooth e as comunicações "
+"móveis através dos interruptores físicos (kill switches) na lateral do seu "
+"@BRAND@"
+
+#: src/ui/pt-window.ui:52
+msgid "Going Home"
+msgstr "Voltar ao Início"
+
+#: src/ui/pt-window.ui:53
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"Deslizar para cima na barra inicial na parte inferior do ecrã levará à Vista "
+"Geral, onde poderá ver as suas aplicações em execução."
+
+#: src/ui/pt-window.ui:60
+msgid "Show Keyboard"
+msgstr "Mostrar teclado"
+
+#: src/ui/pt-window.ui:61
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr ""
+"Pressionar longamente a barra inicial fará aparecer o teclado a qualquer "
+"momento."
+
+#: src/ui/pt-window.ui:68
+msgid "Quick Settings"
+msgstr "Definições rápidas"
+
+#: src/ui/pt-window.ui:69
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"Para alterar rapidamente o brilho do ecrã, ajustar o volume ou alternar "
+"definições, deslize para baixo a partir do topo do dispositivo."
+
+#: src/ui/pt-window.ui:76
+msgid "Power Menu"
+msgstr "Menu de energia"
+
+#: src/ui/pt-window.ui:77
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"Pressionar e manter o botão de energia exibirá um menu com ações rápidas. "
+"Quando configurado, estará também disponível uma ação de chamada de "
+"emergência."
+
+#: src/ui/pt-window.ui:84
+msgid "Slide to Unlock"
+msgstr "Deslizar para desbloquear"
+
+#: src/ui/pt-window.ui:85
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Quando o dispositivo estiver bloqueado, deslizar para cima mostrará o "
+"teclado numérico para que possa desbloqueá-lo com o seu PIN."
+
+#: src/ui/pt-window.ui:92
+msgid "Closing Applications"
+msgstr "Fechar aplicações"
+
+#: src/ui/pt-window.ui:93
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"Na Vista Geral, pode ver a lista de aplicações e fechá-las deslizando para "
+"cima ou tocando no botão de fechar."
+
+#: src/ui/pt-window.ui:100
+msgid "Launching Applications"
+msgstr "Abrir aplicações"
+
+#: src/ui/pt-window.ui:101
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Toque no ícone de uma aplicação na Grelha de Aplicações para a abrir, ou use "
+"a barra de Pesquisa para encontrar o que procura."
+
+#: src/ui/pt-window.ui:108
+msgid "See Your Notifications"
+msgstr "Ver as notificações"
+
+#: src/ui/pt-window.ui:109
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"A qualquer momento, puxe para baixo a partir do topo do dispositivo para ver "
+"as notificações de todas as suas aplicações!"
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:118
+msgid "Welcome to your @BRAND@!"
+msgstr "Bem-vindo(a) ao seu @BRAND@!"
+
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:121
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr "Para saber mais sobre a @VENDOR@ ou o seu dispositivo, visite @URL@."
+
+#: src/ui/pt-window.ui:125
+msgid "Get Started"
+msgstr "Começar"
+
+#: src/ui/pt-window.ui:221
+msgid "_Keyboard Shortcuts"
+msgstr "Atalhos de _teclado"
+
+#: src/ui/pt-window.ui:225
+msgid "_About Phosh Tour"
+msgstr "_Sobre a Visita ao Phosh"
