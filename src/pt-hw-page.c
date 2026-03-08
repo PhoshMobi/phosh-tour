@@ -115,7 +115,7 @@ static GtkBuildableIface *parent_buildable_iface;
 static void
 pt_hw_page_buildable_set_buildable_property (GtkBuildable *buildable,
                                              GtkBuilder   *builder,
-                                             const gchar  *name,
+                                             const char   *name,
                                              const GValue *value)
 {
   PtHwPage *self = PT_HW_PAGE (buildable);
