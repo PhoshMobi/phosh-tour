@@ -116,6 +116,8 @@ check-markdown:
 
 check-g-style:
   stage: style-checks
+  variables:
+    GCHECK_DIRS: src/
   extends:
     - .phosh-check-g-style
 
