@@ -73,6 +73,7 @@ pt_hw_page_set_property (GObject      *object,
 
   switch (property_id) {
   case PROP_COMPATIBLES:
+    g_strfreev (self->compatibles);
     self->compatibles = g_value_dup_boxed (value);
     break;
   default:
