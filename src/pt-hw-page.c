@@ -120,7 +120,7 @@ pt_hw_page_buildable_set_buildable_property (GtkBuildable *buildable,
 {
   PtHwPage *self = PT_HW_PAGE (buildable);
 
-  if (strcmp (name, "compatibles") == 0) {
+  if (g_str_equal (name, "compatibles")) {
     set_compatibles (self, g_value_get_boxed (value));
     return;
   }
