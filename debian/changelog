@@ -1,3 +1,30 @@
+phosh-tour (0.54~rc1) experimental; urgency=medium
+
+  [ Flynn Peck ]
+  * Update Cornish translation
+
+  [ Hugo Carvalho ]
+  * Add Portuguese translation
+
+  [ Balázs Úr ]
+  * Add Hungarian translation
+
+  [ Марко Костић ]
+  * Add Serbian translation
+
+  [ Guido Günther ]
+  * ci: Update shared scripts to fe94386
+  * ci: Limit style check to src
+  * hw-page: Free compatibles.
+    The property is not construct-only so we'd leak otherwise.
+
+  [ Achill Gilgenast ]
+  * distro-page: Add distro-specific page type.
+    Closes: <https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/18>
+  * pt-window: Add a sample postmarketOS distro-page
+
+ -- Guido Günther <agx@sigxcpu.org>  Thu, 26 Mar 2026 19:35:43 +0100
+
 phosh-tour (0.53.0) experimental; urgency=medium
 
   [ Flynn Peck ]

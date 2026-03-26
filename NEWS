@@ -1,3 +1,18 @@
+phosh-tour 0.54~rc1
+-------------------
+Released March 2026
+* Allow for distro specific pages
+* Issues fixed:
+    * https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues/18
+* Contributors:
+    * Achill Gilgenast
+    * Guido Günther
+* UI translations:
+    * Balázs Úr (hu)
+    * Flynn Peck (kw)
+    * Hugo Carvalho (pt)
+    * Марко Костић (sr)
+
 phosh-tour 0.53.0
 -----------------
 Released February 2026
