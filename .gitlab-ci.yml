@@ -1,6 +1,6 @@
 include:
  - project: 'World/Phosh/meta-phosh'
-   ref: '992eb10ac05e479d9cff3dc0ee119a029e298e0c'
+   ref: 'fe94386c4e4f088e96955194cb9d405df0654563'
    file: '/ci/phosh-common-jobs.yml'
  - project: 'Infrastructure/freedesktop-ci-templates'
    ref: '34039cd573a2df832d465bc9e4c5f543571f5241'
@@ -116,6 +116,8 @@ check-markdown:
 
 check-g-style:
   stage: style-checks
+  variables:
+    GCHECK_DIRS: src/
   extends:
     - .phosh-check-g-style
 

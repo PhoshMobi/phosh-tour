@@ -18,4 +18,7 @@
     <file alias="all-set.svg">../data/pages/all-set.svg</file>
     <file alias="show-keyboard.svg">../data/pages/show-keyboard.svg</file>
   </gresource>
+  <gresource prefix="/mobi/phosh/PhoshTour/pages/distro/postmarketos">
+    <file alias="hacking.svg">../data/pages/distro/postmarketos/hacking.svg</file>
+  </gresource>
 </gresources>

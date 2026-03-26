@@ -73,6 +73,7 @@ pt_hw_page_set_property (GObject      *object,
 
   switch (property_id) {
   case PROP_COMPATIBLES:
+    g_strfreev (self->compatibles);
     self->compatibles = g_value_dup_boxed (value);
     break;
   default:
@@ -114,12 +115,12 @@ static GtkBuildableIface *parent_buildable_iface;
 static void
 pt_hw_page_buildable_set_buildable_property (GtkBuildable *buildable,
                                              GtkBuilder   *builder,
-                                             const gchar  *name,
+                                             const char   *name,
                                              const GValue *value)
 {
   PtHwPage *self = PT_HW_PAGE (buildable);
 
-  if (strcmp (name, "compatibles") == 0) {
+  if (g_str_equal (name, "compatibles")) {
     set_compatibles (self, g_value_get_boxed (value));
     return;
   }
