@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2024-11-19 04:01+0000\n"
-"PO-Revision-Date: 2024-11-21 01:12+0100\n"
+"POT-Creation-Date: 2026-03-26 18:34+0000\n"
+"PO-Revision-Date: 2026-03-27 00:46+0100\n"
 "Last-Translator: Daniel Rusek <mail@asciiwolf.com>\n"
 "Language-Team: Czech <Czech>\n"
 "Language: cs\n"
@@ -17,18 +17,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.9\n"
 
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
-#: data/mobi.phosh.PhoshTour.desktop.in.in:4
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
 msgid "@BRAND@ Tour"
 msgstr "Prohlídka @BRAND@"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
-#: data/mobi.phosh.PhoshTour.desktop.in.in:14
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
 msgid "Mobile;Tour;@BRAND@;"
 msgstr "Mobilní;Prohlídka;@BRAND@;"
 
@@ -97,11 +100,11 @@ msgstr "Ukončit"
 msgid "- A graphical tour introducing your device"
 msgstr "- Grafická prohlídka představující vaše zařízení"
 
-#: src/pt-application.c:102
+#: src/pt-application.c:162
 msgid "About "
-msgstr "O aplikaci"
+msgstr "O aplikaci "
 
-#: src/pt-application.c:103
+#: src/pt-application.c:163
 msgid "translator-credits"
 msgstr "Daniel Rusek <mail@asciiwolf.com>"
 
@@ -223,28 +226,41 @@ msgstr ""
 "Kdykoli přejeďte prstem dolů z horní části zařízení, abyste viděli oznámení "
 "ze všech svých aplikací!"
 
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "Pro nadšence do Linuxu"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"postmarketOS bude nakonec použitelný pro každého. V tuto chvíli očekáváme, "
+"že naši uživatelé budou mít zkušenosti s Linuxem a budou moci pomáhat s "
+"opravou chyb"
+
 #. Translators: @BRAND@ is a substitution variable and must not be translated
 #. @BRAND@ is the brand of a device (e.g. Librem 5)
-#: src/ui/pt-window.ui:118
+#: src/ui/pt-window.ui:127
 msgid "Welcome to your @BRAND@!"
 msgstr "Vítejte ve svém @BRAND@!"
 
 #. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
 #. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
-#: src/ui/pt-window.ui:121
+#: src/ui/pt-window.ui:130
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
 msgstr ""
 "Chcete-li se dozvědět více o @VENDOR@ nebo vašem zařízení, podívejte se na "
 "@URL@."
 
-#: src/ui/pt-window.ui:125
+#: src/ui/pt-window.ui:134
 msgid "Get Started"
 msgstr "Začněte"
 
-#: src/ui/pt-window.ui:221
+#: src/ui/pt-window.ui:230
 msgid "_Keyboard Shortcuts"
 msgstr "_Klávesové zkratky"
 
-#: src/ui/pt-window.ui:225
+#: src/ui/pt-window.ui:234
 msgid "_About Phosh Tour"
 msgstr "O _aplikaci Prohlídka Phosh"
