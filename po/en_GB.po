@@ -2,27 +2,28 @@
 # Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
 # This file is distributed under the same license as the phosh-tour package.
 # Andi Chandler <andi@gowling.com>, 2024.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2025-02-06 22:40+0000\n"
-"PO-Revision-Date: 2024-11-17 21:44+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>\n"
-"Language-Team: British English <en_GB@li.org>\n"
+"POT-Creation-Date: 2026-03-26 18:34+0000\n"
+"PO-Revision-Date: 2026-03-28 11:21+0000\n"
+"Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
+"Language-Team: British English <en@li.org>\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);;\n"
-"X-Generator: Poedit 3.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 50.0\n"
 
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
-#: data/mobi.phosh.PhoshTour.desktop.in.in:4
-#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
 msgid "@BRAND@ Tour"
 msgstr "@BRAND@ Tour"
@@ -30,8 +31,8 @@ msgstr "@BRAND@ Tour"
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/mobi.phosh.PhoshTour.desktop.in.in:14
-#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:12
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
 msgid "Mobile;Tour;@BRAND@;"
 msgstr "Mobile;Tour;@BRAND@;"
 
@@ -224,26 +225,38 @@ msgstr ""
 "At any time pull down from the top of the device to see notifications from "
 "all your apps!"
 
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "For Linux Enthusiasts"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+
 #. Translators: @BRAND@ is a substitution variable and must not be translated
 #. @BRAND@ is the brand of a device (e.g. Librem 5)
-#: src/ui/pt-window.ui:118
+#: src/ui/pt-window.ui:127
 msgid "Welcome to your @BRAND@!"
 msgstr "Welcome to your @BRAND@!"
 
 #. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
 #. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
-#: src/ui/pt-window.ui:121
+#: src/ui/pt-window.ui:130
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
 msgstr "To find out more about @VENDOR@ or your device, check out @URL@."
 
-#: src/ui/pt-window.ui:125
+#: src/ui/pt-window.ui:134
 msgid "Get Started"
 msgstr "Get Started"
 
-#: src/ui/pt-window.ui:221
+#: src/ui/pt-window.ui:230
 msgid "_Keyboard Shortcuts"
 msgstr "_Keyboard Shortcuts"
 
-#: src/ui/pt-window.ui:225
+#: src/ui/pt-window.ui:234
 msgid "_About Phosh Tour"
 msgstr "_About Phosh Tour"
