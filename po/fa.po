@@ -1,46 +1,52 @@
 # Persian translation for phosh-tour.
 # Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
 # This file is distributed under the same license as the phosh-tour package.
-# Danial Behzadi <dani.behzi@ubuntu.com>,  2024.
+# Danial Behzadi <dani.behzi@ubuntu.com>,  2024-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
-"issues\n"
-"POT-Creation-Date: 2024-11-11 17:10+0000\n"
-"PO-Revision-Date: 2024-11-15 03:05+0330\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues\n"
+"POT-Creation-Date: 2026-03-26 18:34+0000\n"
+"PO-Revision-Date: 2026-03-29 13:29+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.9\n"
 
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #: data/mobi.phosh.PhoshTour.desktop.in.in:3
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
 msgid "@BRAND@ Tour"
 msgstr "گشت @BRAND@"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
 msgid "Mobile;Tour;@BRAND@;"
 msgstr "Mobile;Tour;@BRAND@;موبایل;همراه;گشت;"
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
 msgid "This apps introduces you to your device via a small graphical tour."
 msgstr "این کاره با گشت نگاشتاری کوچکی،‌شما را با افزاره‌تان آشنا می‌کند."
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
 msgid "@BRAND@ graphical tour"
 msgstr "گشت نگاشتاری @BRAND@"
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
 msgid "The Tour's first page"
 msgstr "نخستین صفحهٔ گشت"
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
 msgid "The Tour's swipe gesture page"
 msgstr "صفحهٔ حرکت‌های کشیدنی گشت"
 
@@ -59,7 +65,7 @@ msgstr "صفحهٔ پیشین"
 #: src/gtk/help-overlay.ui:30
 msgctxt "shortcut window"
 msgid "Navigation"
-msgstr "ناوبری"
+msgstr "پیمایش"
 
 #: src/gtk/help-overlay.ui:33
 msgctxt "shortcut window"
@@ -90,11 +96,11 @@ msgstr "خروج"
 msgid "- A graphical tour introducing your device"
 msgstr "گشتی نگاشتاری که افزاره‌تان را معرّفی می‌کند"
 
-#: src/pt-application.c:102
+#: src/pt-application.c:162
 msgid "About "
 msgstr "دربارهٔ "
 
-#: src/pt-application.c:103
+#: src/pt-application.c:163
 msgid "translator-credits"
 msgstr "دانیال بهزادی <dani.behzi@ubuntu.com>"
 
@@ -102,130 +108,149 @@ msgstr "دانیال بهزادی <dani.behzi@ubuntu.com>"
 msgid "Welcome"
 msgstr "خوش آمدید"
 
-#: src/ui/pt-window.ui:32
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
 msgid "Get to know the features of your @BRAND@ and @VENDOR@."
 msgstr "شناختن ویژگی‌های @BRAND@ و @VENDOR@."
 
-#: src/ui/pt-window.ui:40
+#: src/ui/pt-window.ui:42
 msgid "Really Disconnect"
 msgstr "قطع واقعی"
 
-#: src/ui/pt-window.ui:41
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
 msgid ""
-"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
-"kill switches on the side of your @BRAND@"
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the kill "
+"switches on the side of your @BRAND@"
 msgstr ""
 "در هر زمانی می‌تواند وای‌فای، بلوتوث و تلفنتان را با تنظیم دکمه‌های قطع در کنار "
 "@BRAND@ از کار بیندازید"
 
-#: src/ui/pt-window.ui:48
+#: src/ui/pt-window.ui:52
 msgid "Going Home"
 msgstr "رفتن به خانه"
 
-#: src/ui/pt-window.ui:49
+#: src/ui/pt-window.ui:53
 msgid ""
-"Swiping up on the home bar at the bottom of your screen will bring you to "
-"the Overview where you can see your running applications."
+"Swiping up on the home bar at the bottom of your screen will bring you to the "
+"Overview where you can see your running applications."
 msgstr ""
-"بالا کشیدن روی نوار خانه در پایین صفحه به نمای کلی می‌بردتان که در آن‌جا "
-"می‌توانید برنامه‌های در حال اجرایتان را ببینید."
+"بالا کشیدن روی نوار خانه در پایین صفحه به نمای کلی می‌بردتان که در آن‌جا می‌توانید "
+"برنامه‌های در حال اجرایتان را ببینید."
 
-#: src/ui/pt-window.ui:56
+#: src/ui/pt-window.ui:60
 msgid "Show Keyboard"
 msgstr "نمایش صفحه‌کلید"
 
-#: src/ui/pt-window.ui:57
+#: src/ui/pt-window.ui:61
 msgid "Long pressing on the home bar will reveal the keyboard at any time."
 msgstr "نگه داشتن طولانی روی نوار خانه در هر زمانی، صفحه‌کلید را آشکار می‌کند."
 
-#: src/ui/pt-window.ui:64
+#: src/ui/pt-window.ui:68
 msgid "Quick Settings"
 msgstr "تنظیمات سریع"
 
-#: src/ui/pt-window.ui:65
+#: src/ui/pt-window.ui:69
 msgid ""
 "To quickly change things like screen brightness, adjust volume, or toggle "
 "settings, swipe down from the top of your device at any time."
 msgstr ""
-"برای تغییر سریع چیزهایی چون روشنایی صفحه، حجم صدا یا تغییر وضعیت تنظیمات، در "
-"هر زمانی از بالای افزاره به پایین بکشید."
+"برای تغییر سریع چیزهایی چون روشنایی صفحه، حجم صدا یا تغییر وضعیت تنظیمات، در هر "
+"زمانی از بالای افزاره به پایین بکشید."
 
-#: src/ui/pt-window.ui:72
+#: src/ui/pt-window.ui:76
 msgid "Power Menu"
 msgstr "فهرست نیرو"
 
-#: src/ui/pt-window.ui:73
+#: src/ui/pt-window.ui:77
 msgid ""
-"Pressing and holding the Power button will display a menu with quick actions "
-"for your device. When set up, an Emergency calling action will also be "
-"available."
+"Pressing and holding the Power button will display a menu with quick actions for "
+"your device. When set up, an Emergency calling action will also be available."
 msgstr ""
-"نگه داشتن دکمهٔ خاموش فهرستی از کنش‌های سریع برای افزاره‌تان را نشان خواهد داد. "
-"در صورت تنظیم شدن، کنش تماس اضطراری نیز موجود خواهد بود."
+"نگه داشتن دکمهٔ خاموش فهرستی از کنش‌های سریع برای افزاره‌تان را نشان خواهد داد. در "
+"صورت تنظیم شدن، کنش تماس اضطراری نیز موجود خواهد بود."
 
-#: src/ui/pt-window.ui:80
+#: src/ui/pt-window.ui:84
 msgid "Slide to Unlock"
 msgstr "کشیدن برای قفل‌گشایی"
 
-#: src/ui/pt-window.ui:81
+#: src/ui/pt-window.ui:85
 msgid ""
-"When your device is locked, sliding up will show the keypad where you can "
-"unlock your device with your PIN."
+"When your device is locked, sliding up will show the keypad where you can unlock "
+"your device with your PIN."
 msgstr ""
-"هنگام قفل بودن افزاره، بالا کشیدن صفحهٔ شماره‌ای را نشان خواهد داد که می‌توانید "
-"با پینتان قفل افزاره را بگشایید."
+"هنگام قفل بودن افزاره، بالا کشیدن صفحهٔ شماره‌ای را نشان خواهد داد که می‌توانید با "
+"پینتان قفل افزاره را بگشایید."
 
-#: src/ui/pt-window.ui:88
+#: src/ui/pt-window.ui:92
 msgid "Closing Applications"
 msgstr "بستن برنامه‌ها"
 
-#: src/ui/pt-window.ui:89
+#: src/ui/pt-window.ui:93
 msgid ""
-"In the Overview, you can see a list of your applications, dismiss them with "
-"a swipe up or by hitting the close button."
+"In the Overview, you can see a list of your applications, dismiss them with a "
+"swipe up or by hitting the close button."
 msgstr ""
-"در نمای کلی می‌توانید سیاهه‌ای از برنامه‌هایتان را دیده و با کشیدنشان به بالا "
-"یا زدن دکمهٔ بستن، ببندیدشان."
+"در نمای کلی می‌توانید سیاهه‌ای از برنامه‌هایتان را دیده و با کشیدنشان به بالا یا "
+"زدن دکمهٔ بستن، ببندیدشان."
 
-#: src/ui/pt-window.ui:96
+#: src/ui/pt-window.ui:100
 msgid "Launching Applications"
 msgstr "اجرای برنامه‌ها"
 
-#: src/ui/pt-window.ui:97
+#: src/ui/pt-window.ui:101
 msgid ""
-"Tap an application icon in the App Grid to launch it, or use the Search bar "
-"to find the application you are looking for."
+"Tap an application icon in the App Grid to launch it, or use the Search bar to "
+"find the application you are looking for."
 msgstr ""
-"برای اجرای برنامه‌های داخل سیاههٔ کاره‌ها روی نقشکان زده یا برای یافتن برنامه‌ای "
-"که می‌خواهید از نوار جست‌وجو استفاده کنید."
+"برای اجرای برنامه‌های داخل سیاههٔ کاره‌ها روی نقشکان زده یا برای یافتن برنامه‌ای که "
+"می‌خواهید از نوار جست‌وجو استفاده کنید."
 
-#: src/ui/pt-window.ui:104
+#: src/ui/pt-window.ui:108
 msgid "See Your Notifications"
 msgstr "دیدن آگاهی‌هایتان"
 
-#: src/ui/pt-window.ui:105
+#: src/ui/pt-window.ui:109
 msgid ""
-"At any time pull down from the top of the device to see notifications from "
-"all your apps!"
+"At any time pull down from the top of the device to see notifications from all "
+"your apps!"
 msgstr ""
 "در هر زمانی برای دیدن آگاهی‌های همهٔ کاره‌هایتان از بالای افزاره به پایین بکشید!"
 
-#: src/ui/pt-window.ui:112
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "برای مشتاقان گنو/لینوکس"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"سیستم‌عامل پست‌مارکت در نهایت برای همه قابل استفاده خواهد بود. هم‌اکنون انتظار "
+"داریم کاربرانمان تجربهٔ گنو/لینوکسی داشته و در رفع مشکلات کمک کنند."
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:127
 msgid "Welcome to your @BRAND@!"
 msgstr "به @BRAND@ خوش آمدید!"
 
-#: src/ui/pt-window.ui:113
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:130
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
 msgstr "برای دانستن بیش‌تر در بارهٔ @VENDOR@ افزاره‌تان، @URL@ را ببینید."
 
-#: src/ui/pt-window.ui:117
+#: src/ui/pt-window.ui:134
 msgid "Get Started"
 msgstr "آغاز کردن"
 
-#: src/ui/pt-window.ui:213
+#: src/ui/pt-window.ui:230
 msgid "_Keyboard Shortcuts"
 msgstr "_میان‌برهای صفحه‌کلید"
 
-#: src/ui/pt-window.ui:217
+#: src/ui/pt-window.ui:234
 msgid "_About Phosh Tour"
 msgstr "_دربارهٔ گشت فوش"
