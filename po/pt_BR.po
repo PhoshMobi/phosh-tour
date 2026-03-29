@@ -2,49 +2,56 @@
 # Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
 # This file is distributed under the same license as the phosh-tour package.
 # Rafael Fontenelle <rafaelff@gnome.org>, 2024.
-# Juliano de Souza Camargo <julianosc@pm.me>, 2024.
+# Juliano de Souza Camargo <julianosc@pm.me>, 2024-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2024-11-11 17:10+0000\n"
-"PO-Revision-Date: 2024-11-12 08:16-0300\n"
+"POT-Creation-Date: 2026-03-26 18:34+0000\n"
+"PO-Revision-Date: 2026-03-29 14:56-0300\n"
 "Last-Translator: Juliano de Souza Camargo <julianosc@pm.me>\n"
-"Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao>\n"
+"Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Gtranslator 47.0\n"
+"X-Generator: Gtranslator 50.0\n"
 
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #: data/mobi.phosh.PhoshTour.desktop.in.in:3
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
 msgid "@BRAND@ Tour"
 msgstr "@BRAND@ Tour"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
 msgid "Mobile;Tour;@BRAND@;"
 msgstr "Móvel;Celular;Tour;@BRAND@;"
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
 msgid "This apps introduces you to your device via a small graphical tour."
 msgstr ""
 "Este aplicativo apresenta seu dispositivo por meio de um pequeno tour "
 "gráfico."
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
 msgid "@BRAND@ graphical tour"
 msgstr "Tour gráfico do @BRAND@"
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
 msgid "The Tour's first page"
 msgstr "A primeira página do Tour"
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
 msgid "The Tour's swipe gesture page"
 msgstr "A página de gestos de deslizar do Tour"
 
@@ -94,11 +101,11 @@ msgstr "Sai"
 msgid "- A graphical tour introducing your device"
 msgstr "- Um tour gráfico apresentando seu dispositivo"
 
-#: src/pt-application.c:102
+#: src/pt-application.c:162
 msgid "About "
 msgstr "Sobre"
 
-#: src/pt-application.c:103
+#: src/pt-application.c:163
 msgid "translator-credits"
 msgstr "Rafael Fontenelle <rafaelff@gnome.org>"
 
@@ -106,15 +113,19 @@ msgstr "Rafael Fontenelle <rafaelff@gnome.org>"
 msgid "Welcome"
 msgstr "Boas vindas"
 
-#: src/ui/pt-window.ui:32
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
 msgid "Get to know the features of your @BRAND@ and @VENDOR@."
 msgstr "Conheça as características de seu @BRAND@ e do seu @VENDOR@."
 
-#: src/ui/pt-window.ui:40
+#: src/ui/pt-window.ui:42
 msgid "Really Disconnect"
 msgstr "Realmente se desconecte"
 
-#: src/ui/pt-window.ui:41
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
 msgid ""
 "At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
 "kill switches on the side of your @BRAND@"
@@ -122,11 +133,11 @@ msgstr ""
 "A qualquer momento você pode desabilitar o Wi-Fi, o Bluetooth e a telefonia "
 "acionando os interruptores de segurança na lateral do seu @BRAND@"
 
-#: src/ui/pt-window.ui:48
+#: src/ui/pt-window.ui:52
 msgid "Going Home"
 msgstr "Indo para o início"
 
-#: src/ui/pt-window.ui:49
+#: src/ui/pt-window.ui:53
 msgid ""
 "Swiping up on the home bar at the bottom of your screen will bring you to "
 "the Overview where you can see your running applications."
@@ -134,21 +145,21 @@ msgstr ""
 "Deslizar para cima na barra de início na parte inferior da tela levará você "
 "à visão geral, onde você pode ver seus aplicativos em execução."
 
-#: src/ui/pt-window.ui:56
+#: src/ui/pt-window.ui:60
 msgid "Show Keyboard"
 msgstr "Mostrar o teclado"
 
-#: src/ui/pt-window.ui:57
+#: src/ui/pt-window.ui:61
 msgid "Long pressing on the home bar will reveal the keyboard at any time."
 msgstr ""
 "Pressionamento longo da barra de início revelará o teclado a qualquer "
 "momento."
 
-#: src/ui/pt-window.ui:64
+#: src/ui/pt-window.ui:68
 msgid "Quick Settings"
 msgstr "Configurações rápidas"
 
-#: src/ui/pt-window.ui:65
+#: src/ui/pt-window.ui:69
 msgid ""
 "To quickly change things like screen brightness, adjust volume, or toggle "
 "settings, swipe down from the top of your device at any time."
@@ -157,11 +168,11 @@ msgstr ""
 "alternar configurações, deslize de cima para baixo no seu dispositivo a "
 "qualquer momento."
 
-#: src/ui/pt-window.ui:72
+#: src/ui/pt-window.ui:76
 msgid "Power Menu"
 msgstr "Menu de energia"
 
-#: src/ui/pt-window.ui:73
+#: src/ui/pt-window.ui:77
 msgid ""
 "Pressing and holding the Power button will display a menu with quick actions "
 "for your device. When set up, an Emergency calling action will also be "
@@ -171,11 +182,11 @@ msgstr ""
 "rápidas para seu dispositivo. Quando configurado, uma ação de chamada de "
 "emergência também estará disponível."
 
-#: src/ui/pt-window.ui:80
+#: src/ui/pt-window.ui:84
 msgid "Slide to Unlock"
 msgstr "Deslize para desbloquear"
 
-#: src/ui/pt-window.ui:81
+#: src/ui/pt-window.ui:85
 msgid ""
 "When your device is locked, sliding up will show the keypad where you can "
 "unlock your device with your PIN."
@@ -183,11 +194,11 @@ msgstr ""
 "Quando seu dispositivo estiver bloqueado, deslizar para cima exibirá o "
 "teclado onde você pode desbloquear seu dispositivo com seu PIN."
 
-#: src/ui/pt-window.ui:88
+#: src/ui/pt-window.ui:92
 msgid "Closing Applications"
 msgstr "Encerrando os aplicativos"
 
-#: src/ui/pt-window.ui:89
+#: src/ui/pt-window.ui:93
 msgid ""
 "In the Overview, you can see a list of your applications, dismiss them with "
 "a swipe up or by hitting the close button."
@@ -195,11 +206,11 @@ msgstr ""
 "Na visão geral, você pode ver uma lista de seus aplicativos e descartá-los "
 "deslizando para cima ou clicando no botão de fechar."
 
-#: src/ui/pt-window.ui:96
+#: src/ui/pt-window.ui:100
 msgid "Launching Applications"
 msgstr "Iniciando os aplicativos"
 
-#: src/ui/pt-window.ui:97
+#: src/ui/pt-window.ui:101
 msgid ""
 "Tap an application icon in the App Grid to launch it, or use the Search bar "
 "to find the application you are looking for."
@@ -207,11 +218,11 @@ msgstr ""
 "Toque em um ícone de aplicativo na grade de aplicativos para iniciá-lo ou "
 "use a barra de pesquisa para encontrar o aplicativo que você está procurando."
 
-#: src/ui/pt-window.ui:104
+#: src/ui/pt-window.ui:108
 msgid "See Your Notifications"
 msgstr "Veja suas notificações"
 
-#: src/ui/pt-window.ui:105
+#: src/ui/pt-window.ui:109
 msgid ""
 "At any time pull down from the top of the device to see notifications from "
 "all your apps!"
@@ -219,22 +230,39 @@ msgstr ""
 "A qualquer momento, puxe da parte superior do dispositivo para baixo para "
 "ver notificações de todos os seus aplicativos!"
 
-#: src/ui/pt-window.ui:112
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "Para entusiastas de Linux"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"Eventualmente, postmarketOS será utilizável por todos. Por ora, esperamos "
+"que nossos usuários tenham experiência em linux e ajudem-nos a consertar "
+"erros."
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:127
 msgid "Welcome to your @BRAND@!"
 msgstr "Seja bem-vindo ao seu @BRAND@!"
 
-#: src/ui/pt-window.ui:113
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:130
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
 msgstr "Para saber mais sobre @VENDOR@ ou seu dispositivo, confira @URL@."
 
-#: src/ui/pt-window.ui:117
+#: src/ui/pt-window.ui:134
 msgid "Get Started"
 msgstr "Começar"
 
-#: src/ui/pt-window.ui:213
+#: src/ui/pt-window.ui:230
 msgid "_Keyboard Shortcuts"
 msgstr "Atalhos de _teclado"
 
-#: src/ui/pt-window.ui:217
+#: src/ui/pt-window.ui:234
 msgid "_About Phosh Tour"
 msgstr "_Sobre o Phosh Tour"
