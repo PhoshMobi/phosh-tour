@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the phosh-tour package.
 #
 # Sabri Ünal <yakushabb@gmail.com>,  2024.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2024.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2024, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2024-11-11 19:03+0000\n"
-"PO-Revision-Date: 2024-12-03 08:00+0300\n"
+"POT-Creation-Date: 2026-03-26 18:34+0000\n"
+"PO-Revision-Date: 2026-04-02 08:00+0300\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -23,16 +23,19 @@ msgstr ""
 
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
-#: data/mobi.phosh.PhoshTour.desktop.in.in:4
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
 msgid "@BRAND@ Tour"
 msgstr "@BRAND@ Gezintisi"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
-#: data/mobi.phosh.PhoshTour.desktop.in.in:14
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
 msgid "Mobile;Tour;@BRAND@;"
-msgstr "Mobile;Tour;@BRAND@;Mobil;Gezinti;"
+msgstr "Mobile;Tour;@BRAND@;Mobil;Taşınır;Cep;Gezici;Seyyar;Hareketli;Gezinti;Tur;"
 
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
 msgid "This apps introduces you to your device via a small graphical tour."
@@ -97,11 +100,11 @@ msgstr "Çık"
 msgid "- A graphical tour introducing your device"
 msgstr "- Aygıtınızı tanıtan görsel gezinti"
 
-#: src/pt-application.c:102
+#: src/pt-application.c:162
 msgid "About "
 msgstr "Hakkında"
 
-#: src/pt-application.c:103
+#: src/pt-application.c:163
 msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
@@ -128,8 +131,8 @@ msgid ""
 "At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
 "kill switches on the side of your @BRAND@"
 msgstr ""
-"Dilediğinizde @BRAND@ aygıtınızın yanındaki düğmeleri oynatarak Wi-Fi, Bluetooth "
-"ve telefon özelliğini devre dışı bırakabilirsiniz."
+"Dilediğinizde @BRAND@ aygıtınızın yanındaki düğmeleri oynatarak Wi-Fi, "
+"Bluetooth ve telefon özelliğini devre dışı bırakabilirsiniz."
 
 #: src/ui/pt-window.ui:52
 msgid "Going Home"
@@ -140,8 +143,8 @@ msgid ""
 "Swiping up on the home bar at the bottom of your screen will bring you to "
 "the Overview where you can see your running applications."
 msgstr ""
-"Ekranınızın altındaki ev çubuğundan yukarı kaydırarak çalıştırdığınız uygulamalara "
-"göz atabileceğiniz Genel Görünüme gidebilirsiniz."
+"Ekranınızın altındaki ev çubuğundan yukarı kaydırarak çalıştırdığınız "
+"uygulamalara göz atabileceğiniz Genel Görünüme gidebilirsiniz."
 
 #: src/ui/pt-window.ui:60
 msgid "Show Keyboard"
@@ -173,8 +176,9 @@ msgid ""
 "for your device. When set up, an Emergency calling action will also be "
 "available."
 msgstr ""
-"Güç düğmesine basılı tutmak aygıtınız için hızlı eylem menüsünü gösterecektir. "
-"Ayarlandığında burada bir Acil arama eylemi de gösterilecektir."
+"Güç düğmesine basılı tutmak aygıtınız için hızlı eylem menüsünü "
+"gösterecektir. Ayarlandığında burada bir Acil arama eylemi de "
+"gösterilecektir."
 
 #: src/ui/pt-window.ui:84
 msgid "Slide to Unlock"
@@ -185,8 +189,8 @@ msgid ""
 "When your device is locked, sliding up will show the keypad where you can "
 "unlock your device with your PIN."
 msgstr ""
-"Aygıtınız kilitliyken yukarı kaydırmak, aygıtınızı PIN’inizle açabilmeniz için "
-"bir klavye gösterecektir."
+"Aygıtınız kilitliyken yukarı kaydırmak, aygıtınızı PIN’inizle açabilmeniz "
+"için bir klavye gösterecektir."
 
 #: src/ui/pt-window.ui:92
 msgid "Closing Applications"
@@ -209,8 +213,8 @@ msgid ""
 "Tap an application icon in the App Grid to launch it, or use the Search bar "
 "to find the application you are looking for."
 msgstr ""
-"Uygulama Izgarası’ndaki uygulama simgesine basarak başlatın ya da aradığınızı "
-"bulmak için Arama çubuğunu kullanın."
+"Uygulama Izgarası’ndaki uygulama simgesine basarak başlatın ya da "
+"aradığınızı bulmak için Arama çubuğunu kullanın."
 
 #: src/ui/pt-window.ui:108
 msgid "See Your Notifications"
@@ -221,29 +225,43 @@ msgid ""
 "At any time pull down from the top of the device to see notifications from "
 "all your apps!"
 msgstr ""
-"Dilediğinizde tüm uygulamaların bildirimlerini görmek için aygıtınızın üstünden "
-"aşağı kaydırın!"
+"Dilediğinizde tüm uygulamaların bildirimlerini görmek için aygıtınızın "
+"üstünden aşağı kaydırın!"
+
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "Linux Tutkunları İçin"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"Er geç postmarketOS herkesçe kullanılabilecektir. Şimdilik kullanıcılarımızın "
+"Linux’u deneyimlemesini ve hataları gidermemize yardımcı olmalarını bekliyoruz"
 
 #. Translators: @BRAND@ is a substitution variable and must not be translated
 #. @BRAND@ is the brand of a device (e.g. Librem 5)
-#: src/ui/pt-window.ui:118
+#: src/ui/pt-window.ui:127
 msgid "Welcome to your @BRAND@!"
 msgstr "@BRAND@ aygıtınıza hoş geldiniz!"
 
 #. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
 #. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
-#: src/ui/pt-window.ui:121
+#: src/ui/pt-window.ui:130
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
-msgstr "@VENDOR@ ya da aygıtınızla ilgili daha çoğunu @URL@ adresinden öğrenebilirsiniz."
+msgstr ""
+"@VENDOR@ ya da aygıtınızla ilgili daha çoğunu @URL@ adresinden "
+"öğrenebilirsiniz."
 
-#: src/ui/pt-window.ui:125
+#: src/ui/pt-window.ui:134
 msgid "Get Started"
 msgstr "Şimdi Başla"
 
-#: src/ui/pt-window.ui:221
+#: src/ui/pt-window.ui:230
 msgid "_Keyboard Shortcuts"
 msgstr "_Klavye Kısayolları"
 
-#: src/ui/pt-window.ui:225
+#: src/ui/pt-window.ui:234
 msgid "_About Phosh Tour"
 msgstr "Phosh Gezinti _Hakkında"
