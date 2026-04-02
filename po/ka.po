@@ -1,46 +1,53 @@
 # Georgian translation for phosh-tour.
-# Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
+# Copyright (C) 2024 phosh-tour's authors
 # This file is distributed under the same license as the phosh-tour package.
-# Ekaterine Papava <papava.e@gtu.ge>,  2024.
+# Ekaterine Papava <papava.e@gtu.ge>, 2024 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2024-11-11 17:10+0000\n"
-"PO-Revision-Date: 2024-11-19 05:00+0100\n"
+"POT-Creation-Date: 2026-03-26 18:34+0000\n"
+"PO-Revision-Date: 2026-04-02 05:49+0200\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <ka@li.org>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.9\n"
 
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #: data/mobi.phosh.PhoshTour.desktop.in.in:3
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:4
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
 msgid "@BRAND@ Tour"
 msgstr "@BRAND@-ის ტური"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/mobi.phosh.PhoshTour.desktop.in.in:12
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
 msgid "Mobile;Tour;@BRAND@;"
 msgstr "Mobile;Tour;@BRAND@;მობლური;ტური;"
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:8
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
 msgid "This apps introduces you to your device via a small graphical tour."
 msgstr "ეს აპი გაგაცნობთ თქვენს მოწყობილობას პატარა გრაფიკული ტურით."
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:12
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
 msgid "@BRAND@ graphical tour"
 msgstr "@BRAND@-ის გრაფიკული ტური"
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:35
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
 msgid "The Tour's first page"
 msgstr "ტურის პირველი გვერდი"
 
-#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:39
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
 msgid "The Tour's swipe gesture page"
 msgstr "ტურის გადაფურცვლის ჟესტის გვერდი"
 
@@ -90,11 +97,11 @@ msgstr "გასვლა"
 msgid "- A graphical tour introducing your device"
 msgstr "- გრაფიკული ტური, რომელიც თქვენს მოწყობილობას გაცნობთ"
 
-#: src/pt-application.c:102
+#: src/pt-application.c:162
 msgid "About "
 msgstr "შესახებ "
 
-#: src/pt-application.c:103
+#: src/pt-application.c:163
 msgid "translator-credits"
 msgstr "თემური დოღონაძე"
 
@@ -102,15 +109,19 @@ msgstr "თემური დოღონაძე"
 msgid "Welcome"
 msgstr "მოგესალმებით"
 
-#: src/ui/pt-window.ui:32
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
 msgid "Get to know the features of your @BRAND@ and @VENDOR@."
 msgstr "გაიგეთ მეტი თქვენი @BRAND@ და @VENDOR@-ის შესახებ."
 
-#: src/ui/pt-window.ui:40
+#: src/ui/pt-window.ui:42
 msgid "Really Disconnect"
 msgstr "მართლა გათიშვა"
 
-#: src/ui/pt-window.ui:41
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
 msgid ""
 "At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
 "kill switches on the side of your @BRAND@"
@@ -118,11 +129,11 @@ msgstr ""
 "Wi-Fi-ის, ბლუთუზის და ტელეფონიის გამორთვა ნებისმიერ დროს შეგიძლიათ თქვენი "
 "@BRAND@-ის გვერდზე არსებული გადამრთველით"
 
-#: src/ui/pt-window.ui:48
+#: src/ui/pt-window.ui:52
 msgid "Going Home"
 msgstr "საწყისზე გადასვლა"
 
-#: src/ui/pt-window.ui:49
+#: src/ui/pt-window.ui:53
 msgid ""
 "Swiping up on the home bar at the bottom of your screen will bring you to "
 "the Overview where you can see your running applications."
@@ -130,19 +141,19 @@ msgstr ""
 "ეკრანის ბოლოში საწყის პანელზე მაღლა ასმა გადაგიყვანთ გადახედვის ეკრანზე, "
 "სადაც თქვენი გაშვებული აპლიკაციების ნახვა შეგიძლიათ."
 
-#: src/ui/pt-window.ui:56
+#: src/ui/pt-window.ui:60
 msgid "Show Keyboard"
 msgstr "კლავიატურის ჩვენება"
 
-#: src/ui/pt-window.ui:57
+#: src/ui/pt-window.ui:61
 msgid "Long pressing on the home bar will reveal the keyboard at any time."
 msgstr "საწყის ეკრანზე დიდხანს დაწოლა ნებისმიერ დროს კლავიატურას გამოაჩენს."
 
-#: src/ui/pt-window.ui:64
+#: src/ui/pt-window.ui:68
 msgid "Quick Settings"
 msgstr "სწრაფი მორგება"
 
-#: src/ui/pt-window.ui:65
+#: src/ui/pt-window.ui:69
 msgid ""
 "To quickly change things like screen brightness, adjust volume, or toggle "
 "settings, swipe down from the top of your device at any time."
@@ -151,11 +162,11 @@ msgstr ""
 "სიკაშკაშე, ხმის სიმძლავრე ან გადასართველი პარამეტრები, ჩამოუსვით ზემოდან "
 "ქვემოთ ნებისმიერ დროს."
 
-#: src/ui/pt-window.ui:72
+#: src/ui/pt-window.ui:76
 msgid "Power Menu"
 msgstr "კვების მენიუ"
 
-#: src/ui/pt-window.ui:73
+#: src/ui/pt-window.ui:77
 msgid ""
 "Pressing and holding the Power button will display a menu with quick actions "
 "for your device. When set up, an Emergency calling action will also be "
@@ -164,11 +175,11 @@ msgstr ""
 "ჩართვის ღილაკზე დაჭერა და მისი დაჭერილად შენარჩუნება გაჩვენებთ მენიუს სწრაფი "
 "ქმედებებისთვის. როცა მოირგებთ, სასწრაფო ზარებიც ხელმისაწვდომია."
 
-#: src/ui/pt-window.ui:80
+#: src/ui/pt-window.ui:84
 msgid "Slide to Unlock"
 msgstr "გაუსვით განბლოკვისთვის"
 
-#: src/ui/pt-window.ui:81
+#: src/ui/pt-window.ui:85
 msgid ""
 "When your device is locked, sliding up will show the keypad where you can "
 "unlock your device with your PIN."
@@ -176,11 +187,11 @@ msgstr ""
 "როცა თქვენი მოწყობილობა დაბლოკილია, ეკრანზე გადასმა გაჩვენებთ კლავიატურას, "
 "საიდანაც მოწყობილობის განბლოკვა თქვენი PIN-კოდით შეგიძლიათ."
 
-#: src/ui/pt-window.ui:88
+#: src/ui/pt-window.ui:92
 msgid "Closing Applications"
 msgstr "აპლიკაციების დახურვა"
 
-#: src/ui/pt-window.ui:89
+#: src/ui/pt-window.ui:93
 msgid ""
 "In the Overview, you can see a list of your applications, dismiss them with "
 "a swipe up or by hitting the close button."
@@ -188,11 +199,11 @@ msgstr ""
 "გადახედვის ეკრანზე შეგიძლიათ იხილოთ თქვენი აპლიკაციების სია. მოაცილეთ ისინი "
 "ზემოთ ასმით ან დახურვის ღილაკზე დაჭერით."
 
-#: src/ui/pt-window.ui:96
+#: src/ui/pt-window.ui:100
 msgid "Launching Applications"
 msgstr "აპლიკაციების გაშვება"
 
-#: src/ui/pt-window.ui:97
+#: src/ui/pt-window.ui:101
 msgid ""
 "Tap an application icon in the App Grid to launch it, or use the Search bar "
 "to find the application you are looking for."
@@ -200,11 +211,11 @@ msgstr ""
 "დაატყაპუნეთ აპლიკაციის ხატულაზე აპების ბადეზე, რომ გაუშვათ ის, ან გამოიყენეთ "
 "ძებნის პანელი, რომ იპოვოთ აპლიკაცია, რომელსაც ეძებთ."
 
-#: src/ui/pt-window.ui:104
+#: src/ui/pt-window.ui:108
 msgid "See Your Notifications"
 msgstr "იხილეთ თქვენი შეტყობინებები"
 
-#: src/ui/pt-window.ui:105
+#: src/ui/pt-window.ui:109
 msgid ""
 "At any time pull down from the top of the device to see notifications from "
 "all your apps!"
@@ -212,24 +223,41 @@ msgstr ""
 "ნებისმიერ დროს ჩამოუსვით მოწყობილობის ზედა ნაწილი, რომ ნახოთ გაფრთხილებები "
 "ყველა თქვენი აპიდან!"
 
-#: src/ui/pt-window.ui:112
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "Linux-ის ენთუზიასტებისთვის"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"საბოლოოდ postmarketOS ყველასთვის გამოყენებადი იქნება. ახლა ჩვენ ველით, რომ "
+"ჩვენს მომხმარებლებს ექნებათ Linux-ის გამოცდილება და დაგვეხმარებიან "
+"შეცდომების გამოსწორებაში"
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:127
 msgid "Welcome to your @BRAND@!"
 msgstr "მოგესალმებათ თქვენი @BRAND@!"
 
-#: src/ui/pt-window.ui:113
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:130
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
 msgstr ""
 "@VENDOR@-ის ან თქვენი მოწყობილობის შესახებ მეტი ინფორმაციის მისაღებად იხილეთ "
 "@URL@."
 
-#: src/ui/pt-window.ui:117
+#: src/ui/pt-window.ui:134
 msgid "Get Started"
 msgstr "დაწყება"
 
-#: src/ui/pt-window.ui:213
+#: src/ui/pt-window.ui:230
 msgid "_Keyboard Shortcuts"
 msgstr "კლავიატურის მალსახმობები"
 
-#: src/ui/pt-window.ui:217
+#: src/ui/pt-window.ui:234
 msgid "_About Phosh Tour"
 msgstr "Phosh Tour-ის _შესახებ"
