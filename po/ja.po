@@ -1,0 +1,261 @@
+# Japanese translation for phosh-tour.
+# Copyright (C) 2026 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Ryo Nakano <ryonakaknock3@gmail.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2026-03-26 18:34+0000\n"
+"PO-Revision-Date: 2026-04-03 23:08+0900\n"
+"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"Language-Team: Japanese <ja@li.org>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
+msgid "@BRAND@ Tour"
+msgstr "@BRAND@ ツアー"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mobile;Tour;@BRAND@;モバイル;ツアー;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr ""
+"このアプリは小さなグラフィカルツアーを通じてお使いのデバイスを紹介します。"
+
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
+msgid "@BRAND@ graphical tour"
+msgstr "@BRAND@ グラフィカルツアー"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
+msgid "The Tour's first page"
+msgstr "ツアーの最初のページ"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
+msgid "The Tour's swipe gesture page"
+msgstr "ツアーのスワイプジェスチャーのページ"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "タッチパッドジェスチャー"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "次のページ"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "前のページ"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "移動"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "次のページ"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "前のページ"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "全般"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "ショートカットを表示する"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "終了する"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- デバイスを紹介するグラフィカルなツアー"
+
+#: src/pt-application.c:162
+msgid "About "
+msgstr ""
+
+#: src/pt-application.c:163
+msgid "translator-credits"
+msgstr "Ryo Nakano <ryonakaknock3@gmail.com>"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "ようこそ"
+
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "@BRAND@ と @VENDOR@ の機能を紹介します。"
+
+#: src/ui/pt-window.ui:42
+msgid "Really Disconnect"
+msgstr "確実に遮断する"
+
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"@BRAND@ の側面にある物理キルスイッチを操作すると、いつでも Wi-Fi や "
+"Bluetooth、電話を無効にできます"
+
+#: src/ui/pt-window.ui:52
+msgid "Going Home"
+msgstr "ホームへの移動"
+
+#: src/ui/pt-window.ui:53
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"画面下部にあるホームバーから上に向かってスワイプすると、起動中のアプリケー"
+"ションを確認できるアクティビティ画面を表示します。"
+
+#: src/ui/pt-window.ui:60
+msgid "Show Keyboard"
+msgstr "キーボードを表示"
+
+#: src/ui/pt-window.ui:61
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr "ホームバーを長押しすると、いつでもキーボードを表示します。"
+
+#: src/ui/pt-window.ui:68
+msgid "Quick Settings"
+msgstr "クイック設定"
+
+#: src/ui/pt-window.ui:69
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"デバイスの上部から下に向かってスワイプすると、いつでも画面の明るさなどの設定"
+"変更、音量調整、設定のオン/オフを瞬時に行えます。"
+
+#: src/ui/pt-window.ui:76
+msgid "Power Menu"
+msgstr "電源メニュー"
+
+#: src/ui/pt-window.ui:77
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"電源ボタンを押し続けると、デバイスのクイックアクションメニューを表示します。"
+"設定済みの場合は緊急電話も発信できます。"
+
+#: src/ui/pt-window.ui:84
+msgid "Slide to Unlock"
+msgstr "スライドしてロック解除"
+
+#: src/ui/pt-window.ui:85
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"デバイスがロックされているときに上にスライドすると、PIN を使ってデバイスを"
+"ロック解除できるキーパッドを表示します。"
+
+#: src/ui/pt-window.ui:92
+msgid "Closing Applications"
+msgstr "アプリケーションの終了"
+
+#: src/ui/pt-window.ui:93
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"アクティビティ画面では、アプリケーションの一覧を確認できます。上にスワイプす"
+"るか閉じるボタンをタップすると、アプリケーションを終了します。"
+
+#: src/ui/pt-window.ui:100
+msgid "Launching Applications"
+msgstr "アプリケーションの起動"
+
+#: src/ui/pt-window.ui:101
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"アプリケーションを起動するには、アプリグリッド内のアイコンをタップします。探"
+"しているアプリを見つけるには、検索バーを使います。"
+
+#: src/ui/pt-window.ui:108
+msgid "See Your Notifications"
+msgstr "通知を確認"
+
+#: src/ui/pt-window.ui:109
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"デバイスの上部から下に向かってスワイプすると、いつでもすべてのアプリの通知を"
+"確認できます。"
+
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "Linux 愛好家向けのシステム"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"postmarketOS のゴールは誰でも使えることです。現時点では、Linux の利用経験があ"
+"り、バグ修正に協力してくださるユーザーを想定しています"
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:127
+msgid "Welcome to your @BRAND@!"
+msgstr "@BRAND@ へようこそ!"
+
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:130
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr ""
+"@VENDOR@ やお使いのデバイスの詳細を知るには、@URL@ を確認してください。"
+
+#: src/ui/pt-window.ui:134
+msgid "Get Started"
+msgstr "はじめよう"
+
+#: src/ui/pt-window.ui:230
+msgid "_Keyboard Shortcuts"
+msgstr "キーボードショートカット(_K)"
+
+#: src/ui/pt-window.ui:234
+msgid "_About Phosh Tour"
+msgstr "“Phosh ツアー”について(_A)"
