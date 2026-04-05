@@ -151,7 +151,7 @@ pt_application_show_about (GSimpleAction *action,
   /* Translators: '%s' is the brand of a device (e.g. Librem 5) */
   g_autofree char *program_name = g_strdup_printf (_("%s Tour"), PHOSH_TOUR_BRAND);
   /* Translators: '%s' is the brand of a device (e.g. Librem 5) */
-  g_autofree char *title = g_strdup_printf (_("About %s"), PHOSH_TOUR_BRAND);
+  g_autofree char *title = g_strdup_printf (_("About %s Tour"), PHOSH_TOUR_BRAND);
 
   g_return_if_fail (PT_IS_APPLICATION (self));
 
