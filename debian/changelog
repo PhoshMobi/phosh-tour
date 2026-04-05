@@ -1,3 +1,52 @@
+phosh-tour (0.54.0) experimental; urgency=medium
+
+  [ Martin ]
+  * Update Slovenian translation
+
+  [ Yuri Chornoivan ]
+  * Update Ukrainian translation
+
+  [ Марко Костић ]
+  * Update Serbian translation
+
+  [ Daniel Rusek ]
+  * Update Czech translation
+
+  [ Anders Jonsson ]
+  * Update Swedish translation
+
+  [ Antonio Marin ]
+  * Update Romanian translation
+
+  [ Bruce Cowan ]
+  * Update British English translation
+
+  [ Hugo Carvalho ]
+  * Update Portuguese translation
+
+  [ Danial Behzadi ]
+  * Update Persian translation
+
+  [ Juliano de Souza Camargo ]
+  * Update Brazilian Portuguese translation
+
+  [ Achill Gilgenast ]
+  * Update German translation
+
+  [ Baurzhan Muftakhidinov ]
+  * Add Kazakh translation
+
+  [ Emin Tufan Çetin ]
+  * Update Turkish translation
+
+  [ Ekaterine Papava ]
+  * Update Georgian translation
+
+  [ Ryo Nakano ]
+  * Add Japanese translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 05 Apr 2026 08:52:46 +0200
+
 phosh-tour (0.54~rc1) experimental; urgency=medium
 
   [ Flynn Peck ]
