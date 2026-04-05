@@ -148,6 +148,10 @@ pt_application_show_about (GSimpleAction *action,
   GtkWindow *window = NULL;
   const char *authors[] = {"Guido Günther", NULL};
   const char *artists[] = {"Sam Hewitt ", NULL};
+  /* Translators: '%s' is the brand of a device (e.g. Librem 5) */
+  g_autofree char *program_name = g_strdup_printf (_("%s Tour"), PHOSH_TOUR_BRAND);
+  /* Translators: '%s' is the brand of a device (e.g. Librem 5) */
+  g_autofree char *title = g_strdup_printf (_("About %s Tour"), PHOSH_TOUR_BRAND);
 
   g_return_if_fail (PT_IS_APPLICATION (self));
 
@@ -158,9 +162,9 @@ pt_application_show_about (GSimpleAction *action,
                          "authors", authors,
                          "license-type", GTK_LICENSE_GPL_3_0,
                          "logo-icon-name", "mobi.phosh.PhoshTour",
-                         "program-name", PHOSH_TOUR_BRAND "Tour",
-                         "title", _("About " PHOSH_TOUR_BRAND " "),
-                         "translator-credits", _ ("translator-credits"),
+                         "program-name", program_name,
+                         "title", title,
+                         "translator-credits", _("translator-credits"),
                          "version", PHOSH_TOUR_VERSION,
                          "website", "https://gitlab.gnome.org/World/Phosh/phosh-tour",
                          NULL);
