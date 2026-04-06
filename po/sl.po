@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2026-03-26 18:34+0000\n"
-"PO-Revision-Date: 2026-03-26 19:59+0100\n"
+"POT-Creation-Date: 2026-04-05 16:39+0000\n"
+"PO-Revision-Date: 2026-04-06 21:29+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl\n"
@@ -28,7 +28,7 @@ msgstr ""
 #: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
 msgid "@BRAND@ Tour"
-msgstr "Voden ogled @BRAND@"
+msgstr "Vodeni ogled @BRAND@"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
@@ -103,11 +103,19 @@ msgstr "Izhod"
 msgid "- A graphical tour introducing your device"
 msgstr "- Grafični vodeni ogled, ki predstavi vašo napravo"
 
-#: src/pt-application.c:162
-msgid "About "
-msgstr "O vodenem ogledu"
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152
+#, c-format
+msgid "%s Tour"
+msgstr "Vodeni ogled %s"
 
-#: src/pt-application.c:163
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "O programu Vodeni ogled %s"
+
+#: src/pt-application.c:167
 msgid "translator-credits"
 msgstr "Martin Srebotnjak <miles@filmsi.net>"
 
