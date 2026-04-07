@@ -2,14 +2,15 @@
 # Copyright (C) 2026 phosh-tour's COPYRIGHT HOLDER
 # This file is distributed under the same license as the phosh-tour package.
 # Марко Костић <marko.m.kostic@gmail.com>,  2026.
+# Aceydot <aceydot@proton.me>, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2026-03-26 18:34+0000\n"
-"PO-Revision-Date: 2026-03-26 23:16+0100\n"
+"POT-Creation-Date: 2026-04-05 16:39+0000\n"
+"PO-Revision-Date: 2026-04-07 18:40+0200\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <Serbian>\n"
 "Language: sr\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
 "n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 3.9\n"
+"X-Generator: Poedit 3.8\n"
 
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
@@ -100,14 +101,23 @@ msgstr "Изађи"
 msgid "- A graphical tour introducing your device"
 msgstr "- сликовит обилазак који вас упознаје са вашим уређајем"
 
-#: src/pt-application.c:162
-msgid "About "
-msgstr "_О програму"
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152
+#, c-format
+msgid "%s Tour"
+msgstr "Обилазак %s"
 
-#: src/pt-application.c:163
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "О обиласку %s"
+
+#: src/pt-application.c:167
 msgid "translator-credits"
 msgstr ""
 "Марко М. Костић <marko.m.kostic@gmail.com>\n"
+"Aceydot <aceydot@proton.me>\n"
 "\n"
 "https://гном.срб — превод Гнома на српски језик"
 
@@ -269,3 +279,6 @@ msgstr "_Пречице тастатуре"
 #: src/ui/pt-window.ui:234
 msgid "_About Phosh Tour"
 msgstr "_О Обиласку Фоша"
+
+#~ msgid "About "
+#~ msgstr "_О програму"
