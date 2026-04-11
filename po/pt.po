@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2026-03-26 18:34+0000\n"
-"PO-Revision-Date: 2026-03-28 23:16+0000\n"
+"POT-Creation-Date: 2026-04-05 16:39+0000\n"
+"PO-Revision-Date: 2026-04-11 14:31+0100\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <pt@li.org>\n"
 "Language: pt\n"
@@ -101,11 +101,19 @@ msgstr "Sair"
 msgid "- A graphical tour introducing your device"
 msgstr "- Uma visita guiada para apresentar o seu dispositivo"
 
-#: src/pt-application.c:162
-msgid "About "
-msgstr "Sobre "
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152
+#, c-format
+msgid "%s Tour"
+msgstr "Visita guiada ao %s"
 
-#: src/pt-application.c:163
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "_Sobre a Visita guiada ao %s"
+
+#: src/pt-application.c:167
 msgid "translator-credits"
 msgstr ""
 "Hugo Carvalho <hugokarvalho@hotmail.com>\n"
@@ -113,7 +121,7 @@ msgstr ""
 
 #: src/ui/pt-window.ui:31
 msgid "Welcome"
-msgstr "Boas-vindas"
+msgstr "Bem vindo(a)"
 
 #. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
 #. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
@@ -268,3 +276,6 @@ msgstr "Atalhos de _teclado"
 #: src/ui/pt-window.ui:234
 msgid "_About Phosh Tour"
 msgstr "_Sobre a Visita ao Phosh"
+
+#~ msgid "About "
+#~ msgstr "Sobre "
