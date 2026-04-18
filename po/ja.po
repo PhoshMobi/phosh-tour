@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2026-03-26 18:34+0000\n"
-"PO-Revision-Date: 2026-04-03 23:08+0900\n"
+"POT-Creation-Date: 2026-04-05 16:39+0000\n"
+"PO-Revision-Date: 2026-04-18 11:06+0900\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "Language: ja\n"
@@ -98,11 +98,19 @@ msgstr "終了する"
 msgid "- A graphical tour introducing your device"
 msgstr "- デバイスを紹介するグラフィカルなツアー"
 
-#: src/pt-application.c:162
-msgid "About "
-msgstr ""
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152
+#, c-format
+msgid "%s Tour"
+msgstr "%s ツアー"
 
-#: src/pt-application.c:163
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "“%s ツアー”について"
+
+#: src/pt-application.c:167
 msgid "translator-credits"
 msgstr "Ryo Nakano <ryonakaknock3@gmail.com>"
 
