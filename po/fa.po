@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues\n"
-"POT-Creation-Date: 2026-03-26 18:34+0000\n"
-"PO-Revision-Date: 2026-03-29 13:29+0330\n"
+"POT-Creation-Date: 2026-04-05 16:39+0000\n"
+"PO-Revision-Date: 2026-04-20 22:56+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian <fa@li.org>\n"
 "Language: fa\n"
@@ -96,11 +96,19 @@ msgstr "خروج"
 msgid "- A graphical tour introducing your device"
 msgstr "گشتی نگاشتاری که افزاره‌تان را معرّفی می‌کند"
 
-#: src/pt-application.c:162
-msgid "About "
-msgstr "دربارهٔ "
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152
+#, c-format
+msgid "%s Tour"
+msgstr "گردش %s"
 
-#: src/pt-application.c:163
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "دربارهٔ گشت %s"
+
+#: src/pt-application.c:167
 msgid "translator-credits"
 msgstr "دانیال بهزادی <dani.behzi@ubuntu.com>"
 
@@ -229,7 +237,7 @@ msgid ""
 "users to have Linux experience and helping out with fixing bugs"
 msgstr ""
 "سیستم‌عامل پست‌مارکت در نهایت برای همه قابل استفاده خواهد بود. هم‌اکنون انتظار "
-"داریم کاربرانمان تجربهٔ گنو/لینوکسی داشته و در رفع مشکلات کمک کنند."
+"داریم کاربرانمان تجربهٔ گنو/لینوکسی داشته و در رفع مشکلات کمک کنند"
 
 #. Translators: @BRAND@ is a substitution variable and must not be translated
 #. @BRAND@ is the brand of a device (e.g. Librem 5)
@@ -254,3 +262,6 @@ msgstr "_میان‌برهای صفحه‌کلید"
 #: src/ui/pt-window.ui:234
 msgid "_About Phosh Tour"
 msgstr "_دربارهٔ گشت فوش"
+
+#~ msgid "About "
+#~ msgstr "دربارهٔ "
