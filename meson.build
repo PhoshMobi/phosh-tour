@@ -1,7 +1,7 @@
 project(
   'phosh-tour',
   'c',
-  version: '0.54.0',
+  version: '0.55.0',
   meson_version: '>= 0.58.0',
   default_options: ['warning_level=2', 'werror=false', 'c_std=gnu11'],
 )
