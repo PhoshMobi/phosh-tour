@@ -1,3 +1,59 @@
+phosh-tour (0.55.0) experimental; urgency=medium
+
+  [ Ryo Nakano ]
+  * application: Never split sentences in gettext calls.
+    Translators can't change word order in translations.
+    See also https://wiki.gnome.org/TranslationProject(2f)DevGuidelines(2f)Never(20)split(20)sentences.html
+  * Update Japanese translation
+
+  [ Guido Günther ]
+  * application: Add missing Tour.
+    We want the full app name
+
+  [ Ekaterine Papava ]
+  * Update Georgian translation
+
+  [ Daniel Rusek ]
+  * Update Czech translation
+
+  [ Antonio Marin ]
+  * Update Romanian translation
+
+  [ Yuri Chornoivan ]
+  * Update Ukrainian translation
+
+  [ Martin ]
+  * Update Slovenian translation
+
+  [ Emin Tufan Çetin ]
+  * Update Turkish translation
+
+  [ acey dot ]
+  * Update Serbian translation
+
+  [ Hugo Carvalho ]
+  * Update Portuguese translation
+
+  [ Baurzhan Muftakhidinov ]
+  * Update Kazakh translation
+
+  [ Julien Humbert ]
+  * Update French translation
+
+  [ Danial Behzadi ]
+  * Update Persian translation
+
+  [ Juliano de Souza Camargo ]
+  * Update Brazilian Portuguese translation
+
+  [ Pierre Michel Augustin ]
+  * Update Haitian Creole translation
+
+  [ Anders Jonsson ]
+  * Update Swedish translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 17 May 2026 09:44:39 +0200
+
 phosh-tour (0.54.0) experimental; urgency=medium
 
   [ Martin ]

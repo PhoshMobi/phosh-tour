@@ -1,3 +1,27 @@
+phosh-tour 0.55.0
+-----------------
+Released May 2026
+* i18n string fixes and translation updates
+* Contributors:
+    * Guido Günther
+    * Ryo Nakano
+* UI translations:
+    * acey dot (sr)
+    * Anders Jonsson (sv)
+    * Antonio Marin (ro)
+    * Baurzhan Muftakhidinov (kk)
+    * Danial Behzadi (fa)
+    * Daniel Rusek (cs)
+    * Ekaterine Papava (ka)
+    * Emin Tufan Çetin (tr)
+    * Hugo Carvalho (pt)
+    * Juliano de Souza Camargo (pt_BR)
+    * Julien Humbert (fr)
+    * Martin (sl)
+    * Pierre Michel Augustin (ht)
+    * Ryo Nakano (ja)
+    * Yuri Chornoivan (uk)
+
 phosh-tour 0.54.0
 -----------------
 Released April 2026
