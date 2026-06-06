@@ -1,13 +1,13 @@
 # Basque translation for phosh-tour.
 # Copyright (C) 2025 phosh-tour's COPYRIGHT HOLDER
 # This file is distributed under the same license as the phosh-tour package.
-# Asier Saratsua Garmendia <asiersarasua@ni.eus>,  2025.
+# Asier Saratsua Garmendia <asiersarasua@ni.eus>,  2025, 2026.
 #
 msgid ""
 msgstr "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues\n"
-"POT-Creation-Date: 2025-11-04 12:32+0000\n"
-"PO-Revision-Date: 2025-12-04 12:32+0000\n"
+"POT-Creation-Date: 2026-05-17 07:46+0000\n"
+"PO-Revision-Date: 2026-06-06 12:32+0000\n"
 "Last-Translator: Asier Saratsua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "Language: eu\n"
@@ -94,11 +94,19 @@ msgstr "Irten"
 msgid "- A graphical tour introducing your device"
 msgstr "- Zure gailua erakusten dizun bisita grafikoa"
 
-#: src/pt-application.c:162
-msgid "About "
-msgstr "Honi buruz "
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152
+#, c-format
+msgid "%s Tour"
+msgstr "%s bisita"
 
-#: src/pt-application.c:163
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "%s bisitari buruz"
+
+#: src/pt-application.c:167
 msgid "translator-credits"
 msgstr "Asier Sarasua Garmendia <asier.sarasua@gmail.com>"
 
@@ -203,26 +211,39 @@ msgid ""
 "all your apps!"
 msgstr "Gailuaren goiko aldea beherantz arrastatu dezakezu edozein momentutan zure aplikazioen jakinarazpenak ikusteko."
 
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "Linuxen zaleentzat"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr "Azkenerako, postmarketOS mundu guztiarentzat erabilgarri izango da. Momentuz, gure erabiltzaileak Linuxen esperientziadunak izatea eta akatsak konpontzen lagundu diezaguten espero dugu."
+
 #. Translators: @BRAND@ is a substitution variable and must not be translated
 #. @BRAND@ is the brand of a device (e.g. Librem 5)
-#: src/ui/pt-window.ui:118
+#: src/ui/pt-window.ui:127
 msgid "Welcome to your @BRAND@!"
 msgstr "Ongi etorri @BRAND@ markara!"
 
 #. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
 #. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
-#: src/ui/pt-window.ui:121
+#: src/ui/pt-window.ui:130
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
 msgstr "Zure gailuaren edo bere @VENDOR@ fabrikatzailearen informazio gehiagorako, begiratu @URL@."
 
-#: src/ui/pt-window.ui:125
+#: src/ui/pt-window.ui:134
 msgid "Get Started"
 msgstr "Hasi"
 
-#: src/ui/pt-window.ui:221
+#: src/ui/pt-window.ui:230
 msgid "_Keyboard Shortcuts"
 msgstr "Laster_bideak"
 
-#: src/ui/pt-window.ui:225
+#: src/ui/pt-window.ui:234
 msgid "_About Phosh Tour"
 msgstr "Phosh bisitari _buruz"
+
+#~ msgid "About "
+#~ msgstr "Honi buruz "
