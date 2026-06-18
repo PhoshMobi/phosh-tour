@@ -1,0 +1,275 @@
+# Polish translation for phosh-tour.
+# Copyright (C) 2026 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# Victoria Niedzielska <victorian@gnome.org>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2026-04-05 16:39+0000\n"
+"PO-Revision-Date: 2026-06-18 12:59+0200\n"
+"Last-Translator: Victoria Niedzielska <victorian@gnome.org>\n"
+"Language-Team: Polish <https://l10n.gnome.org/teams/pl/>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 50.0\n"
+
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
+msgid "@BRAND@ Tour"
+msgstr "Przewodnik @BRAND@"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mobile;Mobilne;Tour;Przewodnik;@BRAND@;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr ""
+"Ten program zapozna Ciebie z Twoim urządzeniem za pomocą małego graficznego "
+"przewodnika."
+
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
+msgid "@BRAND@ graphical tour"
+msgstr "Graficzny przewodnik po @BRAND@"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
+msgid "The Tour's first page"
+msgstr "Pierwsza strona przewodnika"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
+msgid "The Tour's swipe gesture page"
+msgstr "Strona przewodnika z gestem przesunięcia"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Gesty panelu dotykowego"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Następna strona"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Poprzednia strona"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Nawigacja"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Następna strona"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Poprzednia strona"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Ogólne"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Pokaż skróty klawiszowe"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Zakończenie działania"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "— Graficzny przewodnik do przedstawienia Tobie Twojego urządzenia"
+
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152
+#, c-format
+msgid "%s Tour"
+msgstr "Przewodnik %s"
+
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "O przewodniku %s"
+
+#: src/pt-application.c:167
+msgid "translator-credits"
+msgstr "Victoria Niedzielska <victorian@gnome.org>, 2026"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Witamy"
+
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Poznaj funkcjonalność Twojego @BRAND@ i @VENDOR@."
+
+#: src/ui/pt-window.ui:42
+msgid "Really Disconnect"
+msgstr "Na pewno rozłącz się"
+
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"W dowolnym momencie możesz wyłączyć Wi-Fi, Bluetooth i usługi telefoniczne "
+"za pomocą kliknięcia fizycznego przełącznika Twojego @BRAND@"
+
+#: src/ui/pt-window.ui:52
+msgid "Going Home"
+msgstr "Pójście do domu"
+
+#: src/ui/pt-window.ui:53
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"Przesunięcie w górę paska domowego od dołu Twojego ekranu przeniesie Cię do "
+"ekranu podglądu, gdzie możesz zobaczyć Twoje aktywne programy."
+
+#: src/ui/pt-window.ui:60
+msgid "Show Keyboard"
+msgstr "Wyświetl klawiaturę"
+
+#: src/ui/pt-window.ui:61
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr ""
+"Długie przytrzymanie na pasku domowym pokaże klawiaturę w dowolnym momencie."
+
+#: src/ui/pt-window.ui:68
+msgid "Quick Settings"
+msgstr "Szybkie ustawienia"
+
+#: src/ui/pt-window.ui:69
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"Aby szybko zmienić, np. jasność ekranu, dostosować poziom głośności albo "
+"przełączyć ustawienia, przeciągnij w dół od góry Twojego urządzenia w "
+"dowolnym momencie."
+
+#: src/ui/pt-window.ui:76
+msgid "Power Menu"
+msgstr "Menu zasilania"
+
+#: src/ui/pt-window.ui:77
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"Naciśnięcie i przytrzymanie przycisku zasilania wyświetli menu z szybkimi "
+"czynnościami dla Twojego urządzenia. Po ustawieniu czynności telefonów "
+"alarmowych one też tutaj będą dostępne."
+
+#: src/ui/pt-window.ui:84
+msgid "Slide to Unlock"
+msgstr "Przesuń w górę, aby odblokować"
+
+#: src/ui/pt-window.ui:85
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Kiedy urządzenie jest zablokowane, przesuń palcem w górę, aby pokazać "
+"klawiaturę, w której możesz je odblokować za pomocą kodu PIN."
+
+#: src/ui/pt-window.ui:92
+msgid "Closing Applications"
+msgstr "Zamykanie programów"
+
+#: src/ui/pt-window.ui:93
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"W podglądzie możesz zobaczyć listę swoich programów, zamknąć je za pomocą "
+"przesunięcia w górę bądź naciśnięciem przycisku zamykania."
+
+#: src/ui/pt-window.ui:100
+msgid "Launching Applications"
+msgstr "Uruchamianie programów"
+
+#: src/ui/pt-window.ui:101
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Naciśnij ikonę programu w siatce programów, aby go uruchomić bądź wyszukaj "
+"go za pomocą paska wyszukiwania."
+
+#: src/ui/pt-window.ui:108
+msgid "See Your Notifications"
+msgstr "Zobacz swoje powiadomienia"
+
+#: src/ui/pt-window.ui:109
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"Możesz w dowolnym momencie przesunąć w dół od góry urządzenia, aby zobaczyć "
+"powiadomienia od wszystkich Twoich programów!"
+
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "Dla entuzjastów Linuksa"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"Ostatecznie postmarketOS będzie użyteczny dla wszystkich. Obecnie oczekujemy "
+"od naszych użytkowników znajomości Linuksa i pomoc w naprawie błędów"
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:127
+msgid "Welcome to your @BRAND@!"
+msgstr "Witamy w Twoim @BRAND@!"
+
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:130
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr ""
+"Aby dowiedzieć się więcej o @VENDOR@ bądź Twoim urządzeniu, zobacz @URL@."
+
+#: src/ui/pt-window.ui:134
+msgid "Get Started"
+msgstr "Pierwsze kroki"
+
+#: src/ui/pt-window.ui:230
+msgid "_Keyboard Shortcuts"
+msgstr "_Skróty klawiszowe"
+
+#: src/ui/pt-window.ui:234
+msgid "_About Phosh Tour"
+msgstr "_O programie"
