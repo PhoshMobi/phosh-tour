@@ -104,8 +104,11 @@ pt_window_init (PtWindow *self)
   g_auto (GStrv) compatibles = gm_device_tree_get_compatibles (NULL, NULL);
   const char *osid = g_get_os_info (G_OS_INFO_KEY_ID);
   int kept = 0, removed = 0;
+  /* Translators: '%s' is the brand of a device (e.g. Librem 5) */
+  g_autofree char *title = g_strdup_printf (_("%s Tour"), PHOSH_TOUR_BRAND);
 
   gtk_widget_init_template (GTK_WIDGET (self));
+  gtk_window_set_title (GTK_WINDOW (self), title);
 
   if (g_getenv ("PT_OS_ID"))
     osid = g_getenv ("PT_OS_ID");
