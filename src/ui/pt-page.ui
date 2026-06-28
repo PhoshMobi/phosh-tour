@@ -3,6 +3,9 @@
   <requires lib="gtk" version="4.0"/>
   <template class="PtPage" parent="AdwBin">
     <property name="hexpand">true</property>
+    <accessibility>
+      <relation name="labelled-by">lbl_summary</relation>
+    </accessibility>
     <child>
       <object class ="AdwClamp">
         <property name="maximum-size">400</property>
