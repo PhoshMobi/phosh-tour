@@ -152,10 +152,12 @@
                 <property name="margin-end">12</property>
                 <property name="action-name">win.flip-page</property>
                 <property name="action-target">1</property>
+                <property name="tooltip-text" translatable="yes">Next Page</property>
                 <property name="child">
                   <object class="GtkImage">
                     <property name="pixel-size">16</property>
                     <property name="icon-name">go-next-symbolic</property>
+                    <property name="accessible-role">presentation</property>
                   </object>
                 </property>
                 <binding name="visible">
@@ -189,10 +191,12 @@
                 <property name="margin-start">12</property>
                 <property name="action-name">win.flip-page</property>
                 <property name="action-target">-1</property>
+                <property name="tooltip-text" translatable="yes">Previous Page</property>
                 <property name="child">
                   <object class="GtkImage">
                     <property name="pixel-size">16</property>
                     <property name="icon-name">go-previous-symbolic</property>
+                    <property name="accessible-role">presentation</property>
                   </object>
                 </property>
                 <binding name="visible">
