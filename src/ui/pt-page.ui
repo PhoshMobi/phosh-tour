@@ -26,6 +26,7 @@
                     <property name="can-shrink">false</property>
                     <property name="keep-aspect-ratio">true</property>
                     <property name="margin-bottom">12</property>
+                    <property name="accessible-role">presentation</property>
                   </object>
                 </child>
               </object>
