@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
 "POT-Creation-Date: 2026-04-05 16:39+0000\n"
-"PO-Revision-Date: 2026-06-18 12:59+0200\n"
+"PO-Revision-Date: 2026-07-01 18:29+0200\n"
 "Last-Translator: Victoria Niedzielska <victorian@gnome.org>\n"
 "Language-Team: Polish <https://l10n.gnome.org/teams/pl/>\n"
 "Language: pl\n"
@@ -90,7 +90,7 @@ msgstr "Ogólne"
 #: src/gtk/help-overlay.ui:50
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Pokaż skróty klawiszowe"
+msgstr "Wyświetlenie skrótów klawiszowych"
 
 #: src/gtk/help-overlay.ui:56
 msgctxt "shortcut window"
@@ -210,8 +210,8 @@ msgid ""
 "In the Overview, you can see a list of your applications, dismiss them with "
 "a swipe up or by hitting the close button."
 msgstr ""
-"W podglądzie możesz zobaczyć listę swoich programów, zamknąć je za pomocą "
-"przesunięcia w górę bądź naciśnięciem przycisku zamykania."
+"W ekranie podglądu możesz zobaczyć listę swoich programów, zamknąć je za "
+"pomocą przesunięcia w górę bądź naciśnięciem przycisku zamykania."
 
 #: src/ui/pt-window.ui:100
 msgid "Launching Applications"
