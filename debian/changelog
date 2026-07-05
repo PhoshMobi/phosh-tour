@@ -1,3 +1,20 @@
+phosh-tour (0.56.0) experimental; urgency=medium
+
+  [ Jürgen Benvenuti ]
+  * Update German translation
+
+  [ Asier Saratsua Garmendia ]
+  * Update Basque translation
+
+  [ Victoria Niedzielska ]
+  * Add Polish translation
+  * Update Polish translation.
+
+  [ Yaron Shahrabani ]
+  * Update Hebrew translation.
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 05 Jul 2026 09:03:39 +0200
+
 phosh-tour (0.55.0) experimental; urgency=medium
 
   [ Ryo Nakano ]
