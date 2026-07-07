@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
 "POT-Creation-Date: 2026-07-05 07:19+0000\n"
-"PO-Revision-Date: 2026-07-07 08:50+0800\n"
+"PO-Revision-Date: 2026-07-07 09:04+0800\n"
 "Last-Translator: lumingzh <lumingzh@qq.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -196,7 +196,7 @@ msgstr "当设备锁定时，向上滑动将显示键盘，您可以在此处输
 
 #: src/ui/pt-window.ui:92
 msgid "Closing Applications"
-msgstr "正在关闭应用程序"
+msgstr "关闭应用程序"
 
 #: src/ui/pt-window.ui:93
 msgid ""
@@ -208,7 +208,7 @@ msgstr ""
 
 #: src/ui/pt-window.ui:100
 msgid "Launching Applications"
-msgstr "正在启动应用程序"
+msgstr "启动应用程序"
 
 #: src/ui/pt-window.ui:101
 msgid ""
