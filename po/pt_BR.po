@@ -1,17 +1,17 @@
 # Brazilian Portuguese translation for phosh-tour.
-# Copyright (C) 2024 phosh-tour's COPYRIGHT HOLDER
+# Copyright (C) 2026 phosh-tour's COPYRIGHT HOLDER
 # This file is distributed under the same license as the phosh-tour package.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2024.
 # Juliano de Souza Camargo <julianosc@pm.me>, 2024-2026.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2024-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2026-04-05 16:39+0000\n"
-"PO-Revision-Date: 2026-04-26 11:21-0300\n"
-"Last-Translator: Juliano de Souza Camargo <julianosc@pm.me>\n"
+"POT-Creation-Date: 2026-07-10 08:26+0000\n"
+"PO-Revision-Date: 2026-07-10 12:50-0300\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -19,6 +19,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Gtranslator 50.0\n"
+"X-DL-VCS-Web: https://gitlab.gnome.org/World/Phosh/phosh-tour\n"
+"X-DL-Lang: pt_BR\n"
+"X-DL-Module: phosh-tour\n"
+"X-DL-Branch: main\n"
+"X-DL-Domain: po\n"
+"X-DL-State: Translating\n"
 
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
@@ -102,7 +108,7 @@ msgid "- A graphical tour introducing your device"
 msgstr "- Um tour gráfico apresentando seu dispositivo"
 
 #. Translators: '%s' is the brand of a device (e.g. Librem 5)
-#: src/pt-application.c:152
+#: src/pt-application.c:152 src/pt-window.c:108
 #, c-format
 msgid "%s Tour"
 msgstr "%s Tour"
@@ -267,11 +273,19 @@ msgstr "Para saber mais sobre @VENDOR@ ou seu dispositivo, confira @URL@."
 msgid "Get Started"
 msgstr "Começar"
 
-#: src/ui/pt-window.ui:230
+#: src/ui/pt-window.ui:155
+msgid "Next Page"
+msgstr "Próxima página"
+
+#: src/ui/pt-window.ui:194
+msgid "Previous Page"
+msgstr "Página anterior"
+
+#: src/ui/pt-window.ui:234
 msgid "_Keyboard Shortcuts"
 msgstr "Atalhos de _teclado"
 
-#: src/ui/pt-window.ui:234
+#: src/ui/pt-window.ui:238
 msgid "_About Phosh Tour"
 msgstr "_Sobre o Phosh Tour"
 
