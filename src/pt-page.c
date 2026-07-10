@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2022 Purism SPC
+ *               2023-2026 Phosh.mobi e.V.
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
  *
@@ -151,6 +152,8 @@ pt_page_class_init (PtPageClass *klass)
   gtk_widget_class_bind_template_child_private (widget_class, PtPage, lbl_summary);
   gtk_widget_class_bind_template_child_private (widget_class, PtPage, lbl_explanation);
   gtk_widget_class_bind_template_child_private (widget_class, PtPage, bin_widget);
+
+  gtk_widget_class_set_accessible_role (widget_class, GTK_ACCESSIBLE_ROLE_GROUP);
 }
 
 
