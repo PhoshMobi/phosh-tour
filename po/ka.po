@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2026-04-05 16:39+0000\n"
-"PO-Revision-Date: 2026-04-06 02:38+0200\n"
+"POT-Creation-Date: 2026-07-10 08:26+0000\n"
+"PO-Revision-Date: 2026-07-16 07:40+0200\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <ka@li.org>\n"
 "Language: ka\n"
@@ -98,7 +98,7 @@ msgid "- A graphical tour introducing your device"
 msgstr "- გრაფიკული ტური, რომელიც თქვენს მოწყობილობას გაცნობთ"
 
 #. Translators: '%s' is the brand of a device (e.g. Librem 5)
-#: src/pt-application.c:152
+#: src/pt-application.c:152 src/pt-window.c:108
 #, c-format
 msgid "%s Tour"
 msgstr "%s ტური"
@@ -106,7 +106,6 @@ msgstr "%s ტური"
 #. Translators: '%s' is the brand of a device (e.g. Librem 5)
 #: src/pt-application.c:154
 #, c-format
-#| msgid "_About Phosh Tour"
 msgid "About %s Tour"
 msgstr "%s Tour-ის შესახებ"
 
@@ -263,11 +262,19 @@ msgstr ""
 msgid "Get Started"
 msgstr "დაწყება"
 
-#: src/ui/pt-window.ui:230
+#: src/ui/pt-window.ui:155
+msgid "Next Page"
+msgstr "შემდეგი გვერდი"
+
+#: src/ui/pt-window.ui:194
+msgid "Previous Page"
+msgstr "წინა გვერდი"
+
+#: src/ui/pt-window.ui:234
 msgid "_Keyboard Shortcuts"
 msgstr "კლავიატურის მალსახმობები"
 
-#: src/ui/pt-window.ui:234
+#: src/ui/pt-window.ui:238
 msgid "_About Phosh Tour"
 msgstr "Phosh Tour-ის _შესახებ"
 
