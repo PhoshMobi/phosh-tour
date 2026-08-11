@@ -2,15 +2,15 @@
 # Copyright (C) 2025 phosh-tour's COPYRIGHT HOLDER
 # This file is distributed under the same license as the phosh-tour package.
 # feike <feikedonia@proton.me>, 2025.
-# Nathan Follens <nfollens@gnome.org>, 2025.
+# Nathan Follens <nfollens@gnome.org>, 2025-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2025-08-10 23:46+0000\n"
-"PO-Revision-Date: 2025-08-19 23:24+0200\n"
+"POT-Creation-Date: 2026-07-10 08:26+0000\n"
+"PO-Revision-Date: 2026-08-11 09:24+0200\n"
 "Last-Translator: Nathan Follens <nfollens@gnome.org>\n"
 "Language-Team: GNOME-NL https://matrix.to/#/#nl:gnome.org\n"
 "Language: nl\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.9\n"
 
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
@@ -102,11 +102,19 @@ msgstr "Afsluiten"
 msgid "- A graphical tour introducing your device"
 msgstr "- Een grafische rondleiding over uw apparaat"
 
-#: src/pt-application.c:162
-msgid "About "
-msgstr "Over "
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152 src/pt-window.c:108
+#, c-format
+msgid "%s Tour"
+msgstr "Rondleiding van uw %s"
 
-#: src/pt-application.c:163
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "Over Rondleiding van uw %s"
+
+#: src/pt-application.c:167
 msgid "translator-credits"
 msgstr ""
 "feike <feikedonia@proton.me>\n"
@@ -232,26 +240,50 @@ msgstr ""
 "Veeg vanaf de bovenkant van het scherm naar beneden om de notificaties van "
 "al uw toepassingen te zien!"
 
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "Voor Linux-fans"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"Na verloop van tijd zal postmarketOS voor iedereen bruikbaar zijn. Momenteel "
+"verwachten we van onze gebruikers dat ze enige ervaring met Linux hebben, en "
+"dat ze ons kunnen helpen met bugs op te lossen"
+
 #. Translators: @BRAND@ is a substitution variable and must not be translated
 #. @BRAND@ is the brand of a device (e.g. Librem 5)
-#: src/ui/pt-window.ui:118
+#: src/ui/pt-window.ui:127
 msgid "Welcome to your @BRAND@!"
 msgstr "Uw @BRAND@ heet u welkom!"
 
 #. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
 #. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
-#: src/ui/pt-window.ui:121
+#: src/ui/pt-window.ui:130
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
 msgstr "Ga naar @URL@ voor meer informatie over @VENDOR@ en uw apparaat."
 
-#: src/ui/pt-window.ui:125
+#: src/ui/pt-window.ui:134
 msgid "Get Started"
 msgstr "Aan de slag"
 
-#: src/ui/pt-window.ui:221
+#: src/ui/pt-window.ui:155
+msgid "Next Page"
+msgstr "Volgende pagina"
+
+#: src/ui/pt-window.ui:194
+msgid "Previous Page"
+msgstr "Vorige pagina"
+
+#: src/ui/pt-window.ui:234
 msgid "_Keyboard Shortcuts"
 msgstr "Snel_toetsen"
 
-#: src/ui/pt-window.ui:225
+#: src/ui/pt-window.ui:238
 msgid "_About Phosh Tour"
 msgstr "_Over Phosh-rondleiding"
+
+#~ msgid "About "
+#~ msgstr "Over "
