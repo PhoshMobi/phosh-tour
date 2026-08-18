@@ -1,3 +1,27 @@
+phosh-tour 0.57.0
+-----------------
+Released August 2026
+* Some a11y improvements
+* Contributors:
+    * Guido Günther
+* UI translations:
+    * Anders Jonsson (sv)
+    * Antonio Marin (ro)
+    * Asier Saratsua Garmendia (eu)
+    * Baurzhan Muftakhidinov (kk)
+    * Danial Behzadi (fa)
+    * Daniel Rusek (cs)
+    * Ekaterine Papava (ka)
+    * Emin Tufan Çetin (tr)
+    * Hugo Carvalho (pt)
+    * luming zh (zh_CN)
+    * Martin (sl)
+    * Nathan Follens (nl)
+    * peterxy jie (zh_CN)
+    * Rafael Fontenelle (pt_BR)
+    * Ryo Nakano (ja)
+    * Yuri Chornoivan (uk)
+
 phosh-tour 0.56.0
 -----------------
 Released July 2026

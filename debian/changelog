@@ -1,3 +1,76 @@
+phosh-tour (0.57.0) experimental; urgency=medium
+
+  [ peterxy jie ]
+  * Add Chinese (China) translation.
+    Co-authored-by: peterxy jie <peterxy99@outlook.com>
+    Reviewed-by: luming zh <lumingzh@qq.com>
+
+  [ luming zh ]
+  * Update Chinese (China) translation.
+    Co-authored-by: luming zh <lumingzh@qq.com>
+
+  [ Guido Günther ]
+  * page: See accessible role
+  * window: Give navigation buttons an accessible name.
+    They're icon only so set role and tooltip
+  * page: Mark the page illustration as decorative.
+    We have descriptive text anyway.
+  * window: Give the window a title.
+    This ensures we're identifiable in window lists.
+  * page: Add information how a page is described
+
+  [ Martin ]
+  * Update Slovenian translation.
+    Co-authored-by: Martin <miles@filmsi.net>
+
+  [ Antonio Marin ]
+  * Update Romanian translation.
+    Co-authored-by: Antonio Marin <gnmer.6qxyg@slmail.me>
+
+  [ Rafael Fontenelle ]
+  * Update Brazilian Portuguese translation.
+    Co-authored-by: Rafael Fontenelle <rafaelff@gnome.org>
+
+  [ Yuri Chornoivan ]
+  * Update Ukrainian translation.
+    Co-authored-by: Yuri Chornoivan <yurchor@ukr.net>
+
+  [ Daniel Rusek ]
+  * Update Czech translation.
+    Reviewed-by: Daniel Rusek <mail@asciiwolf.com>
+
+  [ Hugo Carvalho ]
+  * Update Portuguese translation.
+    Co-authored-by: Hugo Carvalho <hugokarvalho@hotmail.com>
+
+  [ Danial Behzadi ]
+  * Update Persian translation.
+    Co-authored-by: Danial Behzadi <dani.behzi@ubuntu.com>
+
+  [ Ekaterine Papava ]
+  * Update Georgian translation.
+    Co-authored-by: Ekaterine Papava <papava.e@gtu.ge>
+
+  [ Emin Tufan Çetin ]
+  * Update Turkish translation
+
+  [ Baurzhan Muftakhidinov ]
+  * Update Kazakh translation
+
+  [ Anders Jonsson ]
+  * Update Swedish translation
+
+  [ Ryo Nakano ]
+  * Update Japanese translation
+
+  [ Nathan Follens ]
+  * Update Dutch translation
+
+  [ Asier Saratsua Garmendia ]
+  * Update Basque translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Tue, 18 Aug 2026 16:58:03 +0200
+
 phosh-tour (0.56.0) experimental; urgency=medium
 
   [ Jürgen Benvenuti ]
