@@ -44,6 +44,14 @@
   </screenshots>
 
   <releases>
+    <release version="0.57.0" date="2026-08-18">
+      <description translate="no">
+        <ul>
+          <li>Some a11y improvements</li>
+          <li>Translation updates</li>
+        </ul>
+      </description>
+    </release>
 
     <release version="0.56.0" date="2026-07-05">
       <description translate="no"><p>Translation updates</p></description>
