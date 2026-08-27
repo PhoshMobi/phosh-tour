@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-mobile-settings main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-mobile-"
-"settings/-/issues\n"
-"POT-Creation-Date: 2026-06-24 14:57+0000\n"
-"PO-Revision-Date: 2026-06-25 17:27+0300\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2026-08-18 15:29+0000\n"
+"PO-Revision-Date: 2026-08-27 11:08+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <yoseforb@gmail.com>\n"
 "Language: he\n"
@@ -21,1447 +21,1289 @@ msgstr ""
 "2 : 3);\n"
 "X-Generator: Poedit 3.9\n"
 
-#: data/mobi.phosh.MobileSettings.desktop.in:2 src/ui/ms-window.ui:6
-msgid "Mobile Settings"
-msgstr "הגדרות הנייד"
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
+msgid "@BRAND@ Tour"
+msgstr "סיור ב־@BRAND@"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
-#: data/mobi.phosh.MobileSettings.desktop.in:12
-msgid "Mobile;Preferences;MobileSettings;Tweaks;"
-msgstr "נייד;מובייל;סלולרי;מכשיר;העדפות;הגדרות;הגדרות לנייד;שפצורים;שיפורים;"
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "מובייל;נייד;ניידים;סיור;@BRAND@;"
 
-#: data/mobi.phosh.MobileSettings.metainfo.xml.in:4
-msgid "Phosh Mobile Settings"
-msgstr "הגדרות נייד Phosh"
-
-#: data/mobi.phosh.MobileSettings.metainfo.xml.in:8
-msgid ""
-"This app allows you to configure some aspects of Phosh that would otherwise "
-"require command line usage."
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
+msgid "This apps introduces you to your device via a small graphical tour."
 msgstr ""
-"היישום מאפשר לך להגדיר חלק מההיבטים של Phosh שדורשים שורת פקודה בכל מצב אחר."
+"היישומון הזה מציג בפניך את יכולות המכשיר שלך באמצעות סיור וירטואלי קטן."
 
-#: data/mobi.phosh.MobileSettings.metainfo.xml.in:13
-msgid "Advanced settings for Mobile devices using Phosh"
-msgstr "הגדרות מתקדמות למכשירים ניידים עם Phosh"
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
+msgid "@BRAND@ graphical tour"
+msgstr "סיור וירטואלי ב־@BRAND@"
 
-#: data/mobi.phosh.MobileSettings.metainfo.xml.in:40
-msgid "Available panels"
-msgstr "לוחות זמינים"
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
+msgid "The Tour's first page"
+msgstr "העמוד הראשון של הסיור"
 
-#: data/mobi.phosh.MobileSettings.metainfo.xml.in:44
-msgid "Compositor panel"
-msgstr "לוח ניהול חלונאי"
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
+msgid "The Tour's swipe gesture page"
+msgstr "עמוד מחוות ההחלקה של הסיור"
 
-#: data/mobi.phosh.MobileSettings.metainfo.xml.in:48
-msgid "Feedback panel"
-msgstr "לוח משוב"
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "מחוות לוח מגע"
 
-#: plugins/librem5/ms-plugin-librem5-panel.c:214
-#, c-format
-msgid "Critical temperature is %.2f°C"
-msgstr "הטמפרטורה הקיצונית היא ‎%.2f°C‎"
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "העמוד הבא"
 
-#. Translators "Librem 5" is a smartphone model, usually no need to translate it
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:6
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:17
-msgid "Librem 5"
-msgstr "Librem 5"
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "העמוד הקודם"
 
-#. translators: U-boot is the brand of a bootloader
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:21
-msgid "U-Boot"
-msgstr "U-Boot"
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "ניווט"
 
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:33
-msgid "Suspend device"
-msgstr "השהיית מכשיר"
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "העמוד הבא"
 
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:35
-msgid "Suspend is experimental"
-msgstr "השהייה היא ניסיונית"
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "העמוד הקודם"
 
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:38
-msgid "suspend now"
-msgstr "להשהות כעת"
-
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:53
-msgid "Temperatures"
-msgstr "טמפרטורות"
-
-#. translators: The central processing unit of a smart phone
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:57
-msgid "CPU"
-msgstr "מעבד"
-
-#. translators: The graphics processing unit of a smart phone
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:76
-msgid "GPU"
-msgstr "מעבד גרפי"
-
-#. translators: The video processing unit of a smart phone
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:95
-msgid "VPU"
-msgstr "מעבד וידאו"
-
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:113
-msgid "Fuel Gauge"
-msgstr "מד דלק"
-
-#: plugins/librem5/ui/ms-plugin-librem5-panel.ui:131
-msgid "Battery"
-msgstr "סוללה"
-
-#. Translators: Title for a dialog to add a new on-screen keyboard layout
-#. Translators: Label for a button that allows the user to add a new keyboard layout
-#: libpms/ms-osk-add-layout-dialog.ui:5 libpms/ms-osk-layout-prefs.ui:13
-msgid "Add Layout"
-msgstr "הוספת פריסה"
-
-#: libpms/ms-osk-add-layout-dialog.ui:14
-#: src/ui/ms-osk-add-shortcut-dialog.ui:17 src/ui/ms-updates-panel.ui:82
-#: src/ui/ms-updates-panel.ui:126
-msgid "Cancel"
-msgstr "ביטול"
-
-#: libpms/ms-osk-add-layout-dialog.ui:20
-#: src/ui/ms-osk-add-shortcut-dialog.ui:23
-msgid "Add"
-msgstr "הוספה"
-
-#: libpms/ms-osk-add-layout-dialog.ui:40 src/ui/ms-lang-panel.ui:14
-#: src/ui/ms-window.ui:317 src/ui/ms-window.ui:325
-msgid "Language"
-msgstr "שפה"
-
-#: libpms/ms-osk-layout-prefs.ui:5
-msgctxt "on screen keyboard"
-msgid "Layouts"
-msgstr "פריסות"
-
-#. Translators: Message displayed when there are no keyboard layouts configured
-#: libpms/ms-osk-layout-prefs.ui:29
-msgid "No Layouts configured"
-msgstr "לא מוגדרות פריסות"
-
-#: libpms/ms-osk-layout-row.ui:26 src/ui/ms-plugin-row.ui:47
-msgid "More options…"
-msgstr "אפשרויות נוספות…"
-
-#: libpms/ms-osk-layout-row.ui:39 src/ui/ms-plugin-row.ui:60
-msgid "Move Up"
-msgstr "העלאה למעלה"
-
-#: libpms/ms-osk-layout-row.ui:43 src/ui/ms-plugin-row.ui:64
-msgid "Move Down"
-msgstr "הורדה למטה"
-
-#: libpms/ms-osk-layout-row.ui:49
-msgid "Remove"
-msgstr "הסרה"
-
-#: libpms/lang/ms-common-language.c:312
-msgid "Other…"
-msgstr "אחר…"
-
-#: libpms/lang/ms-language-chooser.ui:4
-msgid "Select Language"
-msgstr "בחירת שפה"
-
-#: libpms/lang/ms-language-chooser.ui:15 src/ms-overview-panel.c:108
-#: src/ui/ms-hidden-apps-dialog.ui:15
-msgid "_Cancel"
-msgstr "_ביטול"
-
-#: libpms/lang/ms-language-chooser.ui:23 src/ui/ms-hidden-apps-dialog.ui:23
-msgid "_Select"
-msgstr "_בחירה"
-
-#: libpms/lang/ms-language-chooser.ui:44
-msgid "Language or country"
-msgstr "שפה או מדינה"
-
-#: libpms/lang/ms-language-chooser.ui:68
-msgid "No languages found"
-msgstr "לא נמצאו שפות"
-
-#: libpms/lang/ms-language-chooser.ui:79
-msgid "More…"
-msgstr "עוד…"
-
-#: libpms/lang/ms-util.c:130
-msgid "Today"
-msgstr "היום"
-
-#: libpms/lang/ms-util.c:134
-msgid "Yesterday"
-msgstr "אתמול"
-
-#. Translators: This is a date format string in the style of "Feb 24".
-#: libpms/lang/ms-util.c:142
-#, no-c-format
-msgid "%b %e"
-msgstr "‫%e ב%b"
-
-#. Translators: This is a date format string in the style of "Feb 24, 2013".
-#: libpms/lang/ms-util.c:147
-msgid "%b %e, %Y"
-msgstr "‫%e ב%b, %Y"
-
-#. TRANSLATORS: This is the datetime format in the style of
-#. "Aug 1, 10:10:10 PM", "Feb 24, 2013, 10:10:10 PM", "Today, 10:10:10 AM",
-#. and "Yesterday, 10:10:10 AM"
-#: libpms/lang/ms-util.c:166
-#, c-format
-msgid "%1$s, %2$s"
-msgstr "%1$s, %2$s"
-
-#: libpms/lang/ms-util.c:186
-#, c-format
-msgid "%d hour"
-msgid_plural "%d hours"
-msgstr[0] "שעה"
-msgstr[1] "שעתיים"
-msgstr[2] "‫%d שעות"
-msgstr[3] "‫%d שעות"
-
-#: libpms/lang/ms-util.c:187
-#, c-format
-msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "דקה"
-msgstr[1] "שתי דקות"
-msgstr[2] "‫%d דקות"
-msgstr[3] "‫%d דקות"
-
-#: libpms/lang/ms-util.c:188
-#, c-format
-msgid "%d second"
-msgid_plural "%d seconds"
-msgstr[0] "שנייה"
-msgstr[1] "שתי שניות"
-msgstr[2] "‫%d שניות"
-msgstr[3] "‫%d שניות"
-
-#. 5 hours 2 minutes 12 seconds
-#: libpms/lang/ms-util.c:195
-#, c-format
-msgctxt "hours minutes seconds"
-msgid "%s %s %s"
-msgstr "%s %s %s"
-
-#. 5 hours 2 minutes
-#: libpms/lang/ms-util.c:200
-#, c-format
-msgctxt "hours minutes"
-msgid "%s %s"
-msgstr "%s %s"
-
-#. 5 hours
-#: libpms/lang/ms-util.c:205
-#, c-format
-msgctxt "hours"
-msgid "%s"
-msgstr "%s"
-
-#. 2 minutes 12 seconds
-#: libpms/lang/ms-util.c:213
-#, c-format
-msgctxt "minutes seconds"
-msgid "%s %s"
-msgstr "%s %s"
-
-#. 2 minutes
-#: libpms/lang/ms-util.c:218
-#, c-format
-msgctxt "minutes"
-msgid "%s"
-msgstr "%s"
-
-#. 0 seconds
-#: libpms/lang/ms-util.c:229
-msgid "0 seconds"
-msgstr "0 שניות"
-
-#: src/conf-tweaks/ms-tweaks-callback-handlers.c:61
-#, c-format
-msgid "Something went wrong: %s"
-msgstr "משהו השתבש: %s"
-
-#: src/conf-tweaks/ms-tweaks-preferences-page.c:479
-msgid "Authentication cancelled"
-msgstr "האימות בוטל"
-
-#. We had errors while running the commands, so inform the user of this.
-#: src/conf-tweaks/ms-tweaks-preferences-page.c:484
-#, c-format
-msgid "%i error occurred while saving"
-msgid_plural "%i errors occurred while saving"
-msgstr[0] "אירעה שגיאה במהלך השמירה"
-msgstr[1] "אירעו שתי שגיאות במהלך השמירה"
-msgstr[2] "אירעו %i שגיאות במהלך השמירה"
-msgstr[3] "אירעו %i שגיאות במהלך השמירה"
-
-#: src/conf-tweaks/ms-tweaks-preferences-page.c:902
-msgid "You need to authenticate as administrator to save some settings"
-msgstr "יש לעבור אימות כמנהלים כדי לשמור חלק מההגדרות"
-
-#: src/gtk/help-overlay.ui:11
+#: src/gtk/help-overlay.ui:47
 msgctxt "shortcut window"
 msgid "General"
 msgstr "כללי"
 
-#: src/gtk/help-overlay.ui:14
+#: src/gtk/help-overlay.ui:50
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "הצגת קיצורים"
 
-#: src/gtk/help-overlay.ui:20
+#: src/gtk/help-overlay.ui:56
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "יציאה"
 
-#: src/ms-alerts-panel.c:238
-msgid "Could not get list of cell broadcast messages"
-msgstr "לא ניתן למשוך את רשימת הודעות שידור האנטנות"
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- סיור וירטואלי שמציג בפניך את יכולות המכשיר שלך"
 
-#: src/ms-application.c:37
-msgid "- Manage your mobile settings"
-msgstr "- ניהול הגדרות המכשיר הנייד שלך"
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152 src/pt-window.c:108
+#, c-format
+msgid "%s Tour"
+msgstr "סיור ב־%s"
 
-#. Translators: Replace "translator-credits" with your names, one name per line
-#: src/ms-application.c:542
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "על סיור ב־%s"
+
+#: src/pt-application.c:167
 msgid "translator-credits"
 msgstr ""
 "ירון שהרבני <sh.yaron@gmail.com>\n"
 "יוסף אור בוצ׳קו <yoseforb@gmail.com>\n"
 "מיזם תרגום GNOME לעברית https://l10n.gnome.org/teams/he/"
 
-#: src/ms-audio-devices.c:179
-msgid "Media Volume"
-msgstr "עוצמת שמע של מדיה"
-
-#: src/ms-audio-devices.c:182
-msgid "Notification Volume"
-msgstr "עוצמת שמע של התראות"
-
-#: src/ms-audio-devices.c:185
-msgid "Voice Call Volume"
-msgstr "עוצמת שמע של שיחה קולית"
-
-#: src/ms-audio-devices.c:188
-msgid "Ring Tone Volume"
-msgstr "עוצמת שמע של צלצול"
-
-#: src/ms-audio-devices.c:191
-msgid "Alarm Volume"
-msgstr "עוצמת שמע לשעון מעורר"
-
-#: src/ms-audio-devices.c:194
-msgid "Emergency Alerts Volume"
-msgstr "עוצמת שמע לשיחות חירום"
-
-#: src/ms-cb-message-row.c:114
-msgid "Message of unknown severity"
-msgstr "הודעה בדרגת חומרה לא ידועה"
-
-#: src/ms-feedback-panel.c:338
-msgid "Sound file does not exist"
-msgstr "לא קיים קובץ שמע"
-
-#: src/ms-feedback-panel.c:340
-msgid "Sound file is corrupt"
-msgstr "קובץ השמע פגום"
-
-#: src/ms-feedback-panel.c:342
-msgid "Failed to play sound"
-msgstr "השמעת הצליל נכשלה"
-
-#: src/ms-feedback-panel.c:381
-#, c-format
-msgid "Playing %s"
-msgstr "‫%s מתנגן"
-
-#. Translators: "low" categorizes notifications with minor importance
-#: src/ms-feedback-panel.c:579
-msgid "low"
-msgstr "נמוך"
-
-#. Translators: "normal" categorizes notifications with standard importance
-#: src/ms-feedback-panel.c:582
-msgid "normal"
-msgstr "רגיל"
-
-#. Translators: "critical" categorizes notifications with urgent importance
-#: src/ms-feedback-panel.c:585
-msgid "critical"
-msgstr "קיצוני"
-
-#. Translators: "none" is the default for notifications with no specified importance
-#: src/ms-feedback-panel.c:589
-msgid "none"
-msgstr "ללא"
-
-#: src/ms-feedback-panel.c:1008
-msgid "Mobile Settings Volume Control"
-msgstr "בקרת עוצמת שמע להגדרות הנייד"
-
-#: src/ms-lang-panel.c:80
-msgid "Failed to set system locale"
-msgstr "הגדרת שפת המערכת נכשלה"
-
-#: src/ms-lockscreen-panel.c:62
-msgid "Failed to set lockscreen wallpaper"
-msgstr "הגדרת רקע למסך הנעילה נכשלה"
-
-#. Translators: The default completer
-#: src/ms-osk-panel.c:751
-msgid "Default"
-msgstr "ברירת מחדל"
-
-#: src/ms-osk-panel.c:752
-msgid "The default completer selected by the OSK"
-msgstr "משלים ברירת המחדל שנבחר על ידי המקלדת על גבי המסך"
-
-#: src/ms-osk-panel.c:755
-msgid "No information available for this completer"
-msgstr "אין מידע זמין על המשלים הזה"
-
-#: src/ms-overview-panel.c:62
-#, c-format
-msgid "%u App Made Visible Again"
-msgid_plural "%u Apps Made Visible Again"
-msgstr[0] "יישומון נגלה שוב"
-msgstr[1] "שני יישומונים נגלו שוב"
-msgstr[2] "‫%u יישומונים נגלו שוב"
-msgstr[3] "‫%u יישומונים נגלו שוב"
-
-#: src/ms-overview-panel.c:102
-msgid "Reset favorites?"
-msgstr "לאפס את המועדפים?"
-
-#: src/ms-overview-panel.c:105
-msgid "Reset list of favorite applications to the default?"
-msgstr "לאפס את רשימת היישומונים המועדפים לברירת המחדל?"
-
-#: src/ms-overview-panel.c:109
-msgid "_Reset"
-msgstr "_איפוס"
-
-#: src/ms-overview-panel.c:364
-msgid "Failed to set wallpaper for overview"
-msgstr "הגדרת רקע לסקירה נכשלה"
-
-#. Translators: "Normal" represents the standard or default orientation
-#: src/ms-sensor-panel.c:93
-msgid "Normal"
-msgstr "רגיל"
-
-#. Translators: "Bottom up" indicates the orientation is flipped vertically
-#: src/ms-sensor-panel.c:96
-msgid "Bottom up"
-msgstr "מלמטה למעלה"
-
-#. Translators: "Left up" indicates the orientation of a device with left side up
-#: src/ms-sensor-panel.c:99
-msgid "Left up"
-msgstr "משמאל למעלה"
-
-#. Translators: "Right up" indicates the orientation of a device with right side up
-#: src/ms-sensor-panel.c:102
-msgid "Right up"
-msgstr "מימין למעלה"
-
-#. Translators: "Undefined" is shown when the orientation of the device is not recognized
-#: src/ms-sensor-panel.c:105
-msgid "Undefined"
-msgstr "לא מוגדר"
-
-#. Translators: "Near" indicates proximity close to the sensor
-#. * "Far" indicates some distance from the sensor
-#: src/ms-sensor-panel.c:142
-msgid "Near"
-msgstr "קרוב"
-
-#: src/ms-sensor-panel.c:142
-msgid "Far"
-msgstr "רחוק"
-
-#: src/ms-sensor-panel.c:260
-msgid "Updating…"
-msgstr "מתעדכן…"
-
-#. Translators: "Not available" indicates that the proximity sensor data is unavailable
-#: src/ms-sensor-panel.c:277
-msgctxt "proximity sensor data"
-msgid "Not available"
-msgstr "לא זמין"
-
-#. Translators: "Not available" indicates that the light sensor data is unavailable
-#: src/ms-sensor-panel.c:279
-msgctxt "light sensor data"
-msgid "Not available"
-msgstr "לא זמין"
-
-#. Translators: "Not available" indicates that the accelerometer sensor data is unavailable
-#: src/ms-sensor-panel.c:281
-msgctxt "accelerometer sensor data"
-msgid "Not available"
-msgstr "לא זמין"
-
-#. Translators: "Custom" is the name of a user-defined sound theme
-#: src/ms-sound-row.c:130
-msgid "Custom"
-msgstr "מותאם אישית"
-
-#: src/ms-sound-row.c:311
-msgid "Choose sound file"
-msgstr "בחירת קובץ שמע"
-
-#. Translators: %s is a OS version number like 0.20260614
-#: src/ms-updates-panel.c:136
-#, c-format
-msgid "Update to %s"
-msgstr "עדכון ל־%s"
-
-#: src/ms-updates-panel.c:169 src/ms-updates-panel.c:202
-#, c-format
-msgid "OS update failed: %s"
-msgstr "עדכון מערכת ההפעלה נכשל: %s"
-
-#: src/ms-updates-panel.c:248
-#, c-format
-msgid "Canceling OS update failed: %s"
-msgstr "ביטול עדכון מערכת ההפעלה נכשל: %s"
-
-#: src/ms-updates-panel.c:308
-msgid "OS Update already in progress"
-msgstr "כבר מתבצע עדכון למערכת ההפעלה"
-
-#. Translators %s is an os version number like 0.20260614
-#: src/ms-updates-panel.c:316
-#, c-format
-msgid "Updating to %s…"
-msgstr "מתבצע עדכון ל־%s…"
-
-#. Translators: "Full" represents the feedback profile with maximum haptic, led and sounds
-#: src/ms-util.c:170
-msgid "Full"
-msgstr "מלאה"
-
-#. Translators: "Quiet" represents a feedback profile with haptic and LED
-#: src/ms-util.c:173
-msgid "Quiet"
-msgstr "שקטה"
-
-#. Translators: "Silent" represents a feedback profile with LED only
-#: src/ms-util.c:176
-msgid "Silent"
-msgstr "חרישית"
-
-#: src/ms-util.c:292
-msgid "Choose Wallpaper"
-msgstr "בחירת רקע"
-
-#: src/ms-window.c:156
-msgid "Device"
-msgstr "מכשיר"
-
-#: src/ui/ms-about-panel.ui:19
-msgid "Phosh logo"
-msgstr "הלוגו של Phosh"
-
-#: src/ui/ms-about-panel.ui:30
-msgid "Phosh Version"
-msgstr "גרסת Phosh"
-
-#: src/ui/ms-about-panel.ui:38
-msgid "Operating System"
-msgstr "מערכת הפעלה"
-
-#: src/ui/ms-about-panel.ui:46
-msgid "Operating System Version"
-msgstr "גרסת מערכת הפעלה"
-
-#: src/ui/ms-about-panel.ui:54
-msgid "Hardware Model"
-msgstr "דגם חומרה"
-
-#: src/ui/ms-about-panel.ui:66
-msgid "Support Phosh"
-msgstr "תמיכה ב־Phosh"
-
-#: src/ui/ms-about-panel.ui:67
-msgid "Your donations make our work possible"
-msgstr "התרומות שלך מאפשרות לנו לעשות את מה שאנחנו עושים"
-
-#: src/ui/ms-about-panel.ui:70
-msgid "D_onate"
-msgstr "_תרומה"
-
-#: src/ui/ms-alerts-panel.ui:17
-msgid "Unable To Receive Alerts"
-msgstr "לא ניתן לקבל התראות"
-
-#: src/ui/ms-alerts-panel.ui:18
-msgid ""
-"Cannot receive Emergency Alerts on this device as no usable cellular modem "
-"is detected."
-msgstr "לא ניתן לקבל התאות חירום במכשיר הזה כיוון שלא זוהה מודם סלולרי."
-
-#: src/ui/ms-alerts-panel.ui:30
-msgid "Emergency and Governmental Alerts"
-msgstr "התראות חירום וממשלתיות"
-
-#: src/ui/ms-alerts-panel.ui:33
-msgid "Extreme Threat Alerts"
-msgstr "התראות איומים קיצוניים"
-
-#: src/ui/ms-alerts-panel.ui:35
-msgid "Display alerts for extreme threats to life and safety"
-msgstr "הצגת התראות לאיומים קיצוניים על חיי אדם ובטיחות"
-
-#: src/ui/ms-alerts-panel.ui:41
-msgid "Severe Threat Alerts"
-msgstr "התראות איומים חמורים"
-
-#: src/ui/ms-alerts-panel.ui:43
-msgid "Display alerts for severe threats to life and safety"
-msgstr "הצגת התראות לאיומים חמורים על חיי אדם ובטיחות"
-
-#: src/ui/ms-alerts-panel.ui:49
-msgid "Public Safety Alerts"
-msgstr "התראות לביטחון הציבור"
-
-#: src/ui/ms-alerts-panel.ui:51
-msgid "Show recommended actions to take in situations with a risk to safety"
-msgstr "הצגת פעולות מומלצת לביצוע במקרים של סכנה ביטחונית"
-
-#: src/ui/ms-alerts-panel.ui:57
-msgid "Test alerts"
-msgstr "התראות בדיקה"
-
-#: src/ui/ms-alerts-panel.ui:59
-msgid "Show periodic messages to test the alert system"
-msgstr "הצגת הודעות מדי פעם כדי לבדוק את מערכת ההתראות"
-
-#: src/ui/ms-alerts-panel.ui:65
-msgid "Amber alerts"
-msgstr "התראות חטיפה"
-
-#: src/ui/ms-alerts-panel.ui:67
-msgid "Show messages about child abduction emergencies"
-msgstr "הצגת הודעות על מקרי חירום של חטיפת ילדים"
-
-#: src/ui/ms-alerts-panel.ui:76
-msgid "History of Emergency and Governmental Alerts"
-msgstr "היסטוריית התראות ממשלתיות וחירום"
-
-#: src/ui/ms-alerts-panel.ui:82
-msgid "No emergency alerts yet"
-msgstr "אין התראות חירום עדיין"
-
-#: src/ui/ms-audio-device-row.ui:32
-msgid "Volume"
-msgstr "עוצמת שמע"
-
-#: src/ui/ms-compositor-panel.ui:11
-msgid "Scaling down of running applications"
-msgstr "הקטנת יישומים פעילים"
-
-#: src/ui/ms-compositor-panel.ui:12
-msgid "Only enable this for broken apps that don't fit the screen"
-msgstr "יש להפעיל את זה רק ליישומים שחורגים מגודל המסך"
-
-#: src/ui/ms-compositor-panel.ui:25
-msgid "Scale down all applications"
-msgstr "הקטנת כל היישומים"
-
-#: src/ui/ms-compositor-panel.ui:26
-msgid "Forcibly scale down all applications. Only use this as a last resort."
-msgstr "כפיית הקטנת כל היישומים. יש להפעיל את זה רק כמוצא אחרון."
-
-#: src/ui/ms-compositor-panel.ui:29
-msgid "Scale down all apps"
-msgstr "הקטנת כל היישומים"
-
-#. Translators: setting to scale down all applications
-#. Translators: setting to scale down a single application
-#: src/ui/ms-compositor-panel.ui:36 src/ui/ms-scale-to-fit-row.ui:12
-msgctxt "scale to fit setting"
-msgid "Enabled"
-msgstr "פעיל"
-
-#: src/ui/ms-convergence-panel.ui:15
-msgid "No known docks detected"
-msgstr "לא זוהו מעגנים מוכרים"
-
-#: src/ui/ms-convergence-panel.ui:29
-msgid "Map built-in touch screen"
-msgstr "מיפוי מסך מגע מובנה"
-
-#. Translators: setting to map built-in touch screen
-#: src/ui/ms-convergence-panel.ui:36
-msgctxt "touch setting"
-msgid "Enabled"
-msgstr "פעיל"
-
-#: src/ui/ms-features-panel.ui:11
-msgid "Experimental Features"
-msgstr "יכולות ניסיוניות"
-
-#: src/ui/ms-features-panel.ui:12
-msgid "Features not yet deemed fully stable"
-msgstr "יכולוות שעדיין לא נחשבות ליציבות לחלוטין"
-
-#: src/ui/ms-features-panel.ui:16
-msgid "Emergency Calls"
-msgstr "שיחות חירום"
-
-#: src/ui/ms-features-panel.ui:17
-msgid ""
-"Enable emergency calls. Please only enable this if you safely can ensure "
-"that it's working with your provider."
-msgstr ""
-"הפעלת שיחות חירום. נא להפעיל רק אם אפשר לוודא בצורה בטוחה שהן תקפות לספק "
-"התקשורת שלך."
-
-#. Translators: setting to enable emergency calls
-#: src/ui/ms-features-panel.ui:24
-msgctxt "emergency calls setting"
-msgid "Enabled"
-msgstr "פעיל"
-
-#: src/ui/ms-features-panel.ui:32
-msgid "Enable suspend via the system menu"
-msgstr "הפעלת השהיה דרך תפריט המערכת"
-
-#: src/ui/ms-features-panel.ui:34
-msgid ""
-"Please only enable this if you're aware of the limitations like data "
-"connection loss or missed alarms"
-msgstr ""
-"נא להפעיל את זה רק אם ברורות לך המגבלות כגון אובדן חיבור נתונים או התראות "
-"שהוחמצו"
-
-#. Translators: setting to enable suspend via the system menu
-#: src/ui/ms-features-panel.ui:40
-msgctxt "suspend setting"
-msgid "Enabled"
-msgstr "פעיל"
-
-#: src/ui/ms-feedback-panel.ui:13
-msgid "Sound Settings"
-msgstr "הגדרות שמע"
-
-#: src/ui/ms-feedback-panel.ui:17
-msgid "Play sound on adjusting volume sliders"
-msgstr "להשמיע צלילים בעת שינוי מחווני עוצמת השמיע"
-
-#: src/ui/ms-feedback-panel.ui:33
-msgid "Feedback Settings"
-msgstr "הגדרות משוב"
-
-#: src/ui/ms-feedback-panel.ui:36
-msgid "Feedback profile"
-msgstr "פרופיל משוב"
-
-#: src/ui/ms-feedback-panel.ui:37
-msgid "The global maximum feedback profile"
-msgstr "פרופיל המשוב הכללי המרבי"
-
-#: src/ui/ms-feedback-panel.ui:52
-msgid "Prefer flash"
-msgstr "להעדיף מבזק"
-
-#: src/ui/ms-feedback-panel.ui:53
-msgid "Prefer camera flash over status LED when available"
-msgstr "להעדיף את המבזק של המצלמה על פני נורית המצב כשניתן"
-
-#: src/ui/ms-feedback-panel.ui:59
-msgid "Silence by volume button press"
-msgstr "להשתיק עם לחיצה על כפתור עוצמת שמע"
-
-#: src/ui/ms-feedback-panel.ui:60
-msgid ""
-"When locked put the phone in silent mode when pressing the button that "
-"lowers the volume on incoming calls"
-msgstr ""
-"כהמכשיר נעול להעביר את הטלפון למצב שקט בלחיצה על הנמכת עוצמת השמע בשיחות "
-"נכנסות"
-
-#. Translators: Strength of the haptic motor
-#: src/ui/ms-feedback-panel.ui:66
-msgid "Haptic strength"
-msgstr "עצמת רטט"
-
-#: src/ui/ms-feedback-panel.ui:67
-msgid "Maximum haptic feedback strength percentage"
-msgstr "עצמת רטט מרבית באחוזים"
-
-#: src/ui/ms-feedback-panel.ui:86
-msgid "Per Application settings"
-msgstr "הגדרות ברמת יישומון"
-
-#: src/ui/ms-feedback-panel.ui:99 src/ui/ms-window.ui:160
-msgid "Sounds"
-msgstr "צלילים"
-
-#: src/ui/ms-feedback-panel.ui:100
-msgid "The sound to use for certain events"
-msgstr "הצלילים שיודיעו על אירועים מסוימים"
-
-#: src/ui/ms-feedback-panel.ui:114
-msgid "Phone Calls"
-msgstr "שיחות טלפון"
-
-#: src/ui/ms-feedback-panel.ui:126
-msgid "SMS"
-msgstr "מסרון"
-
-#: src/ui/ms-feedback-panel.ui:138 src/ui/ms-feedback-panel.ui:207
-msgid "Instant Messages"
-msgstr "הודעות מיידיות"
-
-#: src/ui/ms-feedback-panel.ui:151
-msgid "Alarm Clock"
-msgstr "שעון מעורר"
-
-#: src/ui/ms-feedback-panel.ui:162
-msgid "Screen Wakeup"
-msgstr "התעוררות המסך"
-
-#: src/ui/ms-feedback-panel.ui:165
-msgid "Notification urgency that lights up the screen"
-msgstr "דחיפות התראות שמפעילה את המסך"
-
-#: src/ui/ms-feedback-panel.ui:183
-msgid ""
-"Notification categories that wake up the screen independent from their "
-"urgency"
-msgstr "קטגוריות התראות שמעירות את המסך ללא תלות בדרגת הדחיפות שלהן"
-
-#: src/ui/ms-feedback-panel.ui:186
-msgid "Calls"
-msgstr "שיחות"
-
-#: src/ui/ms-feedback-panel.ui:187
-msgid "A generic audio or video call notification"
-msgstr "התראת שיחת שמע או וידאו כללית"
-
-#: src/ui/ms-feedback-panel.ui:193
-msgid "Device events"
-msgstr "אירועי מכשיר"
-
-#: src/ui/ms-feedback-panel.ui:194
-msgid "A generic device-related notification"
-msgstr "התראה כללית שקשורה במכשיר"
-
-#: src/ui/ms-feedback-panel.ui:200
-msgid "Emails"
-msgstr "הודעות דוא״ל"
-
-#: src/ui/ms-feedback-panel.ui:201
-msgid "A generic e-mail-related notification"
-msgstr "התראה כללית שקשורה בדוא״ל"
-
-#: src/ui/ms-feedback-panel.ui:208
-msgid "A generic instant message-related notification"
-msgstr "התראה כללית שקשורה בהודעות מיידיות"
-
-#: src/ui/ms-feedback-panel.ui:214
-msgid "Network events"
-msgstr "אירועי רשת"
-
-#: src/ui/ms-feedback-panel.ui:215
-msgid "A generic network notification"
-msgstr "התראת רשת כללית"
-
-#. Translators: "presence change" means coming online or going offline,
-#. like in an instant messenger.
-#: src/ui/ms-feedback-panel.ui:223
-msgid "Presence changes"
-msgstr "שינויי נוכחות"
-
-#: src/ui/ms-feedback-panel.ui:224
-msgid "A generic presence change notification"
-msgstr "התראת שינוי נוכחות כללית"
-
-#: src/ui/ms-feedback-panel.ui:230
-msgid "File transfers"
-msgstr "העברות קבצים"
-
-#: src/ui/ms-feedback-panel.ui:231
-msgid "A generic file transfer or download notification"
-msgstr "התראת העברת קבצים או הורדה כללית"
-
-#: src/ui/ms-hidden-app-row.ui:5 src/ui/ms-scale-to-fit-row.ui:5
-msgid "Application"
-msgstr "יישומונים"
-
-#: src/ui/ms-hidden-apps-dialog.ui:4
-msgid "Hidden Apps"
-msgstr "יישומונים מוסתרים"
-
-#: src/ui/ms-hidden-apps-dialog.ui:83
-msgid "No Apps are Currently Hidden"
-msgstr "אין יישומונים מוסתרים כרגע"
-
-#: src/ui/ms-lang-panel.ui:15
-msgid "The language of the user interface"
-msgstr "שפת מנשק המשתמש"
-
-#: src/ui/ms-lang-panel.ui:18
-msgid "_Language"
-msgstr "_שפה"
-
-#: src/ui/ms-lang-panel.ui:45
-msgid "Language change requires logout or restart"
-msgstr "החלפת שפה דורשת יציאה או הפעלה מחדש"
-
-#: src/ui/ms-lang-panel.ui:46
-msgid "Logout"
-msgstr "יציאה"
-
-#: src/ui/ms-lockscreen-panel.ui:14
-msgid "Locking and unlocking"
-msgstr "נעילה ושחרור נעילה"
-
-#: src/ui/ms-lockscreen-panel.ui:18
-msgid "Shuffle keypad"
-msgstr "ערבוב ספרות בלוח המקשים"
-
-#: src/ui/ms-lockscreen-panel.ui:19
-msgid "Whether to shuffle the numbers on the keypad"
-msgstr "האם לערבב את הספרות בלוח המקשים"
-
-#: src/ui/ms-lockscreen-panel.ui:25
-msgid "Require authentication to unlock"
-msgstr "לדרוש אימות כדי לשחרר"
-
-#: src/ui/ms-lockscreen-panel.ui:26
-msgid "Require typing PIN or password to unlock the device"
-msgstr "לדרוש הקלדת קוד אישי או סיסמה כדי לשחרר את המכשיר"
-
-#: src/ui/ms-lockscreen-panel.ui:32
-msgid "Automatic screen lock delay"
-msgstr "השהיה אוטומטית לנעילת מסך"
-
-#: src/ui/ms-lockscreen-panel.ui:33
-msgid "Seconds from screen blank to screen lock"
-msgstr "משך הזמן מהחשכת המסך לנעילת המסך"
-
-#: src/ui/ms-lockscreen-panel.ui:52 src/ui/ms-overview-panel.ui:94
-msgid "Background"
-msgstr "רקע"
-
-#: src/ui/ms-lockscreen-panel.ui:58 src/ui/ms-overview-panel.ui:100
-msgid "_Select Wallpaper…"
-msgstr "_בחירת רקע…"
-
-#: src/ui/ms-lockscreen-panel.ui:70 src/ui/ms-overview-panel.ui:112
-msgid "Use wallpaper"
-msgstr "שימוש ברקע"
-
-#: src/ui/ms-lockscreen-panel.ui:71 src/ui/ms-overview-panel.ui:113
-msgid "Whether to show a colorful wallpaper"
-msgstr "האם להציג רקע צבעוני"
-
-#: src/ui/ms-lockscreen-panel.ui:79 src/ui/ms-window.ui:204
-msgid "Widgets"
-msgstr "יישומונים"
-
-#: src/ui/ms-lockscreen-panel.ui:80
-msgid "Additional widgets for the lock screen"
-msgstr "יישומונים נוספים למסך הנעילה"
-
-#. Translators: Title for a dialog to add a new on-screen keyboard shortcut
-#. Translators: Label for a button that allows the user to add a new keyboard shortcut
-#: src/ui/ms-osk-add-shortcut-dialog.ui:7 src/ui/ms-osk-panel.ui:168
-msgid "Add Shortcut"
-msgstr "הוספת מקשי קיצור"
-
-#: src/ui/ms-osk-add-shortcut-dialog.ui:44
-msgid "Choose Shortcut Modifiers"
-msgstr "בחירת מקשי החלפה לקיצור"
-
-#: src/ui/ms-osk-add-shortcut-dialog.ui:129
-msgid "Choose Shortcut Key"
-msgstr "בחירת מקש קיצור"
-
-#: src/ui/ms-osk-add-shortcut-dialog.ui:140
-msgid "Enter Shortcut Key"
-msgstr "נא למלא צירוף מקשי קיצור"
-
-#: src/ui/ms-osk-add-shortcut-dialog.ui:141
-msgid "Type a key such as letters (like C or V), etc."
-msgstr "נא להקליד על מקש כגון אותיות (למשל ב או ה), וכו׳."
-
-#: src/ui/ms-osk-add-shortcut-dialog.ui:144
-msgid "_Shortcut Key"
-msgstr "מקש _קיצור"
-
-#: src/ui/ms-osk-add-shortcut-dialog.ui:167
-msgid "Shortcut Preview"
-msgstr "תצוגה מקדימה של קיצור"
-
-#: src/ui/ms-osk-panel.ui:13
-msgid "Enable _On Screen Keyboard"
-msgstr "הפעלת מקלדת מ_סך"
-
-#: src/ui/ms-osk-panel.ui:14
-msgid "Whether to show the on screen keyboard when needed"
-msgstr "האם להציג מקלדת על המסך בעת הצורך"
-
-#: src/ui/ms-osk-panel.ui:20
-msgid "Unfold long-press"
-msgstr "הצגה בלחיצה ארוכה"
-
-#: src/ui/ms-osk-panel.ui:21
-msgid ""
-"How long to press the center of the home bar to unfold the on screen keyboard"
-msgstr "מה יהיה משך זמן הלחיצה על סרגל הבית להצגת מקלדת המסך"
-
-#. Translators: abbreviation for less than or equal to 0.5 second interval of time
-#: src/ui/ms-osk-panel.ui:26
-msgid "short"
-msgstr "קצר"
-
-#. Translators: abbreviation for 1 second interval of time
-#: src/ui/ms-osk-panel.ui:28
-msgctxt "press interval"
-msgid "normal"
-msgstr "רגיל"
-
-#. Translators: abbreviation for greater than or equal to 1.5 second interval of time
-#: src/ui/ms-osk-panel.ui:30
-msgid "long"
-msgstr "ארוך"
-
-#: src/ui/ms-osk-panel.ui:38
-msgid "Ignore hardware keyboard"
-msgstr "התעלמות ממקלדת חומרה"
-
-#: src/ui/ms-osk-panel.ui:39
-msgid ""
-"Whether to show the on screen keyboard when a physical keyboard is present"
-msgstr "האם להציג מקלדת מסך גם כשמקלדת פיזית מחוברת"
-
-#: src/ui/ms-osk-panel.ui:46
-msgid "Key indicator popup"
-msgstr "חלונית חיווי מקש"
-
-#: src/ui/ms-osk-panel.ui:47
-msgid "Whether to show a popover indicating the currently pressed key"
-msgstr "האם להציג חלונית עליונה שמציינת מה המקש שנלחץ"
-
-#: src/ui/ms-osk-panel.ui:59
-msgid "Keyboard height in portrait mode"
-msgstr "גובה המקלדת במצב לאורך"
-
-#: src/ui/ms-osk-panel.ui:60
-msgid "When the screen is taller than wide"
-msgstr "כאשר המסך יותר גבוה מרחב"
-
-#: src/ui/ms-osk-panel.ui:76
-msgid "Keyboard height in landscape mode"
-msgstr "גובה המקלדת במצב לרוחב"
-
-#: src/ui/ms-osk-panel.ui:77
-msgid "When the screen is wider than tall"
-msgstr "כאשר המסך יותר רחב מארוך"
-
-#: src/ui/ms-osk-panel.ui:101 src/ui/ms-window.ui:183
-msgid "Scaling"
-msgstr "קנה־מידה"
-
-#: src/ui/ms-osk-panel.ui:104
-msgid "Keep physical size constant"
-msgstr "לשמור על קבוע הגודל הפיזי"
-
-#: src/ui/ms-osk-panel.ui:105
-msgid "Ensure OSK is large enough in high screen resolutions"
-msgstr "לוודא שהמקלדת על גבי המסך גדולה מספיק ברזולוציות מסך גבוהות"
-
-#: src/ui/ms-osk-panel.ui:111
-msgid "Add empty space below keys"
-msgstr "הוספת רווח ריק מתחת למקשים"
-
-#: src/ui/ms-osk-panel.ui:112
-msgid "Whether to add an empty area below the OSK's keys to shift it upward."
-msgstr ""
-"האם להוסיף אזור ריק מתחת למקשי המקלדת על גבי המסך כדי להסיט אותו למעלה."
-
-#: src/ui/ms-osk-panel.ui:122
-msgid "Text Completion"
-msgstr "השלמת טקסט"
-
-#: src/ui/ms-osk-panel.ui:125
-msgid "Opportunistic word completion"
-msgstr "השלמת מילים שאפתנית"
-
-#: src/ui/ms-osk-panel.ui:126
-msgid "Enable word completion when the app indicates it is useful"
-msgstr "הפעלת השלמת מילים כשהיישומון מציין שזה שימושי"
-
-#: src/ui/ms-osk-panel.ui:133
-msgid "Toggle via OSK menu"
-msgstr "החלפת מצב דרך תפריט מקלדת מסך"
-
-#: src/ui/ms-osk-panel.ui:134
-msgid "Allow to toggle word completion via the keyboard's menu button"
-msgstr "לאפשר החלפת מצב השלמת מילים דרך כפתור התפריט של המקלדת"
-
-#: src/ui/ms-osk-panel.ui:140
-msgid "Default Completer"
-msgstr "משלים ברירת מחדל"
-
-#: src/ui/ms-osk-panel.ui:141
-msgid "The default completion engine to use"
-msgstr "מנוע ההשלמה לשימוש כברירת מחדל"
-
-#. Translators: Space is the ' ' character here
-#: src/ui/ms-osk-panel.ui:150
-msgid "Handle space around punctuation characters"
-msgstr "טיפול ברווח סביב תווי פיסוק"
-
-#. Translators: Space is the ' ' character here
-#: src/ui/ms-osk-panel.ui:152
-msgid ""
-"This also swaps the space and punctuation characters after word completion"
-msgstr "החלפה גם של תווי הרווח והפיסוק לאחר השלמת מילים"
-
-#: src/ui/ms-osk-panel.ui:160
-msgid "Terminal Layout"
-msgstr "פריסת מסוף"
-
-#: src/ui/ms-osk-panel.ui:179
-msgid "Shortcuts"
-msgstr "קיצורים"
-
-#: src/ui/ms-osk-panel.ui:180
-msgid "The shortcuts available in the shortcuts bar"
-msgstr "הקיצורים הזמינים מסרגל הקיצורים"
-
-#: src/ui/ms-overview-panel.ui:13 src/ui/ms-window.ui:138
-msgid "Favorites"
-msgstr "מועדפים"
-
-#: src/ui/ms-overview-panel.ui:22
-msgid "Organize Favorites"
-msgstr "סידור מועדפים"
-
-#: src/ui/ms-overview-panel.ui:23
-msgid "Drag and drop the apps below to rearrange your favorite apps"
-msgstr "גרירת היישומים להלן כדי לסדר את היישומים המועדפים שלך מחדש"
-
-#: src/ui/ms-overview-panel.ui:48
-msgid "Reset Favorites"
-msgstr "איפוס מועדפים"
-
-#: src/ui/ms-overview-panel.ui:49
-msgid "Set list of favorite apps back to the default"
-msgstr "הגדרת רשימת היישומים המועדפים בחזרה לברירת המחדל"
-
-#: src/ui/ms-overview-panel.ui:53
-msgid "Reset"
-msgstr "איפוס"
-
-#: src/ui/ms-overview-panel.ui:64
-msgid "App Filtering and Hiding"
-msgstr "סינון והסתרת יישומונים"
-
-#: src/ui/ms-overview-panel.ui:67
-msgid "Set Application Filter Mode"
-msgstr "הגדרת מצב סינון יישומים"
-
-#: src/ui/ms-overview-panel.ui:68
-msgid "Show only mobile apps in the overview"
-msgstr "להציג רק יישומים לניידים בסקירה"
-
-#: src/ui/ms-overview-panel.ui:74
-msgid "_Manage Hidden Apps"
-msgstr "_ניהול יישומונים מוסתרים"
-
-#: src/ui/ms-overview-panel.ui:75
-msgid "Make apps you disabled in the overview visible again"
-msgstr "הצגת יישומונים שהשבתת בסקירה שוב"
-
-#: src/ui/ms-sensor-panel.ui:16
-msgid "No Sensors found"
-msgstr "לא נמצאו חיישנים"
-
-#: src/ui/ms-sensor-panel.ui:17
-msgid ""
-"Either there are no sensors installed on your device or they are disabled by "
-"a killswitch."
-msgstr "או שאין חיישנים מותקנים במכשיר שלך או שהם הושבתו על ידי מתג השבתה."
-
-#: src/ui/ms-sensor-panel.ui:28 src/ui/ms-window.ui:277
-msgid "Sensors"
-msgstr "חיישנים"
-
-#: src/ui/ms-sensor-panel.ui:32
-msgid "Sensor Readings"
-msgstr "קריאות חיישנים"
-
-#: src/ui/ms-sensor-panel.ui:40
-msgid "Proximity"
-msgstr "מרחק"
-
-#: src/ui/ms-sensor-panel.ui:49
-msgid "Light"
-msgstr "אור"
-
-#: src/ui/ms-sensor-panel.ui:58
-msgid "Orientation"
-msgstr "כיוון"
-
-#: src/ui/ms-sensor-panel.ui:69 src/ui/ms-window.ui:285
-msgid "High Contrast"
-msgstr "ניגודיות גבוהה"
-
-#: src/ui/ms-sensor-panel.ui:72
-msgid "Automatic High Contrast"
-msgstr "ניגודיות גבוהה אוטומטית"
-
-#: src/ui/ms-sensor-panel.ui:73
-msgid "Controlled by the Ambient Light Sensor"
-msgstr "נשלטת על ידי חיישן תאורת הסביבה"
-
-#: src/ui/ms-sensor-panel.ui:84
-msgid "Light intensity threshold"
-msgstr "סף עוצמת תאורה"
-
-#: src/ui/ms-sensor-panel.ui:85
-msgid "Theme will switch to high contrast above the threshold"
-msgstr "ערכת הנושא תוחלף לניגודיות גבוהה מעל לסף"
-
-#: src/ui/ms-sound-row.ui:33
-msgid "Toggle Play"
-msgstr "החלפת מצב נגינה"
-
-#: src/ui/ms-sound-row.ui:54
-msgid "Sound files (ogg)"
-msgstr "קובצי שמע (ogg)"
-
-#: src/ui/ms-topbar-panel.ui:12
-msgid "UI Elements"
-msgstr "רכיבי מנשק משתמש"
-
-#: src/ui/ms-topbar-panel.ui:16
-msgid "Show battery percentage"
-msgstr "הצגת אחוז סוללה"
-
-#: src/ui/ms-topbar-panel.ui:17
-msgid "Show exact charge level in the top bar"
-msgstr "הצגת רמת הטעינה המדויקת בסרגל העליון"
-
-#: src/ui/ms-topbar-panel.ui:23
-msgid "Avoid notches"
-msgstr "הימנעות מאזור חסימה למצלמה"
-
-#: src/ui/ms-topbar-panel.ui:24
-msgid "Don't place UI elements beneath notches and display cutouts"
-msgstr "לא להציב רכיבי מנשק משתמש מתחת לאזורי חסימה ואזורי חיתוך של הצג"
-
-#: src/ui/ms-topbar-panel.ui:34 src/ui/ms-window.ui:118
-msgid "Quick Settings"
-msgstr "הגדרות מהירות"
-
-#: src/ui/ms-topbar-panel.ui:35
-msgid "Organize your additional Quick Settings"
-msgstr "מיון ההגדרות המהירות הנוספות שלך"
-
-#: src/ui/ms-updates-panel.ui:12
-msgid "OS updates require a system restart"
-msgstr "עדכוני מערכת הפעלה דורשים את הפעלת המערכת מחדש"
-
-#: src/ui/ms-updates-panel.ui:13
-msgid "Restart"
-msgstr "הפעלה מחדש"
-
-#: src/ui/ms-updates-panel.ui:30
-msgid "Everything up to date"
-msgstr "הכול עדכני"
-
-#: src/ui/ms-updates-panel.ui:31
-msgid "There are no OS updates available"
-msgstr "אין עדכונים למערכת ההפעלה"
-
-#: src/ui/ms-updates-panel.ui:42
-msgid "Updates available"
-msgstr "יש עדכונים"
-
-#: src/ui/ms-updates-panel.ui:43
-msgid "There are OS updates available"
-msgstr "יש עדכונים למערכת ההפעלה"
-
-#: src/ui/ms-updates-panel.ui:65
-msgid "Fetching OS update…"
-msgstr "עדכון מערכת ההפעלה מתקבל…"
-
-#: src/ui/ms-updates-panel.ui:109
-msgid "Installing OS update…"
-msgstr "עדכון מערכת הפעלה מותקן…"
-
-#: src/ui/ms-welcome-panel.ui:8
-msgid "Welcome to Mobile Settings"
-msgstr "ברוך בואך להגדרות הנייד"
-
-#: src/ui/ms-welcome-panel.ui:9
-msgid "Tweak advanced mobile settings"
-msgstr "כוונון הגדרות מתקדמות במכשיר"
-
-#. Translators: this is a verb.
-#: src/ui/ms-window.ui:31
-msgid "Search"
-msgstr "חיפוש"
-
-#. Translators: Placeholder text for the search bar input
-#: src/ui/ms-window.ui:49
-msgid "Search settings"
-msgstr "הגדרות חיפוש"
-
-#: src/ui/ms-window.ui:99
+#: src/ui/pt-window.ui:31
 msgid "Welcome"
 msgstr "ברוך בואך"
 
-#: src/ui/ms-window.ui:110
-msgid "Top Bar"
-msgstr "סרגל עליון"
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "היכרות עם היכולות של ה־@BRAND@ ושל @VENDOR@."
 
-#: src/ui/ms-window.ui:119
-msgid "Notches"
-msgstr "מגרעות"
+#: src/ui/pt-window.ui:42
+msgid "Really Disconnect"
+msgstr "להתנתק באמת"
 
-#: src/ui/ms-window.ui:130
-msgid "Overview"
-msgstr "סקירה"
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"בכל עת ניתן לכבות רשת אלחוטית, בלוטות׳ וטלפוניה על ידי היפוך מצב מתגי ההשבתה "
+"שנמצאים בצד ה־@BRAND@ שלך"
 
-#: src/ui/ms-window.ui:139
-msgid "Filter"
-msgstr "מסנן"
+#: src/ui/pt-window.ui:52
+msgid "Going Home"
+msgstr "חזרה הביתה"
 
-#: src/ui/ms-window.ui:140 src/ui/ms-window.ui:202
-msgid "Wallpaper"
-msgstr "תמונת רקע"
+#: src/ui/pt-window.ui:53
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"החלקה על סרגל הבית בתחתית המסך יביא אותך לסקירה בה ניתן לראות את היישומונים "
+"הפעילים שלך."
 
-#: src/ui/ms-window.ui:151 src/ui/ms-window.ui:159
-msgid "Feedback"
-msgstr "משוב"
+#: src/ui/pt-window.ui:60
+msgid "Show Keyboard"
+msgstr "הצגת מקלדת"
 
-#: src/ui/ms-window.ui:161
-msgid "Wakeup"
-msgstr "התעוררות"
+#: src/ui/pt-window.ui:61
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr "לחיצה ארוכה על סרגל הבית תחשוף את המקלדת בכל עת."
 
-#: src/ui/ms-window.ui:162
-msgid "Vibra"
-msgstr "רטט"
+#: src/ui/pt-window.ui:68
+msgid "Quick Settings"
+msgstr "הגדרות מהירות"
 
-#: src/ui/ms-window.ui:163
-msgid "Haptic"
-msgstr "רטט מגע"
+#: src/ui/pt-window.ui:69
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"כדי לשנות במהירות דברים כגון בהירות מסך, כוונון עוצמת שמע או להפעיל/לכבות "
+"הגדרות, יש לגרור מראש המסך כלפי מטה בכל עת."
 
-#: src/ui/ms-window.ui:164
-msgid "LED"
-msgstr "נורית"
+#: src/ui/pt-window.ui:76
+msgid "Power Menu"
+msgstr "תפריט כיבוי"
 
-#: src/ui/ms-window.ui:175
-msgid "Compositor"
-msgstr "ניהול חלונאי"
+#: src/ui/pt-window.ui:77
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"לחיצה והחזקה של כפתור הכיבוי תצגנה תפריט עם פעולות מהירות במכשיר שלך. כשהיא "
+"מוגדרת, תופיע גם פעולת שיחת חירום."
 
-#: src/ui/ms-window.ui:194
-msgid "Lockscreen"
-msgstr "מסך נעילה"
+#: src/ui/pt-window.ui:84
+msgid "Slide to Unlock"
+msgstr "החלקה לשחרור נעילה"
 
-#: src/ui/ms-window.ui:203
-msgid "Shuffle"
-msgstr "ערבוב"
+#: src/ui/pt-window.ui:85
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"כשהמכשיר שלך נעול, החלקה למעלה תציג את לוח המקשים שיאפשר לך לשחרר את המכשיר "
+"באמצעות הקוד האישי שלך (PIN)."
 
-#: src/ui/ms-window.ui:205
-msgid "Password"
-msgstr "סיסמה"
+#: src/ui/pt-window.ui:92
+msgid "Closing Applications"
+msgstr "סגירת יישומונים"
 
-#: src/ui/ms-window.ui:216
-msgid "Convergence"
-msgstr "התלכדות"
+#: src/ui/pt-window.ui:93
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"במסך הסקירה, ניתן לראות את רשימת היישומונים שלך, אפשר לסלק אותם בגרירה כלפי "
+"מטה או על ידי לחיצה על כפתור הסגירה."
 
-#: src/ui/ms-window.ui:234
-msgid "On Screen Keyboard"
-msgstr "מקלדת מסך"
+#: src/ui/pt-window.ui:100
+msgid "Launching Applications"
+msgstr "הפעלת יישומונים"
 
-#: src/ui/ms-window.ui:242
-msgid "Keyboard"
-msgstr "מקלדת"
+#: src/ui/pt-window.ui:101
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"אפשר לגעת בכל סמל של יישומון ברשת היישומונים כדי להפעיל אותו, או להשתמש "
+"בסרגל החיפוש כדי למצוא את היישומון המבוקש."
 
-#: src/ui/ms-window.ui:243
-msgid "Unfold"
-msgstr "פריסה"
+#: src/ui/pt-window.ui:108
+msgid "See Your Notifications"
+msgstr "הצגת ההתראות שלך"
 
-#: src/ui/ms-window.ui:244
-msgid "OSK"
-msgstr "מקלדת על המסך"
+#: src/ui/pt-window.ui:109
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"בכל עת ניתן לגרור מראש המכשיר כלפי מטה כדי לצפות בהתראות מכל היישומונים שלך!"
 
-#: src/ui/ms-window.ui:245
-msgid "Word Completion"
-msgstr "השלמת מילים"
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "לחובבי לינוקס מושבעים"
 
-#: src/ui/ms-window.ui:256
-msgid "Emergency Alerts"
-msgstr "התראות חירום"
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"בסופו של דבר postmarketOS יהיה שמיש לכולם. כרגע אנחנו מצפים שלמשתמשים שלנו "
+"יהיה ניסיון בלינוקס ושיסייעו בתיקון תקלות"
 
-#: src/ui/ms-window.ui:264 src/ui/ms-window.ui:304
-msgid "Emergency"
-msgstr "חירום"
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:127
+msgid "Welcome to your @BRAND@!"
+msgstr "ברוך בואך ל־@BRAND@ שלך!"
 
-#: src/ui/ms-window.ui:265
-msgid "Cell Broadcast"
-msgstr "שידור אנטנה"
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:130
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr "כדי ללמוד עוד על @VENDOR@ או על המכשיר שלך, אפשר לגשת אל @URL@."
 
-#: src/ui/ms-window.ui:266
-msgid "Danger"
-msgstr "סכנה"
+#: src/ui/pt-window.ui:134
+msgid "Get Started"
+msgstr "איך מתחילים"
 
-#: src/ui/ms-window.ui:296
-msgid "Experimental features"
-msgstr "יכולות ניסיוניות"
+#: src/ui/pt-window.ui:155
+msgid "Next Page"
+msgstr "העמוד הבא"
 
-#: src/ui/ms-window.ui:305
-msgid "Suspend"
-msgstr "השהיה"
+#: src/ui/pt-window.ui:194
+msgid "Previous Page"
+msgstr "העמוד הקודם"
 
-#: src/ui/ms-window.ui:306
-msgid "Experimental"
-msgstr "ניסיוני"
-
-#: src/ui/ms-window.ui:326
-msgid "Locale"
-msgstr "שפה"
-
-#: src/ui/ms-window.ui:337
-msgid "OS Updates"
-msgstr "עדכוני מערכת הפעלה"
-
-#: src/ui/ms-window.ui:346
-msgid "Updates"
-msgstr "עדכונים"
-
-#: src/ui/ms-window.ui:358 src/ui/ms-window.ui:366
-msgid "About"
-msgstr "על אודות"
-
-#: src/ui/ms-window.ui:391
-msgid "_Show Configurable Tweaks"
-msgstr "הצגת _שפצורים שאפשר להגדיר"
-
-#: src/ui/ms-window.ui:398
+#: src/ui/pt-window.ui:234
 msgid "_Keyboard Shortcuts"
 msgstr "_קיצורים"
 
-#: src/ui/ms-window.ui:402
-msgid "_About Mobile Settings"
-msgstr "_על הגדרות נייד"
+#: src/ui/pt-window.ui:238
+msgid "_About Phosh Tour"
+msgstr "_על הסיור ב־Phose"
+
+#~ msgid "Mobile Settings"
+#~ msgstr "הגדרות הנייד"
+
+#~ msgid "Mobile;Preferences;MobileSettings;Tweaks;"
+#~ msgstr ""
+#~ "נייד;מובייל;סלולרי;מכשיר;העדפות;הגדרות;הגדרות לנייד;שפצורים;שיפורים;"
+
+#~ msgid "Phosh Mobile Settings"
+#~ msgstr "הגדרות נייד Phosh"
+
+#~ msgid ""
+#~ "This app allows you to configure some aspects of Phosh that would "
+#~ "otherwise require command line usage."
+#~ msgstr ""
+#~ "היישום מאפשר לך להגדיר חלק מההיבטים של Phosh שדורשים שורת פקודה בכל מצב "
+#~ "אחר."
+
+#~ msgid "Advanced settings for Mobile devices using Phosh"
+#~ msgstr "הגדרות מתקדמות למכשירים ניידים עם Phosh"
+
+#~ msgid "Available panels"
+#~ msgstr "לוחות זמינים"
+
+#~ msgid "Compositor panel"
+#~ msgstr "לוח ניהול חלונאי"
+
+#~ msgid "Feedback panel"
+#~ msgstr "לוח משוב"
+
+#, c-format
+#~ msgid "Critical temperature is %.2f°C"
+#~ msgstr "הטמפרטורה הקיצונית היא ‎%.2f°C‎"
+
+#~ msgid "Librem 5"
+#~ msgstr "Librem 5"
+
+#~ msgid "U-Boot"
+#~ msgstr "U-Boot"
+
+#~ msgid "Suspend device"
+#~ msgstr "השהיית מכשיר"
+
+#~ msgid "Suspend is experimental"
+#~ msgstr "השהייה היא ניסיונית"
+
+#~ msgid "suspend now"
+#~ msgstr "להשהות כעת"
+
+#~ msgid "Temperatures"
+#~ msgstr "טמפרטורות"
+
+#~ msgid "CPU"
+#~ msgstr "מעבד"
+
+#~ msgid "GPU"
+#~ msgstr "מעבד גרפי"
+
+#~ msgid "VPU"
+#~ msgstr "מעבד וידאו"
+
+#~ msgid "Fuel Gauge"
+#~ msgstr "מד דלק"
+
+#~ msgid "Battery"
+#~ msgstr "סוללה"
+
+#~ msgid "Add Layout"
+#~ msgstr "הוספת פריסה"
+
+#~ msgid "Cancel"
+#~ msgstr "ביטול"
+
+#~ msgid "Add"
+#~ msgstr "הוספה"
+
+#~ msgid "Language"
+#~ msgstr "שפה"
+
+#~ msgctxt "on screen keyboard"
+#~ msgid "Layouts"
+#~ msgstr "פריסות"
+
+#~ msgid "No Layouts configured"
+#~ msgstr "לא מוגדרות פריסות"
+
+#~ msgid "More options…"
+#~ msgstr "אפשרויות נוספות…"
+
+#~ msgid "Move Up"
+#~ msgstr "העלאה למעלה"
+
+#~ msgid "Move Down"
+#~ msgstr "הורדה למטה"
+
+#~ msgid "Remove"
+#~ msgstr "הסרה"
+
+#~ msgid "Other…"
+#~ msgstr "אחר…"
+
+#~ msgid "Select Language"
+#~ msgstr "בחירת שפה"
+
+#~ msgid "_Cancel"
+#~ msgstr "_ביטול"
+
+#~ msgid "_Select"
+#~ msgstr "_בחירה"
+
+#~ msgid "Language or country"
+#~ msgstr "שפה או מדינה"
+
+#~ msgid "No languages found"
+#~ msgstr "לא נמצאו שפות"
+
+#~ msgid "More…"
+#~ msgstr "עוד…"
+
+#~ msgid "Today"
+#~ msgstr "היום"
+
+#~ msgid "Yesterday"
+#~ msgstr "אתמול"
+
+#, no-c-format
+#~ msgid "%b %e"
+#~ msgstr "‫%e ב%b"
+
+#~ msgid "%b %e, %Y"
+#~ msgstr "‫%e ב%b, %Y"
+
+#, c-format
+#~ msgid "%1$s, %2$s"
+#~ msgstr "%1$s, %2$s"
+
+#, c-format
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "שעה"
+#~ msgstr[1] "שעתיים"
+#~ msgstr[2] "‫%d שעות"
+#~ msgstr[3] "‫%d שעות"
+
+#, c-format
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "דקה"
+#~ msgstr[1] "שתי דקות"
+#~ msgstr[2] "‫%d דקות"
+#~ msgstr[3] "‫%d דקות"
+
+#, c-format
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "שנייה"
+#~ msgstr[1] "שתי שניות"
+#~ msgstr[2] "‫%d שניות"
+#~ msgstr[3] "‫%d שניות"
+
+#, c-format
+#~ msgctxt "hours minutes seconds"
+#~ msgid "%s %s %s"
+#~ msgstr "%s %s %s"
+
+#, c-format
+#~ msgctxt "hours minutes"
+#~ msgid "%s %s"
+#~ msgstr "%s %s"
+
+#, c-format
+#~ msgctxt "hours"
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#, c-format
+#~ msgctxt "minutes seconds"
+#~ msgid "%s %s"
+#~ msgstr "%s %s"
+
+#, c-format
+#~ msgctxt "minutes"
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "0 seconds"
+#~ msgstr "0 שניות"
+
+#, c-format
+#~ msgid "Something went wrong: %s"
+#~ msgstr "משהו השתבש: %s"
+
+#~ msgid "Authentication cancelled"
+#~ msgstr "האימות בוטל"
+
+#, c-format
+#~ msgid "%i error occurred while saving"
+#~ msgid_plural "%i errors occurred while saving"
+#~ msgstr[0] "אירעה שגיאה במהלך השמירה"
+#~ msgstr[1] "אירעו שתי שגיאות במהלך השמירה"
+#~ msgstr[2] "אירעו %i שגיאות במהלך השמירה"
+#~ msgstr[3] "אירעו %i שגיאות במהלך השמירה"
+
+#~ msgid "You need to authenticate as administrator to save some settings"
+#~ msgstr "יש לעבור אימות כמנהלים כדי לשמור חלק מההגדרות"
+
+#~ msgid "Could not get list of cell broadcast messages"
+#~ msgstr "לא ניתן למשוך את רשימת הודעות שידור האנטנות"
+
+#~ msgid "- Manage your mobile settings"
+#~ msgstr "- ניהול הגדרות המכשיר הנייד שלך"
+
+#~ msgid "Media Volume"
+#~ msgstr "עוצמת שמע של מדיה"
+
+#~ msgid "Notification Volume"
+#~ msgstr "עוצמת שמע של התראות"
+
+#~ msgid "Voice Call Volume"
+#~ msgstr "עוצמת שמע של שיחה קולית"
+
+#~ msgid "Ring Tone Volume"
+#~ msgstr "עוצמת שמע של צלצול"
+
+#~ msgid "Alarm Volume"
+#~ msgstr "עוצמת שמע לשעון מעורר"
+
+#~ msgid "Emergency Alerts Volume"
+#~ msgstr "עוצמת שמע לשיחות חירום"
+
+#~ msgid "Message of unknown severity"
+#~ msgstr "הודעה בדרגת חומרה לא ידועה"
+
+#~ msgid "Sound file does not exist"
+#~ msgstr "לא קיים קובץ שמע"
+
+#~ msgid "Sound file is corrupt"
+#~ msgstr "קובץ השמע פגום"
+
+#~ msgid "Failed to play sound"
+#~ msgstr "השמעת הצליל נכשלה"
+
+#, c-format
+#~ msgid "Playing %s"
+#~ msgstr "‫%s מתנגן"
+
+#~ msgid "low"
+#~ msgstr "נמוך"
+
+#~ msgid "normal"
+#~ msgstr "רגיל"
+
+#~ msgid "critical"
+#~ msgstr "קיצוני"
+
+#~ msgid "none"
+#~ msgstr "ללא"
+
+#~ msgid "Mobile Settings Volume Control"
+#~ msgstr "בקרת עוצמת שמע להגדרות הנייד"
+
+#~ msgid "Failed to set system locale"
+#~ msgstr "הגדרת שפת המערכת נכשלה"
+
+#~ msgid "Failed to set lockscreen wallpaper"
+#~ msgstr "הגדרת רקע למסך הנעילה נכשלה"
+
+#~ msgid "Default"
+#~ msgstr "ברירת מחדל"
+
+#~ msgid "The default completer selected by the OSK"
+#~ msgstr "משלים ברירת המחדל שנבחר על ידי המקלדת על גבי המסך"
+
+#~ msgid "No information available for this completer"
+#~ msgstr "אין מידע זמין על המשלים הזה"
+
+#, c-format
+#~ msgid "%u App Made Visible Again"
+#~ msgid_plural "%u Apps Made Visible Again"
+#~ msgstr[0] "יישומון נגלה שוב"
+#~ msgstr[1] "שני יישומונים נגלו שוב"
+#~ msgstr[2] "‫%u יישומונים נגלו שוב"
+#~ msgstr[3] "‫%u יישומונים נגלו שוב"
+
+#~ msgid "Reset favorites?"
+#~ msgstr "לאפס את המועדפים?"
+
+#~ msgid "Reset list of favorite applications to the default?"
+#~ msgstr "לאפס את רשימת היישומונים המועדפים לברירת המחדל?"
+
+#~ msgid "_Reset"
+#~ msgstr "_איפוס"
+
+#~ msgid "Failed to set wallpaper for overview"
+#~ msgstr "הגדרת רקע לסקירה נכשלה"
+
+#~ msgid "Normal"
+#~ msgstr "רגיל"
+
+#~ msgid "Bottom up"
+#~ msgstr "מלמטה למעלה"
+
+#~ msgid "Left up"
+#~ msgstr "משמאל למעלה"
+
+#~ msgid "Right up"
+#~ msgstr "מימין למעלה"
+
+#~ msgid "Undefined"
+#~ msgstr "לא מוגדר"
+
+#~ msgid "Near"
+#~ msgstr "קרוב"
+
+#~ msgid "Far"
+#~ msgstr "רחוק"
+
+#~ msgid "Updating…"
+#~ msgstr "מתעדכן…"
+
+#~ msgctxt "proximity sensor data"
+#~ msgid "Not available"
+#~ msgstr "לא זמין"
+
+#~ msgctxt "light sensor data"
+#~ msgid "Not available"
+#~ msgstr "לא זמין"
+
+#~ msgctxt "accelerometer sensor data"
+#~ msgid "Not available"
+#~ msgstr "לא זמין"
+
+#~ msgid "Custom"
+#~ msgstr "מותאם אישית"
+
+#~ msgid "Choose sound file"
+#~ msgstr "בחירת קובץ שמע"
+
+#, c-format
+#~ msgid "Update to %s"
+#~ msgstr "עדכון ל־%s"
+
+#, c-format
+#~ msgid "OS update failed: %s"
+#~ msgstr "עדכון מערכת ההפעלה נכשל: %s"
+
+#, c-format
+#~ msgid "Canceling OS update failed: %s"
+#~ msgstr "ביטול עדכון מערכת ההפעלה נכשל: %s"
+
+#~ msgid "OS Update already in progress"
+#~ msgstr "כבר מתבצע עדכון למערכת ההפעלה"
+
+#, c-format
+#~ msgid "Updating to %s…"
+#~ msgstr "מתבצע עדכון ל־%s…"
+
+#~ msgid "Full"
+#~ msgstr "מלאה"
+
+#~ msgid "Quiet"
+#~ msgstr "שקטה"
+
+#~ msgid "Silent"
+#~ msgstr "חרישית"
+
+#~ msgid "Choose Wallpaper"
+#~ msgstr "בחירת רקע"
+
+#~ msgid "Device"
+#~ msgstr "מכשיר"
+
+#~ msgid "Phosh logo"
+#~ msgstr "הלוגו של Phosh"
+
+#~ msgid "Phosh Version"
+#~ msgstr "גרסת Phosh"
+
+#~ msgid "Operating System"
+#~ msgstr "מערכת הפעלה"
+
+#~ msgid "Operating System Version"
+#~ msgstr "גרסת מערכת הפעלה"
+
+#~ msgid "Hardware Model"
+#~ msgstr "דגם חומרה"
+
+#~ msgid "Support Phosh"
+#~ msgstr "תמיכה ב־Phosh"
+
+#~ msgid "Your donations make our work possible"
+#~ msgstr "התרומות שלך מאפשרות לנו לעשות את מה שאנחנו עושים"
+
+#~ msgid "D_onate"
+#~ msgstr "_תרומה"
+
+#~ msgid "Unable To Receive Alerts"
+#~ msgstr "לא ניתן לקבל התראות"
+
+#~ msgid ""
+#~ "Cannot receive Emergency Alerts on this device as no usable cellular "
+#~ "modem is detected."
+#~ msgstr "לא ניתן לקבל התאות חירום במכשיר הזה כיוון שלא זוהה מודם סלולרי."
+
+#~ msgid "Emergency and Governmental Alerts"
+#~ msgstr "התראות חירום וממשלתיות"
+
+#~ msgid "Extreme Threat Alerts"
+#~ msgstr "התראות איומים קיצוניים"
+
+#~ msgid "Display alerts for extreme threats to life and safety"
+#~ msgstr "הצגת התראות לאיומים קיצוניים על חיי אדם ובטיחות"
+
+#~ msgid "Severe Threat Alerts"
+#~ msgstr "התראות איומים חמורים"
+
+#~ msgid "Display alerts for severe threats to life and safety"
+#~ msgstr "הצגת התראות לאיומים חמורים על חיי אדם ובטיחות"
+
+#~ msgid "Public Safety Alerts"
+#~ msgstr "התראות לביטחון הציבור"
+
+#~ msgid "Show recommended actions to take in situations with a risk to safety"
+#~ msgstr "הצגת פעולות מומלצת לביצוע במקרים של סכנה ביטחונית"
+
+#~ msgid "Test alerts"
+#~ msgstr "התראות בדיקה"
+
+#~ msgid "Show periodic messages to test the alert system"
+#~ msgstr "הצגת הודעות מדי פעם כדי לבדוק את מערכת ההתראות"
+
+#~ msgid "Amber alerts"
+#~ msgstr "התראות חטיפה"
+
+#~ msgid "Show messages about child abduction emergencies"
+#~ msgstr "הצגת הודעות על מקרי חירום של חטיפת ילדים"
+
+#~ msgid "History of Emergency and Governmental Alerts"
+#~ msgstr "היסטוריית התראות ממשלתיות וחירום"
+
+#~ msgid "No emergency alerts yet"
+#~ msgstr "אין התראות חירום עדיין"
+
+#~ msgid "Volume"
+#~ msgstr "עוצמת שמע"
+
+#~ msgid "Scaling down of running applications"
+#~ msgstr "הקטנת יישומים פעילים"
+
+#~ msgid "Only enable this for broken apps that don't fit the screen"
+#~ msgstr "יש להפעיל את זה רק ליישומים שחורגים מגודל המסך"
+
+#~ msgid "Scale down all applications"
+#~ msgstr "הקטנת כל היישומים"
+
+#~ msgid ""
+#~ "Forcibly scale down all applications. Only use this as a last resort."
+#~ msgstr "כפיית הקטנת כל היישומים. יש להפעיל את זה רק כמוצא אחרון."
+
+#~ msgid "Scale down all apps"
+#~ msgstr "הקטנת כל היישומים"
+
+#~ msgctxt "scale to fit setting"
+#~ msgid "Enabled"
+#~ msgstr "פעיל"
+
+#~ msgid "No known docks detected"
+#~ msgstr "לא זוהו מעגנים מוכרים"
+
+#~ msgid "Map built-in touch screen"
+#~ msgstr "מיפוי מסך מגע מובנה"
+
+#~ msgctxt "touch setting"
+#~ msgid "Enabled"
+#~ msgstr "פעיל"
+
+#~ msgid "Experimental Features"
+#~ msgstr "יכולות ניסיוניות"
+
+#~ msgid "Features not yet deemed fully stable"
+#~ msgstr "יכולוות שעדיין לא נחשבות ליציבות לחלוטין"
+
+#~ msgid "Emergency Calls"
+#~ msgstr "שיחות חירום"
+
+#~ msgid ""
+#~ "Enable emergency calls. Please only enable this if you safely can ensure "
+#~ "that it's working with your provider."
+#~ msgstr ""
+#~ "הפעלת שיחות חירום. נא להפעיל רק אם אפשר לוודא בצורה בטוחה שהן תקפות לספק "
+#~ "התקשורת שלך."
+
+#~ msgctxt "emergency calls setting"
+#~ msgid "Enabled"
+#~ msgstr "פעיל"
+
+#~ msgid "Enable suspend via the system menu"
+#~ msgstr "הפעלת השהיה דרך תפריט המערכת"
+
+#~ msgid ""
+#~ "Please only enable this if you're aware of the limitations like data "
+#~ "connection loss or missed alarms"
+#~ msgstr ""
+#~ "נא להפעיל את זה רק אם ברורות לך המגבלות כגון אובדן חיבור נתונים או התראות "
+#~ "שהוחמצו"
+
+#~ msgctxt "suspend setting"
+#~ msgid "Enabled"
+#~ msgstr "פעיל"
+
+#~ msgid "Sound Settings"
+#~ msgstr "הגדרות שמע"
+
+#~ msgid "Play sound on adjusting volume sliders"
+#~ msgstr "להשמיע צלילים בעת שינוי מחווני עוצמת השמיע"
+
+#~ msgid "Feedback Settings"
+#~ msgstr "הגדרות משוב"
+
+#~ msgid "Feedback profile"
+#~ msgstr "פרופיל משוב"
+
+#~ msgid "The global maximum feedback profile"
+#~ msgstr "פרופיל המשוב הכללי המרבי"
+
+#~ msgid "Prefer flash"
+#~ msgstr "להעדיף מבזק"
+
+#~ msgid "Prefer camera flash over status LED when available"
+#~ msgstr "להעדיף את המבזק של המצלמה על פני נורית המצב כשניתן"
+
+#~ msgid "Silence by volume button press"
+#~ msgstr "להשתיק עם לחיצה על כפתור עוצמת שמע"
+
+#~ msgid ""
+#~ "When locked put the phone in silent mode when pressing the button that "
+#~ "lowers the volume on incoming calls"
+#~ msgstr ""
+#~ "כהמכשיר נעול להעביר את הטלפון למצב שקט בלחיצה על הנמכת עוצמת השמע בשיחות "
+#~ "נכנסות"
+
+#~ msgid "Haptic strength"
+#~ msgstr "עצמת רטט"
+
+#~ msgid "Maximum haptic feedback strength percentage"
+#~ msgstr "עצמת רטט מרבית באחוזים"
+
+#~ msgid "Per Application settings"
+#~ msgstr "הגדרות ברמת יישומון"
+
+#~ msgid "Sounds"
+#~ msgstr "צלילים"
+
+#~ msgid "The sound to use for certain events"
+#~ msgstr "הצלילים שיודיעו על אירועים מסוימים"
+
+#~ msgid "Phone Calls"
+#~ msgstr "שיחות טלפון"
+
+#~ msgid "SMS"
+#~ msgstr "מסרון"
+
+#~ msgid "Instant Messages"
+#~ msgstr "הודעות מיידיות"
+
+#~ msgid "Alarm Clock"
+#~ msgstr "שעון מעורר"
+
+#~ msgid "Screen Wakeup"
+#~ msgstr "התעוררות המסך"
+
+#~ msgid "Notification urgency that lights up the screen"
+#~ msgstr "דחיפות התראות שמפעילה את המסך"
+
+#~ msgid ""
+#~ "Notification categories that wake up the screen independent from their "
+#~ "urgency"
+#~ msgstr "קטגוריות התראות שמעירות את המסך ללא תלות בדרגת הדחיפות שלהן"
+
+#~ msgid "Calls"
+#~ msgstr "שיחות"
+
+#~ msgid "A generic audio or video call notification"
+#~ msgstr "התראת שיחת שמע או וידאו כללית"
+
+#~ msgid "Device events"
+#~ msgstr "אירועי מכשיר"
+
+#~ msgid "A generic device-related notification"
+#~ msgstr "התראה כללית שקשורה במכשיר"
+
+#~ msgid "Emails"
+#~ msgstr "הודעות דוא״ל"
+
+#~ msgid "A generic e-mail-related notification"
+#~ msgstr "התראה כללית שקשורה בדוא״ל"
+
+#~ msgid "A generic instant message-related notification"
+#~ msgstr "התראה כללית שקשורה בהודעות מיידיות"
+
+#~ msgid "Network events"
+#~ msgstr "אירועי רשת"
+
+#~ msgid "Presence changes"
+#~ msgstr "שינויי נוכחות"
+
+#~ msgid "A generic presence change notification"
+#~ msgstr "התראת שינוי נוכחות כללית"
+
+#~ msgid "File transfers"
+#~ msgstr "העברות קבצים"
+
+#~ msgid "A generic file transfer or download notification"
+#~ msgstr "התראת העברת קבצים או הורדה כללית"
+
+#~ msgid "Application"
+#~ msgstr "יישומונים"
+
+#~ msgid "Hidden Apps"
+#~ msgstr "יישומונים מוסתרים"
+
+#~ msgid "No Apps are Currently Hidden"
+#~ msgstr "אין יישומונים מוסתרים כרגע"
+
+#~ msgid "The language of the user interface"
+#~ msgstr "שפת מנשק המשתמש"
+
+#~ msgid "_Language"
+#~ msgstr "_שפה"
+
+#~ msgid "Language change requires logout or restart"
+#~ msgstr "החלפת שפה דורשת יציאה או הפעלה מחדש"
+
+#~ msgid "Logout"
+#~ msgstr "יציאה"
+
+#~ msgid "Locking and unlocking"
+#~ msgstr "נעילה ושחרור נעילה"
+
+#~ msgid "Shuffle keypad"
+#~ msgstr "ערבוב ספרות בלוח המקשים"
+
+#~ msgid "Whether to shuffle the numbers on the keypad"
+#~ msgstr "האם לערבב את הספרות בלוח המקשים"
+
+#~ msgid "Require authentication to unlock"
+#~ msgstr "לדרוש אימות כדי לשחרר"
+
+#~ msgid "Require typing PIN or password to unlock the device"
+#~ msgstr "לדרוש הקלדת קוד אישי או סיסמה כדי לשחרר את המכשיר"
+
+#~ msgid "Automatic screen lock delay"
+#~ msgstr "השהיה אוטומטית לנעילת מסך"
+
+#~ msgid "Seconds from screen blank to screen lock"
+#~ msgstr "משך הזמן מהחשכת המסך לנעילת המסך"
+
+#~ msgid "Background"
+#~ msgstr "רקע"
+
+#~ msgid "_Select Wallpaper…"
+#~ msgstr "_בחירת רקע…"
+
+#~ msgid "Use wallpaper"
+#~ msgstr "שימוש ברקע"
+
+#~ msgid "Whether to show a colorful wallpaper"
+#~ msgstr "האם להציג רקע צבעוני"
+
+#~ msgid "Widgets"
+#~ msgstr "יישומונים"
+
+#~ msgid "Additional widgets for the lock screen"
+#~ msgstr "יישומונים נוספים למסך הנעילה"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "הוספת מקשי קיצור"
+
+#~ msgid "Choose Shortcut Modifiers"
+#~ msgstr "בחירת מקשי החלפה לקיצור"
+
+#~ msgid "Choose Shortcut Key"
+#~ msgstr "בחירת מקש קיצור"
+
+#~ msgid "Enter Shortcut Key"
+#~ msgstr "נא למלא צירוף מקשי קיצור"
+
+#~ msgid "Type a key such as letters (like C or V), etc."
+#~ msgstr "נא להקליד על מקש כגון אותיות (למשל ב או ה), וכו׳."
+
+#~ msgid "_Shortcut Key"
+#~ msgstr "מקש _קיצור"
+
+#~ msgid "Shortcut Preview"
+#~ msgstr "תצוגה מקדימה של קיצור"
+
+#~ msgid "Enable _On Screen Keyboard"
+#~ msgstr "הפעלת מקלדת מ_סך"
+
+#~ msgid "Whether to show the on screen keyboard when needed"
+#~ msgstr "האם להציג מקלדת על המסך בעת הצורך"
+
+#~ msgid "Unfold long-press"
+#~ msgstr "הצגה בלחיצה ארוכה"
+
+#~ msgid ""
+#~ "How long to press the center of the home bar to unfold the on screen "
+#~ "keyboard"
+#~ msgstr "מה יהיה משך זמן הלחיצה על סרגל הבית להצגת מקלדת המסך"
+
+#~ msgid "short"
+#~ msgstr "קצר"
+
+#~ msgctxt "press interval"
+#~ msgid "normal"
+#~ msgstr "רגיל"
+
+#~ msgid "long"
+#~ msgstr "ארוך"
+
+#~ msgid "Ignore hardware keyboard"
+#~ msgstr "התעלמות ממקלדת חומרה"
+
+#~ msgid ""
+#~ "Whether to show the on screen keyboard when a physical keyboard is present"
+#~ msgstr "האם להציג מקלדת מסך גם כשמקלדת פיזית מחוברת"
+
+#~ msgid "Key indicator popup"
+#~ msgstr "חלונית חיווי מקש"
+
+#~ msgid "Whether to show a popover indicating the currently pressed key"
+#~ msgstr "האם להציג חלונית עליונה שמציינת מה המקש שנלחץ"
+
+#~ msgid "Keyboard height in portrait mode"
+#~ msgstr "גובה המקלדת במצב לאורך"
+
+#~ msgid "When the screen is taller than wide"
+#~ msgstr "כאשר המסך יותר גבוה מרחב"
+
+#~ msgid "Keyboard height in landscape mode"
+#~ msgstr "גובה המקלדת במצב לרוחב"
+
+#~ msgid "When the screen is wider than tall"
+#~ msgstr "כאשר המסך יותר רחב מארוך"
+
+#~ msgid "Scaling"
+#~ msgstr "קנה־מידה"
+
+#~ msgid "Keep physical size constant"
+#~ msgstr "לשמור על קבוע הגודל הפיזי"
+
+#~ msgid "Ensure OSK is large enough in high screen resolutions"
+#~ msgstr "לוודא שהמקלדת על גבי המסך גדולה מספיק ברזולוציות מסך גבוהות"
+
+#~ msgid "Add empty space below keys"
+#~ msgstr "הוספת רווח ריק מתחת למקשים"
+
+#~ msgid ""
+#~ "Whether to add an empty area below the OSK's keys to shift it upward."
+#~ msgstr ""
+#~ "האם להוסיף אזור ריק מתחת למקשי המקלדת על גבי המסך כדי להסיט אותו למעלה."
+
+#~ msgid "Text Completion"
+#~ msgstr "השלמת טקסט"
+
+#~ msgid "Opportunistic word completion"
+#~ msgstr "השלמת מילים שאפתנית"
+
+#~ msgid "Enable word completion when the app indicates it is useful"
+#~ msgstr "הפעלת השלמת מילים כשהיישומון מציין שזה שימושי"
+
+#~ msgid "Toggle via OSK menu"
+#~ msgstr "החלפת מצב דרך תפריט מקלדת מסך"
+
+#~ msgid "Allow to toggle word completion via the keyboard's menu button"
+#~ msgstr "לאפשר החלפת מצב השלמת מילים דרך כפתור התפריט של המקלדת"
+
+#~ msgid "Default Completer"
+#~ msgstr "משלים ברירת מחדל"
+
+#~ msgid "The default completion engine to use"
+#~ msgstr "מנוע ההשלמה לשימוש כברירת מחדל"
+
+#~ msgid "Handle space around punctuation characters"
+#~ msgstr "טיפול ברווח סביב תווי פיסוק"
+
+#~ msgid ""
+#~ "This also swaps the space and punctuation characters after word completion"
+#~ msgstr "החלפה גם של תווי הרווח והפיסוק לאחר השלמת מילים"
+
+#~ msgid "Terminal Layout"
+#~ msgstr "פריסת מסוף"
+
+#~ msgid "Shortcuts"
+#~ msgstr "קיצורים"
+
+#~ msgid "The shortcuts available in the shortcuts bar"
+#~ msgstr "הקיצורים הזמינים מסרגל הקיצורים"
+
+#~ msgid "Favorites"
+#~ msgstr "מועדפים"
+
+#~ msgid "Organize Favorites"
+#~ msgstr "סידור מועדפים"
+
+#~ msgid "Drag and drop the apps below to rearrange your favorite apps"
+#~ msgstr "גרירת היישומים להלן כדי לסדר את היישומים המועדפים שלך מחדש"
+
+#~ msgid "Reset Favorites"
+#~ msgstr "איפוס מועדפים"
+
+#~ msgid "Set list of favorite apps back to the default"
+#~ msgstr "הגדרת רשימת היישומים המועדפים בחזרה לברירת המחדל"
+
+#~ msgid "Reset"
+#~ msgstr "איפוס"
+
+#~ msgid "App Filtering and Hiding"
+#~ msgstr "סינון והסתרת יישומונים"
+
+#~ msgid "Set Application Filter Mode"
+#~ msgstr "הגדרת מצב סינון יישומים"
+
+#~ msgid "Show only mobile apps in the overview"
+#~ msgstr "להציג רק יישומים לניידים בסקירה"
+
+#~ msgid "_Manage Hidden Apps"
+#~ msgstr "_ניהול יישומונים מוסתרים"
+
+#~ msgid "Make apps you disabled in the overview visible again"
+#~ msgstr "הצגת יישומונים שהשבתת בסקירה שוב"
+
+#~ msgid "No Sensors found"
+#~ msgstr "לא נמצאו חיישנים"
+
+#~ msgid ""
+#~ "Either there are no sensors installed on your device or they are disabled "
+#~ "by a killswitch."
+#~ msgstr "או שאין חיישנים מותקנים במכשיר שלך או שהם הושבתו על ידי מתג השבתה."
+
+#~ msgid "Sensors"
+#~ msgstr "חיישנים"
+
+#~ msgid "Sensor Readings"
+#~ msgstr "קריאות חיישנים"
+
+#~ msgid "Proximity"
+#~ msgstr "מרחק"
+
+#~ msgid "Light"
+#~ msgstr "אור"
+
+#~ msgid "Orientation"
+#~ msgstr "כיוון"
+
+#~ msgid "High Contrast"
+#~ msgstr "ניגודיות גבוהה"
+
+#~ msgid "Automatic High Contrast"
+#~ msgstr "ניגודיות גבוהה אוטומטית"
+
+#~ msgid "Controlled by the Ambient Light Sensor"
+#~ msgstr "נשלטת על ידי חיישן תאורת הסביבה"
+
+#~ msgid "Light intensity threshold"
+#~ msgstr "סף עוצמת תאורה"
+
+#~ msgid "Theme will switch to high contrast above the threshold"
+#~ msgstr "ערכת הנושא תוחלף לניגודיות גבוהה מעל לסף"
+
+#~ msgid "Toggle Play"
+#~ msgstr "החלפת מצב נגינה"
+
+#~ msgid "Sound files (ogg)"
+#~ msgstr "קובצי שמע (ogg)"
+
+#~ msgid "UI Elements"
+#~ msgstr "רכיבי מנשק משתמש"
+
+#~ msgid "Show battery percentage"
+#~ msgstr "הצגת אחוז סוללה"
+
+#~ msgid "Show exact charge level in the top bar"
+#~ msgstr "הצגת רמת הטעינה המדויקת בסרגל העליון"
+
+#~ msgid "Avoid notches"
+#~ msgstr "הימנעות מאזור חסימה למצלמה"
+
+#~ msgid "Don't place UI elements beneath notches and display cutouts"
+#~ msgstr "לא להציב רכיבי מנשק משתמש מתחת לאזורי חסימה ואזורי חיתוך של הצג"
+
+#~ msgid "Organize your additional Quick Settings"
+#~ msgstr "מיון ההגדרות המהירות הנוספות שלך"
+
+#~ msgid "OS updates require a system restart"
+#~ msgstr "עדכוני מערכת הפעלה דורשים את הפעלת המערכת מחדש"
+
+#~ msgid "Restart"
+#~ msgstr "הפעלה מחדש"
+
+#~ msgid "Everything up to date"
+#~ msgstr "הכול עדכני"
+
+#~ msgid "There are no OS updates available"
+#~ msgstr "אין עדכונים למערכת ההפעלה"
+
+#~ msgid "Updates available"
+#~ msgstr "יש עדכונים"
+
+#~ msgid "There are OS updates available"
+#~ msgstr "יש עדכונים למערכת ההפעלה"
+
+#~ msgid "Fetching OS update…"
+#~ msgstr "עדכון מערכת ההפעלה מתקבל…"
+
+#~ msgid "Installing OS update…"
+#~ msgstr "עדכון מערכת הפעלה מותקן…"
+
+#~ msgid "Welcome to Mobile Settings"
+#~ msgstr "ברוך בואך להגדרות הנייד"
+
+#~ msgid "Tweak advanced mobile settings"
+#~ msgstr "כוונון הגדרות מתקדמות במכשיר"
+
+#~ msgid "Search"
+#~ msgstr "חיפוש"
+
+#~ msgid "Search settings"
+#~ msgstr "הגדרות חיפוש"
+
+#~ msgid "Top Bar"
+#~ msgstr "סרגל עליון"
+
+#~ msgid "Notches"
+#~ msgstr "מגרעות"
+
+#~ msgid "Overview"
+#~ msgstr "סקירה"
+
+#~ msgid "Filter"
+#~ msgstr "מסנן"
+
+#~ msgid "Wallpaper"
+#~ msgstr "תמונת רקע"
+
+#~ msgid "Feedback"
+#~ msgstr "משוב"
+
+#~ msgid "Wakeup"
+#~ msgstr "התעוררות"
+
+#~ msgid "Vibra"
+#~ msgstr "רטט"
+
+#~ msgid "Haptic"
+#~ msgstr "רטט מגע"
+
+#~ msgid "LED"
+#~ msgstr "נורית"
+
+#~ msgid "Compositor"
+#~ msgstr "ניהול חלונאי"
+
+#~ msgid "Lockscreen"
+#~ msgstr "מסך נעילה"
+
+#~ msgid "Shuffle"
+#~ msgstr "ערבוב"
+
+#~ msgid "Password"
+#~ msgstr "סיסמה"
+
+#~ msgid "Convergence"
+#~ msgstr "התלכדות"
+
+#~ msgid "On Screen Keyboard"
+#~ msgstr "מקלדת מסך"
+
+#~ msgid "Unfold"
+#~ msgstr "פריסה"
+
+#~ msgid "OSK"
+#~ msgstr "מקלדת על המסך"
+
+#~ msgid "Word Completion"
+#~ msgstr "השלמת מילים"
+
+#~ msgid "Emergency Alerts"
+#~ msgstr "התראות חירום"
+
+#~ msgid "Emergency"
+#~ msgstr "חירום"
+
+#~ msgid "Cell Broadcast"
+#~ msgstr "שידור אנטנה"
+
+#~ msgid "Danger"
+#~ msgstr "סכנה"
+
+#~ msgid "Experimental features"
+#~ msgstr "יכולות ניסיוניות"
+
+#~ msgid "Suspend"
+#~ msgstr "השהיה"
+
+#~ msgid "Experimental"
+#~ msgstr "ניסיוני"
+
+#~ msgid "Locale"
+#~ msgstr "שפה"
+
+#~ msgid "OS Updates"
+#~ msgstr "עדכוני מערכת הפעלה"
+
+#~ msgid "Updates"
+#~ msgstr "עדכונים"
+
+#~ msgid "About"
+#~ msgstr "על אודות"
+
+#~ msgid "_Show Configurable Tweaks"
+#~ msgstr "הצגת _שפצורים שאפשר להגדיר"
+
+#~ msgid "_About Mobile Settings"
+#~ msgstr "_על הגדרות נייד"
 
 #~ msgid "Mobile App Filtering"
 #~ msgstr "סינון יישומים לנייד"
@@ -1477,9 +1319,6 @@ msgstr "_על הגדרות נייד"
 
 #~ msgid "Instant messages"
 #~ msgstr "הודעות מיידיות"
-
-#~ msgid "Applications"
-#~ msgstr "יישומים"
 
 #~ msgctxt "shuffle keypad setting"
 #~ msgid "Enabled"
