@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: phosh-tour main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2026-04-05 16:39+0000\n"
-"PO-Revision-Date: 2026-04-07 18:40+0200\n"
-"Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
+"POT-Creation-Date: 2026-08-18 15:29+0000\n"
+"PO-Revision-Date: 2026-09-05 21:48+0200\n"
+"Last-Translator: Марко Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: Serbian <Serbian>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
 "n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
@@ -102,7 +102,7 @@ msgid "- A graphical tour introducing your device"
 msgstr "- сликовит обилазак који вас упознаје са вашим уређајем"
 
 #. Translators: '%s' is the brand of a device (e.g. Librem 5)
-#: src/pt-application.c:152
+#: src/pt-application.c:152 src/pt-window.c:108
 #, c-format
 msgid "%s Tour"
 msgstr "Обилазак %s"
@@ -116,10 +116,9 @@ msgstr "О обиласку %s"
 #: src/pt-application.c:167
 msgid "translator-credits"
 msgstr ""
-"Марко М. Костић <marko.m.kostic@gmail.com>\n"
+"Марко Костић <marko.m.kostic@gmail.com>\n"
 "Aceydot <aceydot@proton.me>\n"
-"\n"
-"https://гном.срб — превод Гнома на српски језик"
+"Превод на српски језик https://гном.срб"
 
 #: src/ui/pt-window.ui:31
 msgid "Welcome"
@@ -272,11 +271,19 @@ msgstr ""
 msgid "Get Started"
 msgstr "Крените"
 
-#: src/ui/pt-window.ui:230
+#: src/ui/pt-window.ui:155
+msgid "Next Page"
+msgstr "Следећа страница"
+
+#: src/ui/pt-window.ui:194
+msgid "Previous Page"
+msgstr "Претходна страница"
+
+#: src/ui/pt-window.ui:234
 msgid "_Keyboard Shortcuts"
 msgstr "_Пречице тастатуре"
 
-#: src/ui/pt-window.ui:234
+#: src/ui/pt-window.ui:238
 msgid "_About Phosh Tour"
 msgstr "_О Обиласку Фоша"
 
