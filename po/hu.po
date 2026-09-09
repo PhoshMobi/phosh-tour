@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: phosh-tour main\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
-"issues\n"
-"POT-Creation-Date: 2026-02-15 08:35+0000\n"
-"PO-Revision-Date: 2026-03-10 14:40+0100\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/issues"
+"\n"
+"POT-Creation-Date: 2026-08-18 15:29+0000\n"
+"PO-Revision-Date: 2026-09-09 22:54+0200\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <openscope at fsf dot hu>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 25.08.1\n"
+"X-Generator: Lokalize 25.12.3\n"
 
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
@@ -99,11 +99,20 @@ msgstr "Kilépés"
 msgid "- A graphical tour introducing your device"
 msgstr "– Az eszközt bemutató grafikus ismertető"
 
-#: src/pt-application.c:162
-msgid "About "
-msgstr "Névjegy: "
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152 src/pt-window.c:108
+#, c-format
+msgid "%s Tour"
+msgstr "%s ismertető"
 
-#: src/pt-application.c:163
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+#| msgid "_About Phosh Tour"
+msgid "About %s Tour"
+msgstr "A(z) %s ismertető névjegye"
+
+#: src/pt-application.c:167
 msgid "translator-credits"
 msgstr "Úr Balázs <ur dot balazs at fsf dot hu>, 2026."
 
@@ -226,28 +235,52 @@ msgstr ""
 "Bármikor lehúzhatja az eszköz tetejéről, hogy megtekintse az összes "
 "alkalmazásból érkező értesítéseket!"
 
+#: src/ui/pt-window.ui:117
+msgid "For Linux Enthusiasts"
+msgstr "Linux rajongóknak"
+
+#: src/ui/pt-window.ui:118
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"Idővel a postmarketOS mindenki számára használhatóvá válik. Jelenleg azt várju"
+"k el a felhasználóinktól, hogy rendelkezzenek Linux-tapasztalattal, és segítse"
+"nek a hibák kijavításában."
+
 #. Translators: @BRAND@ is a substitution variable and must not be translated
 #. @BRAND@ is the brand of a device (e.g. Librem 5)
-#: src/ui/pt-window.ui:118
+#: src/ui/pt-window.ui:127
 msgid "Welcome to your @BRAND@!"
 msgstr "Üdvözli a(z) @BRAND@!"
 
 #. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
 #. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
-#: src/ui/pt-window.ui:121
+#: src/ui/pt-window.ui:130
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
 msgstr ""
 "Ha többet szeretne megtudni a(z) @VENDOR@ vagy az eszköz lehetőségeiről, "
 "nézze meg a @URL@ webhelyet."
 
-#: src/ui/pt-window.ui:125
+#: src/ui/pt-window.ui:134
 msgid "Get Started"
 msgstr "Kezdeti lépések"
 
-#: src/ui/pt-window.ui:221
+#: src/ui/pt-window.ui:155
+#| msgid "Next page"
+msgid "Next Page"
+msgstr "Következő oldal"
+
+#: src/ui/pt-window.ui:194
+#| msgctxt "shortcut window"
+#| msgid "Previous Page"
+msgid "Previous Page"
+msgstr "Előző oldal"
+
+#: src/ui/pt-window.ui:234
 msgid "_Keyboard Shortcuts"
 msgstr "_Gyorsbillentyűk"
 
-#: src/ui/pt-window.ui:225
+#: src/ui/pt-window.ui:238
 msgid "_About Phosh Tour"
 msgstr "A Phosh ismertető _névjegye"
