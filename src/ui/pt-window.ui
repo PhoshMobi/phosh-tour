@@ -73,6 +73,7 @@
                 <child>
                   <object class="PtPage">
                     <property name="image-uri">resource:///mobi/phosh/PhoshTour/pages/power-menu.svg</property>
+                    <!-- Translators: The menu shown when the device's power button is long pressed -->
                     <property name="summary" translatable="yes">Power Menu</property>
                     <property name="explanation" translatable="yes">Pressing and holding the Power button will display a menu with quick actions for your device. When set up, an Emergency calling action will also be available.</property>
                   </object>
