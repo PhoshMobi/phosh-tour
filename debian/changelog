@@ -1,3 +1,27 @@
+phosh-tour (0.58.0) experimental; urgency=medium
+
+  [ Yaron Shahrabani ]
+  * Update Hebrew translation
+
+  [ Марко Костић ]
+  * Update Serbian translation
+
+  [ twlvnn kraftwerk ]
+  * Update Bulgarian translation.
+
+  [ Jiri Grönroos ]
+  * Update Finnish translation
+
+  [ Balázs Úr ]
+  * Update Hungarian translation
+
+  [ Guido Günther ]
+  * window: Clarify "Power Menu"
+    It can easily be confused with a menu related to power consumption
+    settings otherwise.
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 03 Oct 2026 16:48:12 +0200
+
 phosh-tour (0.57.0) experimental; urgency=medium
 
   [ peterxy jie ]
