@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: phosh-tour\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
 "issues\n"
-"POT-Creation-Date: 2024-11-11 19:03+0000\n"
-"PO-Revision-Date: 2024-11-14 14:22+0300\n"
+"POT-Creation-Date: 2026-09-13 17:48+0000\n"
+"PO-Revision-Date: 2026-09-30 22:08+0300\n"
 "Last-Translator: Artur So <arturios2005@mail.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -19,18 +19,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.9\n"
 
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
 #. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
-#: data/mobi.phosh.PhoshTour.desktop.in.in:4
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
 #: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
 msgid "@BRAND@ Tour"
 msgstr "Ознакомление с @BRAND@"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
 #. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
-#: data/mobi.phosh.PhoshTour.desktop.in.in:14
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
 msgid "Mobile;Tour;@BRAND@;"
 msgstr "Мобильный;тур;ознакомление;@BRAND@;"
 
@@ -99,11 +102,19 @@ msgstr "Выйти"
 msgid "- A graphical tour introducing your device"
 msgstr "- Графическое ознакомление с вашим устройством"
 
-#: src/pt-application.c:102
-msgid "About "
-msgstr "О приложении "
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152 src/pt-window.c:108
+#, c-format
+msgid "%s Tour"
+msgstr "Ознакомление с %s"
 
-#: src/pt-application.c:103
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "Об ознакомлении с %s"
+
+#: src/pt-application.c:167
 msgid "translator-credits"
 msgstr "Aleksandr Melman <Alexmelman88@gmail.com>"
 
@@ -164,11 +175,12 @@ msgstr ""
 "переключить настройки, проведите пальцем вниз от верхней части устройства в "
 "любое время."
 
-#: src/ui/pt-window.ui:76
+#. Translators: The menu shown when the device's power button is long pressed
+#: src/ui/pt-window.ui:77
 msgid "Power Menu"
 msgstr "Меню питания"
 
-#: src/ui/pt-window.ui:77
+#: src/ui/pt-window.ui:78
 msgid ""
 "Pressing and holding the Power button will display a menu with quick actions "
 "for your device. When set up, an Emergency calling action will also be "
@@ -178,11 +190,11 @@ msgstr ""
 "для вашего устройства. При настройке также будет доступно действие "
 "\"Экстренный вызов\"."
 
-#: src/ui/pt-window.ui:84
+#: src/ui/pt-window.ui:85
 msgid "Slide to Unlock"
 msgstr "Проведите пальцем для разблокировки"
 
-#: src/ui/pt-window.ui:85
+#: src/ui/pt-window.ui:86
 msgid ""
 "When your device is locked, sliding up will show the keypad where you can "
 "unlock your device with your PIN."
@@ -190,11 +202,11 @@ msgstr ""
 "Если устройство заблокировано, проведя пальцем вверх, вы увидите клавиатуру, "
 "с помощью которой можно разблокировать устройство с помощью PIN-кода."
 
-#: src/ui/pt-window.ui:92
+#: src/ui/pt-window.ui:93
 msgid "Closing Applications"
 msgstr "Закрытие приложений"
 
-#: src/ui/pt-window.ui:93
+#: src/ui/pt-window.ui:94
 msgid ""
 "In the Overview, you can see a list of your applications, dismiss them with "
 "a swipe up or by hitting the close button."
@@ -202,11 +214,11 @@ msgstr ""
 "В \"Обзоре\" можно просмотреть список приложений, закрыть их, проведя "
 "пальцем вверх или нажав кнопку закрытия."
 
-#: src/ui/pt-window.ui:100
+#: src/ui/pt-window.ui:101
 msgid "Launching Applications"
 msgstr "Запуск приложений"
 
-#: src/ui/pt-window.ui:101
+#: src/ui/pt-window.ui:102
 msgid ""
 "Tap an application icon in the App Grid to launch it, or use the Search bar "
 "to find the application you are looking for."
@@ -214,11 +226,11 @@ msgstr ""
 "Нажмите значок приложения в сетке приложений, чтобы запустить его, или "
 "воспользуйтесь строкой поиска, чтобы найти нужное приложение."
 
-#: src/ui/pt-window.ui:108
+#: src/ui/pt-window.ui:109
 msgid "See Your Notifications"
 msgstr "Просмотр уведомлений"
 
-#: src/ui/pt-window.ui:109
+#: src/ui/pt-window.ui:110
 msgid ""
 "At any time pull down from the top of the device to see notifications from "
 "all your apps!"
@@ -226,26 +238,48 @@ msgstr ""
 "В любой момент проведите пальцем вниз с верхней части устройства, чтобы "
 "увидеть уведомления из всех ваших приложений!"
 
+#: src/ui/pt-window.ui:118
+msgid "For Linux Enthusiasts"
+msgstr "Для энтузиастов Linux"
+
+#: src/ui/pt-window.ui:119
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"В конечном итоге postmarketOS будет доступна для всех. На данный момент мы ожидаем, что наши пользователи будут иметь опыт работы с Linux и помогут в исправлении ошибок"
+
 #. Translators: @BRAND@ is a substitution variable and must not be translated
 #. @BRAND@ is the brand of a device (e.g. Librem 5)
-#: src/ui/pt-window.ui:118
+#: src/ui/pt-window.ui:128
 msgid "Welcome to your @BRAND@!"
 msgstr "Добро пожаловать в ваш @BRAND@!"
 
 #. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
 #. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
-#: src/ui/pt-window.ui:121
+#: src/ui/pt-window.ui:131
 msgid "To find out more about @VENDOR@ or your device, check out @URL@."
 msgstr "Чтобы узнать больше о @VENDOR@ или вашем устройстве, посетите @URL@."
 
-#: src/ui/pt-window.ui:125
+#: src/ui/pt-window.ui:135
 msgid "Get Started"
 msgstr "Начать"
 
-#: src/ui/pt-window.ui:221
+#: src/ui/pt-window.ui:156
+msgid "Next Page"
+msgstr "Следующая страница"
+
+#: src/ui/pt-window.ui:195
+msgid "Previous Page"
+msgstr "Предыдущая страница"
+
+#: src/ui/pt-window.ui:235
 msgid "_Keyboard Shortcuts"
 msgstr "_Комбинации клавиш"
 
-#: src/ui/pt-window.ui:225
+#: src/ui/pt-window.ui:239
 msgid "_About Phosh Tour"
 msgstr "_О приложении"
+
+#~ msgid "About "
+#~ msgstr "О приложении "
