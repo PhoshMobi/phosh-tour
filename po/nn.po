@@ -1,0 +1,279 @@
+# Norwegian Nynorsk translation for phosh-tour.
+# Copyright (C) 2026 phosh-tour's COPYRIGHT HOLDER
+# This file is distributed under the same license as the phosh-tour package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: phosh-tour main\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/World/Phosh/phosh-tour/-/"
+"issues\n"
+"POT-Creation-Date: 2026-10-04 06:19+0000\n"
+"PO-Revision-Date: 2026-10-23 12:07+0200\n"
+"Last-Translator: Roy-Magne Mo <rmo@sunnmore.net>\n"
+"Language-Team: Norwegian Nynorsk <nn@li.org>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.desktop.in.in:3
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:2
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:5
+msgid "@BRAND@ Tour"
+msgstr "@BRAND@-tur"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#. @BRAND@ is a substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons. The list MUST also end with a semicolon.
+#: data/mobi.phosh.PhoshTour.desktop.in.in:13
+#: data/mobi.phosh.PhoshTour-first-login.desktop.in.in:11
+msgid "Mobile;Tour;@BRAND@;"
+msgstr "Mobil;Tur;Omvising;@BRAND@;"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:9
+msgid "This apps introduces you to your device via a small graphical tour."
+msgstr ""
+"Denne appen introduserer eininga di gjennom ein liten grafisk omvising."
+
+#. Translators @BRAND@ is substitution variable and must not be translated, it is the brand of a device (e.g. Librem 5)
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:14
+msgid "@BRAND@ graphical tour"
+msgstr "@BRAND@ grafisk omvising"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:37
+msgid "The Tour's first page"
+msgstr "Første side i omvisinga"
+
+#: data/mobi.phosh.PhoshTour.metainfo.xml.in.in:41
+msgid "The Tour's swipe gesture page"
+msgstr "Sida for sveipegesten i omvisinga"
+
+#: src/gtk/help-overlay.ui:12
+msgid "Touchpad gestures"
+msgstr "Gestar for pekeplata"
+
+#: src/gtk/help-overlay.ui:16
+msgid "Next page"
+msgstr "Neste side"
+
+#: src/gtk/help-overlay.ui:22
+msgid "Previous page"
+msgstr "Førre side"
+
+#: src/gtk/help-overlay.ui:30
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navigasjon"
+
+#: src/gtk/help-overlay.ui:33
+msgctxt "shortcut window"
+msgid "Next page"
+msgstr "Neste side"
+
+#: src/gtk/help-overlay.ui:39
+msgctxt "shortcut window"
+msgid "Previous Page"
+msgstr "Førre side"
+
+#: src/gtk/help-overlay.ui:47
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Generelt"
+
+#: src/gtk/help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Vis snarvegar"
+
+#: src/gtk/help-overlay.ui:56
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avslutt"
+
+#: src/pt-application.c:17
+msgid "- A graphical tour introducing your device"
+msgstr "- Ein grafisk omvising som introduserer eininga di"
+
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:152 src/pt-window.c:108
+#, c-format
+msgid "%s Tour"
+msgstr "%s Omvising"
+
+#. Translators: '%s' is the brand of a device (e.g. Librem 5)
+#: src/pt-application.c:154
+#, c-format
+msgid "About %s Tour"
+msgstr "Om %s-omvisinga"
+
+#: src/pt-application.c:167
+msgid "translator-credits"
+msgstr "Roy-Magne Mo <rmo@sunnmore.net>"
+
+#: src/ui/pt-window.ui:31
+msgid "Welcome"
+msgstr "Velkomen"
+
+#. Translators: @BRAND@ and @VENDOR@ are substitution variables and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:34
+msgid "Get to know the features of your @BRAND@ and @VENDOR@."
+msgstr "Verte kjend med funksjonane til @BRAND@ og @VENDOR@."
+
+#: src/ui/pt-window.ui:42
+msgid "Really Disconnect"
+msgstr "Verkeleg fråkopla"
+
+#. Translators: @BRAND@ is substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:45
+msgid ""
+"At any time you can disable Wi-Fi, Bluetooth and telephony by flipping the "
+"kill switches on the side of your @BRAND@"
+msgstr ""
+"Du kan når som helst slå av Wi-Fi, blåtann og telefoni med "
+"maskinvarebrytarane på sida av @BRAND@"
+
+#: src/ui/pt-window.ui:52
+msgid "Going Home"
+msgstr "Gå heim"
+
+#: src/ui/pt-window.ui:53
+msgid ""
+"Swiping up on the home bar at the bottom of your screen will bring you to "
+"the Overview where you can see your running applications."
+msgstr ""
+"Sveipar du opp frå heimelinja nedst på skjermen, kjem du til oversikta der "
+"du kan sjå appane som køyrer."
+
+#: src/ui/pt-window.ui:60
+msgid "Show Keyboard"
+msgstr "Vis tastatur"
+
+#: src/ui/pt-window.ui:61
+msgid "Long pressing on the home bar will reveal the keyboard at any time."
+msgstr ""
+"Ved å halde nede på heimelinja kan du når som helst få fram tastaturet."
+
+#: src/ui/pt-window.ui:68
+msgid "Quick Settings"
+msgstr "Hurtiginnstillingar"
+
+#: src/ui/pt-window.ui:69
+msgid ""
+"To quickly change things like screen brightness, adjust volume, or toggle "
+"settings, swipe down from the top of your device at any time."
+msgstr ""
+"For raskt å endre ting som skjermlysstyrke og volum, eller slå innstillingar"
+" av og på, kan du sveipe ned frå toppen av eininga når som helst."
+
+#. Translators: The menu shown when the device's power button is long pressed
+#: src/ui/pt-window.ui:77
+msgid "Power Menu"
+msgstr "Straummeny"
+
+#: src/ui/pt-window.ui:78
+msgid ""
+"Pressing and holding the Power button will display a menu with quick actions "
+"for your device. When set up, an Emergency calling action will also be "
+"available."
+msgstr ""
+"Når du held inne straumknappen, vert det vist ein meny med hurtighandlingar "
+"for eininga di. Er naudsamtale sett opp, finst det også ei handling for "
+"naudsamtale."
+
+#: src/ui/pt-window.ui:85
+msgid "Slide to Unlock"
+msgstr "Sveip for å låse opp"
+
+#: src/ui/pt-window.ui:86
+msgid ""
+"When your device is locked, sliding up will show the keypad where you can "
+"unlock your device with your PIN."
+msgstr ""
+"Når eininga di er låst, vil eit sveip oppover vise tastaturet der du kan "
+"låse opp eininga di med PIN-koden din."
+
+#: src/ui/pt-window.ui:93
+msgid "Closing Applications"
+msgstr "Lukke appar"
+
+#: src/ui/pt-window.ui:94
+msgid ""
+"In the Overview, you can see a list of your applications, dismiss them with "
+"a swipe up or by hitting the close button."
+msgstr ""
+"I oversikta kan du sjå ei liste over appane dine og lukke dei med eit sveip "
+"opp eller ved å trykkje på lukk-knappen."
+
+#: src/ui/pt-window.ui:101
+msgid "Launching Applications"
+msgstr "Starte appar"
+
+#: src/ui/pt-window.ui:102
+msgid ""
+"Tap an application icon in the App Grid to launch it, or use the Search bar "
+"to find the application you are looking for."
+msgstr ""
+"Trykk på eit appikon i oversikta over appar for å starte appen, eller bruk "
+"søkefeltet for å finne appen du leitar etter."
+
+#: src/ui/pt-window.ui:109
+msgid "See Your Notifications"
+msgstr "Sjå varsel"
+
+#: src/ui/pt-window.ui:110
+msgid ""
+"At any time pull down from the top of the device to see notifications from "
+"all your apps!"
+msgstr ""
+"Trekk ned frå toppen av eininga når som helst for å sjå varsel frå alle "
+"appane dine!"
+
+#: src/ui/pt-window.ui:118
+msgid "For Linux Enthusiasts"
+msgstr "For Linux-entusiastar"
+
+#: src/ui/pt-window.ui:119
+msgid ""
+"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"users to have Linux experience and helping out with fixing bugs"
+msgstr ""
+"postmarketOS skal etter kvart kunne brukast av alle. Førebels forventar vi "
+"at brukarane har røynsle med Linux og hjelper til med å rette feil"
+
+#. Translators: @BRAND@ is a substitution variable and must not be translated
+#. @BRAND@ is the brand of a device (e.g. Librem 5)
+#: src/ui/pt-window.ui:128
+msgid "Welcome to your @BRAND@!"
+msgstr "Velkomen til @BRAND@-en din!"
+
+#. Translators: @VENDOR@ and @URL@ are substitution variable and must not be translated
+#. @VENDOR@ is a device vendor (e.g. Purism) and @URL@ the URL to a web site with further information
+#: src/ui/pt-window.ui:131
+msgid "To find out more about @VENDOR@ or your device, check out @URL@."
+msgstr "For å finne ut meir om @VENDOR@ eller eininga di, sjå @URL@."
+
+#: src/ui/pt-window.ui:135
+msgid "Get Started"
+msgstr "Kom i gang"
+
+#: src/ui/pt-window.ui:156
+msgid "Next Page"
+msgstr "Neste side"
+
+#: src/ui/pt-window.ui:195
+msgid "Previous Page"
+msgstr "Førre side"
+
+#: src/ui/pt-window.ui:235
+msgid "_Keyboard Shortcuts"
+msgstr "_Tastatursnarvegar"
+
+#: src/ui/pt-window.ui:239
+msgid "_About Phosh Tour"
+msgstr "_Om Phosh Tour"
