@@ -1,3 +1,13 @@
+phosh-tour (0.59.0) experimental; urgency=medium
+
+  [ Artur S0 ]
+  * Update Russian translation
+
+  [ Roy-Magne Mo ]
+  * Add Norwegian Nynorsk translation
+
+ -- Guido Günther <agx@sigxcpu.org>  Sat, 14 Nov 2026 19:40:09 +0100
+
 phosh-tour (0.58.0) experimental; urgency=medium
 
   [ Yaron Shahrabani ]
