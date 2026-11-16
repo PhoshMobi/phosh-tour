@@ -237,10 +237,10 @@ msgstr "Linux-ის ენთუზიასტებისთვის"
 
 #: src/ui/pt-window.ui:118
 msgid ""
-"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"Eventually Nura will be usable for everyone. Right now we expect our "
 "users to have Linux experience and helping out with fixing bugs"
 msgstr ""
-"საბოლოოდ postmarketOS ყველასთვის გამოყენებადი იქნება. ახლა ჩვენ ველით, რომ "
+"საბოლოოდ Nura ყველასთვის გამოყენებადი იქნება. ახლა ჩვენ ველით, რომ "
 "ჩვენს მომხმარებლებს ექნებათ Linux-ის გამოცდილება და დაგვეხმარებიან "
 "შეცდომების გამოსწორებაში"
 

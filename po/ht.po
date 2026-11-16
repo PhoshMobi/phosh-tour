@@ -238,10 +238,10 @@ msgstr "Pou amatè Linux yo"
 
 #: src/ui/pt-window.ui:118
 msgid ""
-"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"Eventually Nura will be usable for everyone. Right now we expect our "
 "users to have Linux experience and helping out with fixing bugs"
 msgstr ""
-"Evantyèlman, postmarketOS pral itil pou tout moun. Kounye a, nou espere ke "
+"Evantyèlman, Nura pral itil pou tout moun. Kounye a, nou espere ke "
 "itilizatè nou yo gen eksperyans Linux epi ede nan repare pinèz"
 
 #. Translators: @BRAND@ is a substitution variable and must not be translated

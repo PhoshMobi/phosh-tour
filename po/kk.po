@@ -245,10 +245,10 @@ msgstr "Linux әуесқойларына арналған"
 
 #: src/ui/pt-window.ui:118
 msgid ""
-"Eventually postmarketOS will be usable for everyone. Right now we expect "
+"Eventually Nura will be usable for everyone. Right now we expect "
 "our users to have Linux experience and helping out with fixing bugs"
 msgstr ""
-"Уақыт өте келе postmarketOS барлығына қолжетімді болады. Қазіргі уақытта "
+"Уақыт өте келе Nura барлығына қолжетімді болады. Қазіргі уақытта "
 "пайдаланушыларымыздың Linux тәжірибесі бар және қателерді түзетуге "
 "көмектеседі деп күтеміз"
 

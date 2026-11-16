@@ -232,7 +232,7 @@ msgstr "面向 Linux 爱好者"
 
 #: src/ui/pt-window.ui:118
 msgid ""
-"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"Eventually Nura will be usable for everyone. Right now we expect our "
 "users to have Linux experience and helping out with fixing bugs"
 msgstr ""
 "PostmarketOS 最终将面向所有人普及。目前，我们希望我们的用户具备一定的 Linux "
