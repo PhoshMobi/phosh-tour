@@ -240,10 +240,10 @@ msgstr "For Linux-entusiastar"
 
 #: src/ui/pt-window.ui:119
 msgid ""
-"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"Eventually Nura will be usable for everyone. Right now we expect our "
 "users to have Linux experience and helping out with fixing bugs"
 msgstr ""
-"postmarketOS skal etter kvart kunne brukast av alle. Førebels forventar vi "
+"Nura skal etter kvart kunne brukast av alle. Førebels forventar vi "
 "at brukarane har røynsle med Linux og hjelper til med å rette feil"
 
 #. Translators: @BRAND@ is a substitution variable and must not be translated

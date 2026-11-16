@@ -217,9 +217,9 @@ msgstr "Linuxen zaleentzat"
 
 #: src/ui/pt-window.ui:118
 msgid ""
-"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"Eventually Nura will be usable for everyone. Right now we expect our "
 "users to have Linux experience and helping out with fixing bugs"
-msgstr "Azkenerako, postmarketOS mundu guztiarentzat erabilgarri izango da. Momentuz, gure erabiltzaileak Linuxen esperientziadunak izatea eta akatsak konpontzen lagundu diezaguten espero dugu."
+msgstr "Azkenerako, Nura mundu guztiarentzat erabilgarri izango da. Momentuz, gure erabiltzaileak Linuxen esperientziadunak izatea eta akatsak konpontzen lagundu diezaguten espero dugu."
 
 #. Translators: @BRAND@ is a substitution variable and must not be translated
 #. @BRAND@ is the brand of a device (e.g. Librem 5)

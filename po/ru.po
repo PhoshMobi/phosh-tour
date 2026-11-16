@@ -244,10 +244,10 @@ msgstr "Для энтузиастов Linux"
 
 #: src/ui/pt-window.ui:119
 msgid ""
-"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"Eventually Nura will be usable for everyone. Right now we expect our "
 "users to have Linux experience and helping out with fixing bugs"
 msgstr ""
-"В конечном итоге postmarketOS будет доступна для всех. На данный момент мы ожидаем, что наши пользователи будут иметь опыт работы с Linux и помогут в исправлении ошибок"
+"В конечном итоге Nura будет доступна для всех. На данный момент мы ожидаем, что наши пользователи будут иметь опыт работы с Linux и помогут в исправлении ошибок"
 
 #. Translators: @BRAND@ is a substitution variable and must not be translated
 #. @BRAND@ is the brand of a device (e.g. Librem 5)

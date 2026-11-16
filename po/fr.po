@@ -237,10 +237,10 @@ msgstr "Pour les passionnés de Linux"
 
 #: src/ui/pt-window.ui:118
 msgid ""
-"Eventually postmarketOS will be usable for everyone. Right now we expect our "
+"Eventually Nura will be usable for everyone. Right now we expect our "
 "users to have Linux experience and helping out with fixing bugs"
 msgstr ""
-"À terme, postmarketOS sera accessible à tous. Pour l’instant, nous attendons "
+"À terme, Nura sera accessible à tous. Pour l’instant, nous attendons "
 "de nos utilisateurs qu’ils aient une certaine expérience de Linux et qu’ils "
 "nous aident à corriger les bogues."
 
